@@ -61,6 +61,9 @@ App Review da Meta (ainda incompleto) · feature de Campanhas (trigger pontual d
 
 **Hot-swap R2↔Supabase não é genérico** — é disparado só pelo publicador do Instagram (`services/instagram.ts`) detectando o código exato `9004`/subcode `2207052` que a Graph API retorna quando não consegue baixar a `image_url` fornecida (bloqueio de fingerprint do storage primário, observado desde 2026-04-22). Ao detectar, baixa o arquivo do provider atual e regrava no fallback **com o mesmo nome de objeto** (idempotente), com cap de 1 retry.
 
+## Primeiro cliente real (via snapshot 2026-07-09)
+**AEMJS** (Associação Equipe Mestre Julio Secco) — entidade de jiu-jitsu, 16 unidades no sul do Brasil, ~500 atletas; a 1060 já tinha feito marca e site dela antes (juliosecco.com, ver [[Produto Sites]] portfólio). Onboarding feito em 2026-05-26 pelo Eduardo, com uma skill dedicada (`/onboardnap`) que lê material bruto do cliente e gera a configuração NapShift pronta pra colar no portal. Escolhido como primeiro caso por ser cliente próximo/baixo risco, não por processo formal de vendas — a comissão/processo comercial do NapShift como produto ainda não existe (ver [[Vendas]]).
+
 ## Relacionamentos
 - Consumido por [[NapShift Web]] (frontend) via REST puro, contrato em snake_case.
 - Vendido como produto via [[1060crm]].

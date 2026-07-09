@@ -8,6 +8,8 @@ Ramificação de [[Artístico]]. Visão geral da trajetória musical de [[Rodrig
 
 Primeiro disco solo: **Bombas de Palavras** — acompanhado pelo livro de poesias [[Bombas de Palavras]] (mesmo nome).
 
+Tem um [[Site Rodrigo Arvoredo|site pessoal]] desde 2026-07-09, com agenda de shows, composições ("A Luz", "Meu Irmão", "Bombas de Palavras") e player do Spotify da faixa "Meu Irmão (Ao Vivo)", já publicada no Spotify.
+
 ## Instrumentos
 Violão, bateria, pandeiro, repinique, surdo, tarol, bumbo, baixo, percussão geral, entre outros. Começou na música desde criança e sempre fez isso na vida.
 

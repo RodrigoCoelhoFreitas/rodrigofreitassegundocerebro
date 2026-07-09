@@ -84,6 +84,19 @@ Mais 2 exemplos confirmados (2026-07-08), todos produzidos pelo mesmo processo �
 - **1060brand.com** — home 3D interativa (site da própria 1060).
 - **cafeemcodigo.com.br** — home interativa, conteúdo dinâmico (eventos).
 
+## Migração de clientes legados — HostGator → infra própria
+Playbook em andamento (recebido via snapshot 2026-07-09) pra tirar os clientes antigos do plano Turbo da HostGator + Elementor Pro (~R$1.800/ano combinados) e migrar pra [[Infraestrutura de Sites 1060|infra própria]] (WordPress+Elementor → Next.js+Tailwind). Deadline duro: cancelar Turbo em 08/09 e Elementor Pro em 09/09 (só dá pra cancelar quando TODOS os sites daquele plano compartilhado saírem).
+
+**Planos comerciais para clientes legados/novos que não são exceção** — domínio + infra + e-mail cobrados como uma coisa só, anuidade via Asaas (cartão recorrente, pré-cobrança):
+| Plano | Preço/ano | E-mail |
+|---|---|---|
+| Padrão | R$300 | ~10GB (CraneMail 100GB compartilhado entre ~10 clientes) |
+| Heavy | R$500 | 100GB dedicado (quem usa muito e-mail) |
+
+Custo real por cliente < R$130/ano (domínio + e-mail + Vercel/R2/Asaas rateados) — é jogo de escala por causa do custo fixo do Vercel Pro; magro com poucos clientes, saudável a partir de ~50.
+
+**Exceção conhecida**: Rede Areté + Alcântara Massoni (cliente Bárbara) — taxa única de migração (R$800 + R$500) em vez de recorrente; depois o Eduardo sai do relacionamento comercial contínuo, cliente vira dono do domínio/e-mail. Não é o modelo padrão, é modelo de saída específico.
+
 ## Propriedade intelectual
 Código-fonte, painel de gestão e infraestrutura são da 1060 Brand, licenciados pro cliente enquanto a manutenção estiver vigente. Conteúdo (textos finais, imagens fornecidas, dados inseridos) é do cliente. Cliente autoriza a 1060 Brand a exibir o projeto em portfólio/divulgação.
 
