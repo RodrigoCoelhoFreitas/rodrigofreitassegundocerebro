@@ -1,0 +1,11 @@
+---
+tags: [pessoa, música]
+---
+
+# Música e Composição
+
+Ramificação de [[Artístico]]. Visão geral da trajetória musical de [[Rodrigo Coelho Freitas]] — ver [[Bandas]] para o detalhe de cada projeto em grupo/individual, em ordem cronológica aproximada: [[Bateria do Bafo da Onça]] (desde os 10 anos) → [[Banda Marcial Helena Small]] (12-14 anos) → [[Flip Off]] (hardcore, 13-19 anos) → [[Técnica Vocal no Belas Artes]] (2007) → [[Coral do Belas Artes]] → [[Ovelha Nuvem]] (reggae autoral, principal banda da carreira, sucesso local 2011-2015) → [[Choro Nosso]] (chorinho) → [[Ludovic]] (deu origem ao [[Ludovic Studio]]) → [[Especial CBJR]] (show na Lambe, fim de 2022).
+
+Primeiro disco solo: **Bombas de Palavras** — acompanhado pelo livro de poesias [[Bombas de Palavras]] (mesmo nome).
+
+*A desenvolver — instrumentos tocados, formação musical, discografia/repertório completo.*

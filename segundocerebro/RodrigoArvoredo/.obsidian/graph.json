@@ -1,0 +1,72 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:Profissional  ",
+      "color": {
+        "a": 1,
+        "rgb": 8947704
+      }
+    },
+    {
+      "query": "path:Pessoas  ",
+      "color": {
+        "a": 1,
+        "rgb": 15057792
+      }
+    },
+    {
+      "query": "path:Artístico  ",
+      "color": {
+        "a": 1,
+        "rgb": 13230744
+      }
+    },
+    {
+      "query": "path:Anotações  ",
+      "color": {
+        "a": 1,
+        "rgb": 16735340
+      }
+    },
+    {
+      "query": "path:Conteúdos  ",
+      "color": {
+        "a": 1,
+        "rgb": 15026384
+      }
+    },
+    {
+      "query": "path:Histórias  ",
+      "color": {
+        "a": 1,
+        "rgb": 8307170
+      }
+    },
+    {
+      "query": "file:Rodrigo ",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": -1.7,
+  "nodeSizeMultiplier": 0.9421875,
+  "lineSizeMultiplier": 1.171875,
+  "collapse-forces": false,
+  "centerStrength": 0.844749536178108,
+  "repelStrength": 16.3265306122449,
+  "linkStrength": 0.612096474953618,
+  "linkDistance": 309,
+  "scale": 0.430757687856938,
+  "close": true
+}
