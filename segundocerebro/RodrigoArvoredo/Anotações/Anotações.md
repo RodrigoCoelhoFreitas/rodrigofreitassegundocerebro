@@ -10,5 +10,4 @@ Ramificação de [[Rodrigo Coelho Freitas]]. Registro corrente — diferente de 
 - **[[Reuniões]]** — registro de conversas e decisões (negócio, projetos).
 - **[[Agenda]]** — compromissos e pendências.
 - **[[Diário]]** — registro pessoal ao longo do tempo.
-
-*Estrutura criada em 2026-07-08 — ainda vazia, pronta pra uso.*
+- **[[Atividades Claude Code]]** — log das atividades feitas pelo Claude nos repositórios do workspace.

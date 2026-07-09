@@ -4,7 +4,7 @@ tags: [pessoa, nó-mestre]
 
 # Rodrigo Coelho Freitas
 
-Nó mestre. Tudo que se sabe sobre mim parte ou referencia esta nota.
+Nó mestre. Tudo que se sabe sobre mim parte ou referencia esta nota. **Claude**: se precisar se orientar no vault, ver [[Guia de Uso do Segundo Cérebro]] primeiro.
 
 Nome artístico para apresentações musicais e artísticas: **Rodrigo Arvoredo** — é de onde vem o nome deste vault (`RodrigoArvoredo`).
 
@@ -30,7 +30,7 @@ Email de trabalho (Claude Code / ferramentas): rodrigoflipoff@gmail.com.
 - **[[Profissional]]** — [[Desenvolvimento]] (os projetos de código) e [[Vendas]] (o lado comercial da 1060 Brand).
 - **[[Artístico]]** — música, bandas, escritas e projetos artísticos, sob o nome Rodrigo Arvoredo.
 - **[[Histórias]]** — a desenvolver.
-- **[[Anotações]]** — notas soltas, reuniões, agenda, diário (estrutura nova, ainda vazia).
+- **[[Anotações]]** — notas soltas, reuniões, agenda, diário, e log de [[Atividades Claude Code]].
 - **[[Conteúdos]]** — referências consumidas e material de marketing/produção (estrutura nova, ainda vazia).
 
 ## Como gosto de trabalhar
