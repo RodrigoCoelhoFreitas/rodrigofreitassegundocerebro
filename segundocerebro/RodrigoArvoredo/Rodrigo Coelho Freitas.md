@@ -29,9 +29,10 @@ Email de trabalho (Claude Code / ferramentas): rodrigoflipoff@gmail.com.
 - **[[Pessoas]]** — [[Amigos]] e [[Família]].
 - **[[Profissional]]** — [[Desenvolvimento]] (os projetos de código) e [[Vendas]] (o lado comercial da 1060 Brand).
 - **[[Artístico]]** — música, bandas, escritas e projetos artísticos, sob o nome Rodrigo Arvoredo.
-- **[[Histórias]]** — a desenvolver.
+- **[[Histórias]]** — momentos marcantes, nem sempre bons.
 - **[[Anotações]]** — notas soltas, reuniões, agenda, diário, e log de [[Atividades Claude Code]].
-- **[[Conteúdos]]** — referências consumidas e material de marketing/produção (estrutura nova, ainda vazia).
+- **[[Conteúdos]]** — referências consumidas e material de marketing/produção.
 
 ## Como gosto de trabalhar
 - Prefiro que o Claude **reduza ao máximo perguntas de confirmação óbvias** (do tipo "posso fazer X?" quando a resposta esperada é só "sim") — decida e execute em vez de checar toda ação reversível/de baixo risco. Perguntas devem ficar reservadas pra escolhas genuinamente ambíguas ou de alto impacto.
+- Em assuntos técnicos, prefere **profundidade em meio-termo**: pode entrar em detalhe, mas sem exagerar — nem resposta seca demais, nem explicação longa demais. Calibrar pelo meio.

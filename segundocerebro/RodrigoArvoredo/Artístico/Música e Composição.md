@@ -8,4 +8,7 @@ Ramificação de [[Artístico]]. Visão geral da trajetória musical de [[Rodrig
 
 Primeiro disco solo: **Bombas de Palavras** — acompanhado pelo livro de poesias [[Bombas de Palavras]] (mesmo nome).
 
-*A desenvolver — instrumentos tocados, formação musical, discografia/repertório completo.*
+## Instrumentos
+Violão, bateria, pandeiro, repinique, surdo, tarol, bumbo, baixo, percussão geral, entre outros. Começou na música desde criança e sempre fez isso na vida.
+
+*A desenvolver — discografia/repertório completo.*

@@ -6,4 +6,4 @@ tags: [tronco, histórias]
 
 Ramificação de [[Rodrigo Coelho Freitas]]. Histórias e memórias pessoais que valem ser registradas — momentos, trajetória, marcos.
 
-*A desenvolver — ainda sem notas individuais.*
+- [[Roubo do Equipamento Musical]] — o momento mais marcante da trajetória, e não pelo lado bom.

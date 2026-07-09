@@ -36,9 +36,12 @@ Estrutura padrão de cada planilha: aba principal (nome, Instagram, "Possui site
 
 Exemplo gerado em 2026-07-07: `Barbearias_RS_Amostra_sem_site.xlsx` — amostra manual (via busca web, sem Apify) de barbearias no RS sem site próprio localizado. Primeiro arquivo movido para o local canônico, como teste da nova convenção.
 
+## Estado da equipe e meta de conversão (confirmado 2026-07-08)
+Ainda em fase de **treinamento da equipe de vendedores** e de construção de **parcerias mais fortes**. Meta de curto prazo: garantir **3 leads convertidos por semana**, de forma consistente — mesmo que isso exija consumir 300-400 leads pra chegar lá (taxa de conversão aceita na faixa de ~0,75%-1% nesse estágio inicial).
+
 ## A desenvolver
 - Documento comercial formal das outras frentes (NapShift assinatura, SDR individual, branding, marketing) — hoje só Sites tem termos/proposta recebidos, mesmo já tendo direção de venda definida pra NapShift e SDR.
-- Métricas de conversão que importam pro negócio (não só pro CRM).
+- Métricas de conversão além da meta semanal (ciclo médio de venda, taxa por vendedor individual, etc.) — hoje só existe a meta agregada de 3/semana.
 
 ## Relacionamentos
 - [[1060crm]] (em [[Desenvolvimento]]) — ferramenta que sustenta este processo.

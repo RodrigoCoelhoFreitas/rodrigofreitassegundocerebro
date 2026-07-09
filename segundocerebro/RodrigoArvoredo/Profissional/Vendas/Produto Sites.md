@@ -80,6 +80,10 @@ Sem renovação: site despublicado e e-mail encerrado 30 dias após o vencimento
 - **juliosecco.com** — rede de escolas de jiu-jitsu do mestre Julio Secco: mapa interativo com 16 unidades, geridas pela equipe via painel.
 - **lealsantos.com** — Leal Santos, indústria de pescados fundada em 1889: acervo histórico da marca em 3D.
 
+Mais 2 exemplos confirmados (2026-07-08), todos produzidos pelo mesmo processo — ver [[Geração de Sites via IA]]:
+- **1060brand.com** — home 3D interativa (site da própria 1060).
+- **cafeemcodigo.com.br** — home interativa, conteúdo dinâmico (eventos).
+
 ## Propriedade intelectual
 Código-fonte, painel de gestão e infraestrutura são da 1060 Brand, licenciados pro cliente enquanto a manutenção estiver vigente. Conteúdo (textos finais, imagens fornecidas, dados inseridos) é do cliente. Cliente autoriza a 1060 Brand a exibir o projeto em portfólio/divulgação.
 

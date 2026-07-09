@@ -5,13 +5,13 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:segundocerebro/RodrigoArvoredo/Profissional  ",
       "color": {
         "a": 1,
-        "rgb": 7434210
+        "rgb": 7500016
       }
     },
     {
@@ -25,41 +25,41 @@
       "query": "path:segundocerebro/RodrigoArvoredo/Artístico  ",
       "color": {
         "a": 1,
-        "rgb": 12445036
+        "rgb": 13104236
       }
     },
     {
       "query": "path:segundocerebro/RodrigoArvoredo/Conteúdos  ",
       "color": {
         "a": 1,
-        "rgb": 15485787
+        "rgb": 16471654
       }
     },
     {
       "query": "path:segundocerebro/RodrigoArvoredo/Pessoas  ",
       "color": {
         "a": 1,
-        "rgb": 5558182
+        "rgb": 5956277
       }
     },
     {
       "query": "path:segundocerebro/RodrigoArvoredo/Histórias  ",
       "color": {
         "a": 1,
-        "rgb": 13645251
+        "rgb": 15415260
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": -0.6,
   "nodeSizeMultiplier": 0.7125,
-  "lineSizeMultiplier": 1.04427083333333,
-  "collapse-forces": false,
+  "lineSizeMultiplier": 0.967708333333333,
+  "collapse-forces": true,
   "centerStrength": 0.651041666666667,
   "repelStrength": 10.1041666666667,
   "linkStrength": 0.494791666666667,
   "linkDistance": 272,
-  "scale": 0.5087618855792576,
+  "scale": 0.5087618855792571,
   "close": true
 }
