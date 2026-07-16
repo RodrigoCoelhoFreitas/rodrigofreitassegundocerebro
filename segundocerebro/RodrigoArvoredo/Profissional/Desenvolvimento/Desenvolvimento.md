@@ -11,6 +11,7 @@ Ramificação de [[Rodrigo Coelho Freitas]]. Conhecimento técnico dos projetos 
 - [[NapShift Backend]] — motor do produto NapShift (Fastify + agentes de IA).
 - [[NapShift Web]] — frontend do NapShift (Next.js).
 - [[Geração de Sites via IA]] — processo confirmado em produção (jul/2026) pra produzir os sites vendidos em [[Produto Sites]]; passo a passo técnico já mapeado em [[Infraestrutura de Sites 1060]] e [[Ferramentas 1060]], acesso real do Rodrigo ainda pendente.
+- [[Produto Imobiliário (sem nome)]] — novo SaaS pra imobiliárias (landing+classificados+matching), arquitetura herdada do NapShift; só planejamento até 2026-07-16, sem repositório ainda. Conceito de negócio vem do [[TCC SISNI (FURG, 2018)]] do próprio Rodrigo.
 
 ## Conhecimento geral
 - **[[Backend]]** — Node.js, Java e .NET (os 3 stacks de backend da trajetória profissional do Rodrigo).

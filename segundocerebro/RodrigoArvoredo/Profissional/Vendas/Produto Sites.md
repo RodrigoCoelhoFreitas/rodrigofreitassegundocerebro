@@ -109,5 +109,6 @@ Código-fonte, painel de gestão e infraestrutura são da 1060 Brand, licenciado
 - [[1060crm]] (em [[Desenvolvimento]]) — `PLANO_VALORES` no código espelha os preços deste documento. Criado especificamente para organizar a equipe de vendedores e viabilizar prospecção ativa (ver [[Vendas]]).
 - [[Geração de Sites via IA]] (em [[Desenvolvimento]]) — como os sites vendidos aqui são efetivamente produzidos (assets criados por humanos via 1060, geração via Claude).
 - [[Eduardo Porto Teixeira]] — administrador/representante legal da 1060 Brand.
+- [[Produto Imobiliário (sem nome)]] (em [[Desenvolvimento]]) — cross-sell planejado (2026-07-16): plano Profissional (R$5.900) como opção de domínio próprio integrado ao ambiente do corretor, pra quem não quiser ficar só na landing padrão do sistema imobiliário.
 
 *Fonte: Termos de Prestação de Serviços — Desenvolvimento de Sites v1.0 (julho/2026) e Proposta Comercial correspondente, recebidos em 2026-07-07.*
