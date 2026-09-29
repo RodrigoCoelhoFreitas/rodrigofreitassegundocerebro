@@ -27,7 +27,7 @@ Deploy: Vercel, auto-deploy por branch (`main` → produção, `homolog` → hom
 Pipeline de conteúdo (Kanban, 9 estados) · múltiplos formatos de post · multi-workspace com troca via `WorkspaceSwitcher` · financeiro/assinaturas (Asaas) · agentes de IA configuráveis (SDR com conexão WhatsApp) · sistema de bugs reportáveis · relatórios (aprovações, clientes, pipeline, produção) · **Campanhas** (feature mais recente) · referências de marca, eventos, notificações · OAuth Google · reset de senha · onboarding guiado.
 
 ## Gotchas e convenções
-- Trabalhar sempre em `homolog`; push para `main` = deploy automático.
+- Trabalhar sempre em `homolog`; push para `main` = deploy automático. *(Atualizado 2026-09-22: trabalho em branch `feat/`/`fix/` saindo de `homolog`; `main` só via `npm run release` — ver [[DevOps e Testes]].)*
 - `.claude/memory/` própria de UI, aponta (não duplica) para a memória canônica do backend em `../../../NapShift/.claude/memory/` — evita expor dados sensíveis de infra se alguém receber só este repo.
 - `src/types/api.ts` é snake_case por decisão consciente, mesmo o backend usando camelCase internamente após migração Drizzle.
 - Skill `/wrapnap` (no repo 1060) faz verificação cruzada entre endpoints alterados no backend e a documentação HTML estática deste frontend, atualizando-a automaticamente.
@@ -53,8 +53,22 @@ Módulo de Campanhas (novo) · correções de timezone/formatação de datas · 
 
 **`WorkspaceSwitcher`**: popover custom com `createPortal(document.body)` + `position: fixed`, calculado via `getBoundingClientRect()` do trigger — contorna dois containers com `overflow-y-auto` aninhados na sidebar que quebravam o `DropdownMenu` do base-ui. Fecha em clique-fora (listener global) e Escape; nunca renderiza fora do portal cliente.
 
+## Estado em 2026-09-29 (leitura completa do repositório)
+
+Mudanças desde o estudo de julho — algumas corrigem o que está escrito acima:
+- **`src/middleware.ts` virou `src/proxy.ts`** (2026-07-27): convenção do Next 16, função exportada `proxy`. O comportamento é o mesmo — só confere a presença do cookie `napshift-token`; a proteção real continua no backend.
+- **Documentação HTML do sistema saiu de `public/docs/`** (2026-09-25): tudo em `public/` é servido sem login, e as páginas de API, banco e serviços ficaram abertas em `napshift.com/docs`. Hoje vivem em `docs/sistema/`, só no repositório. Regra: documentação interna nunca em `public/`.
+- **Botões de contratar da landing apontam pro WhatsApp comercial** (constante `CTA_CONTRATAR_HREF` em `src/lib/constants.ts`) enquanto a cobrança do Asaas estiver em sandbox. Quando existir a conta de produção, a constante volta pra `/registro`.
+- **401 só encerra a sessão quando o corpo é de auth** (2026-09-14): um 401 do Asaas vazado pelo backend chegou a deslogar o ADM.
+- **Base UI `<Select>` precisa da prop `items`** pra mostrar o rótulo em vez do valor cru — bug que estava em 48 selects herdado da migração Radix → Base UI.
+- Telas novas do período: fotos com envio em lote, visualizador de slides no ADM (versões, ressalvas, tokens), "Salvar como template", "Pedir ajuste" com ajuste pontual por slide, notificações com deep-link, seleção de conta Meta por canal, encerramento/reabertura de workspace (em `homolog`).
+- **Versão:** 1.2.0, mesmo número do backend. Release do Web sai com `--sem-testes` porque o lint tem 191 erros antigos (o `tsc` passa).
+- **Armadilha pra rodar local:** sem `NEXT_PUBLIC_API_URL`, o `src/lib/api.ts` aponta pra API de **produção**. Usar `.env.local` apontando pra `https://homolog-api.napshift.com`.
+- **Vercel Hobby tem um membro só:** commit de outro autor (Rodrigo) pode ter o deploy bloqueado até a conta virar Pro.
+- Tabela de preços da landing (fechada em 2026-08-04): Starter R$ 397, Pro R$ 497, Escala R$ 897; SDR só a partir do Pro. O banco (`agencia_planos`) é a fonte de verdade — ao mudar plano, conferir os dois lados.
+
 ## Relacionamentos
 - Consome [[NapShift Backend]] via REST puro (contrato snake_case).
 - Parte do mesmo produto vendido via [[1060crm]].
 
-*Estudo de base: 2026-07-07. Aprofundado (auth, HTTP client, middleware, wizard, switcher): 2026-07-07.*
+*Estudo de base: 2026-07-07. Aprofundado (auth, HTTP client, middleware, wizard, switcher): 2026-07-07. Atualizado com leitura completa: 2026-09-29.*

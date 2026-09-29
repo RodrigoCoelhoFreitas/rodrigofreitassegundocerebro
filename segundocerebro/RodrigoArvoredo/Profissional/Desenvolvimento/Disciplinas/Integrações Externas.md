@@ -23,6 +23,11 @@ Ramificação de [[Disciplinas]]. Duas integrações críticas de negócio no Na
 - No **[[NapShift Web]]**, o wizard de novo workspace (`/cliente/workspaces/novo`) tokeniza o cartão direto com o Asaas via `POST /cliente/asaas/tokenize-card` (rota implementada em `routes/cliente.ts` do backend, atrás de `clienteAuthHook`) — o customer no Asaas é amarrado ao usuário CLIENTE autenticado (criado on-the-fly com cpf/email/telefone se ainda não existir) e o número do cartão nunca chega ao backend próprio do NapShift, só o token retornado pelo Asaas.
 - No **[[1060crm]]** (CRM de vendas), não há integração de pagamento nenhuma — nem Asaas, nem Stripe, nem Pagar.me. As vendas de site fechadas pelo CRM são cobradas via Pix/boleto/cartão, mas o pagamento em si é processado fora do sistema (link de pagamento manual, conversa no WhatsApp do vendedor), sem tocar o schema nem as rotas do 1060crm — reforça que o 1060crm é ferramenta de pipeline/fechamento, não de billing.
 
+## Atualização 2026-09-29
+- **Asaas ainda em sandbox nos dois ambientes do NapShift** — nenhuma cobrança real existe. A chave sandbox chegou a ser desligada pelo próprio Asaas (desliga após 3 meses sem uso). Webhook perde evento com status fora da lista esperada e ignora eventos de assinatura; a sincronização diária não consulta o Asaas. Regra que ficou: erro de serviço externo nunca repassa o status HTTP dele como se fosse nosso (vira 502).
+- **Evolution API:** a instância é compartilhada entre produção e homolog, numa VPS de 4 GB junto com Postgres e o backend. O envio de WhatsApp engole a falha (a aprovação fica marcada como enviada mesmo sem sair), e queda de conexão não gera alerta. O SDR foi validado em produção em 2026-08-14 com a Casa ProVida — que depois saiu.
+- **Meta:** a autorização do Login for Business é **substitutiva** — reconectar marcando menos contas derruba os clientes que já publicavam. Regra operacional: marcar todas as contas, toda vez. Não há renovação automática de token.
+
 Sources:
 - [Evolution API Caindo em 2026: O Que Está Acontecendo](https://agenciacafeonline.com.br/blog/evolution-api-whatsapp-caindo-2026-o-que-esta-acontecendo/)
 - [How to Use Evolution API Without Getting Banned on WhatsApp (2026 Guide)](https://wasenderapi.com/blog/how-to-use-evolution-api-without-getting-banned-on-whatsapp-2026-guide)

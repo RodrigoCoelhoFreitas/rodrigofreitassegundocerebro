@@ -23,4 +23,13 @@ O prompt do Estrategista mistura um system prompt fixo por workspace (identidade
 
 Geração de imagem passa por fal.ai (Nano Banana 2/Gemini) com fallback em cascata pra DALL-E 3 (OpenAI) se fal.ai falhar — redundância de provedor, não só de modelo. Classificação de feedback do WhatsApp também é feita por LLM (Claude, temperature 0.0): decompõe a mensagem livre do cliente em ações categorizadas (copy/legenda/arte/estratégia), com uma camada determinística de prioridade por cima decidindo o status final quando há múltiplas ações. E o SDR ("Bia") foge do padrão Claude do resto do sistema: usa **GPT-4o-mini** (OpenAI) por custo/latência, com **Groq/Whisper** pra transcrição de áudio — mistura de provedores deliberada, não indecisão.
 
-*Pesquisado e escrito em 2026-07-07.*
+## Atualização 2026-09-29 — o que mudou no NapShift
+
+- **Modelo por agente começou.** O Produtor roda em `claude-opus-5-5` por padrão (decisão de 2026-09-24, depois de comparar pares com a mesma direção: o Sonnet 5 saiu ~10% mais barato, até 2x mais lento, compôs pior e trocou a copy aprovada quando a direção divergia). Os demais agentes seguem em `claude-sonnet-4-6`; a descrição de fotos usa `claude-haiku-4-5`. Armadilhas registradas pra trocar modelo dos outros: `temperature` virou HTTP 400 no Sonnet 5 e no Opus 5, e `thinking` vem ligado por padrão (divide o `max_tokens` com o texto).
+- **Produtor agente com ferramentas** (v1.1.0): uma sessão por slide com `ver_referencia`, `gerar_imagem`, `editar_slide`, `escrever_slide`, `renderizar` e `concluir`; ele olha o PNG renderizado (visão) e corrige. Regra dura: pessoa real só aparece por foto real ou por geração **com** a foto dela de referência — gerar sem referência inventa outro rosto.
+- **Conferência determinística da copy** (`utils/conferir-copy.ts`, sem LLM): compara o texto visível do render com a copy aprovada; palavra faltando recusa o `concluir`. Nasceu porque o modelo obedecia a direção de arte e trocava o texto aprovado.
+- **Recusa e truncamento viram erro tipado** antes do parse, e erro não-retentável pausa a tarefa na primeira falha em vez de gastar 3 chamadas.
+- **Fallback silencioso ainda existe:** `callAgent` cai no GPT-4o quando o Claude falha — inclusive por limite de uso da conta. Em 2026-09-28 o planejamento da semana saiu do GPT-4o sem ninguém saber. Só as chamadas com ferramentas (Copywriter, Produtor) não têm fallback.
+- **Custo real medido:** peça estática US$ 0,12–0,30, carrossel de 5 US$ 0,85–1,10; imagem 2K do fal.ai (US$ 0,12) é o maior custo variável. SDR: ~US$ 0,0014 por resposta com `gpt-4o-mini`.
+
+*Pesquisado e escrito em 2026-07-07. Atualizado em 2026-09-29.*

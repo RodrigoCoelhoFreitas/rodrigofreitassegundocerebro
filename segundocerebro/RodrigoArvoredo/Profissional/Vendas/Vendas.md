@@ -13,7 +13,7 @@ O [[1060crm]] e a venda de sites estão **extremamente interligados neste moment
 
 ## Frentes de produto
 - **[[Produto Sites]]** — a única frente com pipeline ativo hoje. Planos, preços, comissão do vendedor, termos jurídicos completos e discurso de vendas documentados ali (fonte: termos de serviço + proposta comercial oficiais, jul/2026). Ligado à nova iniciativa de [[Geração de Sites via IA]].
-- **NapShift** — plano futuro: vender por **assinatura mensal**. Ainda sem comissão/processo comercial formalizado.
+- **NapShift** — plano futuro: vender por **assinatura mensal**. Ainda sem comissão/processo comercial formalizado. *Estado em 2026-09-29:* tabela da landing fechada em 2026-08-04 — Starter R$ 397, Pro R$ 497, Escala R$ 897/mês; SDR só a partir do Pro. A cobrança ainda está em sandbox no Asaas, então os botões de contratar mandam pro WhatsApp comercial. Único cliente externo ativo: AEMJS. Custo de produção medido (~US$ 0,12–1,10 por peça, ver [[NapShift Backend]]) ficou ~2x o estimado e é a base pra revisar os planos; destino decidido pelo Eduardo é um teste grátis de 30 dias, que depende de o cliente conseguir se configurar sozinho no portal.
 - **SDR** — plano futuro: vender **individualmente para empresas** (não só embutido em outro pacote). Ainda sem comissão/processo comercial formalizado.
 - Branding, marketing — sem plano de comercialização formal definido ainda.
 
