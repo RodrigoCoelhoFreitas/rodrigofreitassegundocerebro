@@ -15,7 +15,8 @@ Nasceu da vontade de fazer um jogo para a **enteada do Rodrigo** — mas sem ser
 - [[Linha do Tempo do Gatoelho]] — o que foi feito, em ordem, desde a pré-produção.
 
 ## Repositório
-- Pasta: `C:\Users\Gamer\Documents\projetos\gatoelho` (máquina nova). Git iniciado, **sem nenhum commit ainda** (em 2026-09-29).
+- Pasta: `C:\Users\Gamer\Documents\projetos\gatoelho` (máquina nova).
+- GitHub (**privado**): `RodrigoCoelhoFreitas/gatoelho`, branch `main` — primeiro commit `32b63a9` em 2026-09-29.
 - Executáveis Windows gerados em `gatoelho\release\`: `Gatoelho-Setup-0.1.0.exe` (instalador) e `Gatoelho-0.1.0-portatil.exe`.
 - Também roda no navegador (`npm run dev` → http://localhost:5173) a partir do mesmo código.
 

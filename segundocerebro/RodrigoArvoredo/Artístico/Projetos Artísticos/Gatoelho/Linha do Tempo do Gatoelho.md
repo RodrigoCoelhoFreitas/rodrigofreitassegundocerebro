@@ -21,5 +21,6 @@ Tudo abaixo foi feito numa única sessão longa com o Claude Code, na máquina n
 10. **Fim de fase** (bandeira, comemoração, confete, resultado), **som e música sintetizados**, **controle de videogame**.
 11. **Mapa do mundo** estilo Super Mario World: transição em círculo, Mundo 1 com 5 pontos, caminhos que se revelam ao concluir fases, suporte a caminhos secretos, progresso salvo. O Rodrigo definiu a visão: o Gatoelho **ganha muitas mecânicas com o tempo** e volta às fases para achar segredos.
 12. Registro de tudo neste segundo cérebro (esta pasta).
+13. **Primeiro commit e push**: repositório privado `RodrigoCoelhoFreitas/gatoelho` criado no GitHub (commit `32b63a9`, branch `main`).
 
-**Fim do dia:** repositório com ~4.400 linhas de TypeScript em 52 arquivos, **sem commit**; 53 verificações automáticas passando (em scripts temporários, fora do repo); executáveis gerados em `release\`.
+**Fim do dia:** repositório com ~4.400 linhas de TypeScript em 52 arquivos, versionado no GitHub; 53 verificações automáticas passando (em scripts temporários, fora do repo); executáveis gerados em `release\`.
