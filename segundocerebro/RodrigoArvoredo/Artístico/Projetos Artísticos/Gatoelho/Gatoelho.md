@@ -24,3 +24,12 @@ Nasceu da vontade de fazer um jogo para a **enteada do Rodrigo** — mas sem ser
 Protótipo jogável de ponta a ponta: abertura "LUDOVIC STUDIO" → título → **mapa do mundo** (estilo Super Mario World) → fase de testes → bandeira de chegada → resultado → volta ao mapa com o caminho seguinte revelado. Movimento com pulo, pulo duplo e planar; energia em corações + vidas; espinhos; HUD e minimapa; animações de personalidade; som e música sintetizados; controle de videogame; progresso salvo. Toda a arte ainda é **provisória** (formas geométricas) e só a Fase 1 (sala de testes) tem conteúdo.
 
 **Próximo passo combinado:** conversar sobre **quais mecânicas básicas vêm primeiro e em que ordem o Gatoelho as ganha** — isso define o que cada fase ensina e onde ficam os primeiros segredos (ver [[Game Design do Gatoelho]]).
+
+## Estado em 2026-09-30
+- **Fase 1 de verdade: "Saindo da Toca"** substituiu a sala de testes no mapa. O Gatoelho começa só andando e pulando e **ganha as Orelhas Planadoras no meio da fase**; dali em diante a fase exige planar. Detalhes em [[Game Design do Gatoelho]].
+- **Save e load**: três espaços de save, gravação automática, arquivos em disco no PC. Detalhes em [[Arquitetura do Gatoelho]].
+- **Testes no repositório**: `npm test` roda 96 verificações sem abrir janela (pendência de ontem resolvida).
+- GitHub: commits `e6261c2` (Fase 1 + habilidades + saves) e `52dd444` (testes), em `main`.
+- A sala de testes continua existindo, fora do mapa (tecla `T` no mapa do mundo), com todas as habilidades.
+
+**Próximos passos possíveis:** Fase 2 (que habilidade ou conceito ela ensina), primeiro inimigo, escalar paredes (já prometido por um segredo da Fase 1), e a arte definitiva do personagem.

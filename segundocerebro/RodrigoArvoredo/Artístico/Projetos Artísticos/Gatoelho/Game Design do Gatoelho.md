@@ -77,3 +77,38 @@ Gato + coelho deve virar **gameplay**, não só estética. Coelho: saltos altos,
 - **Dispositivo**: PC com teclado/controle ou tablet/celular com toque? (o alvo virou PC, mas toque mudaria o kit de movimentos).
 - **Quem produz arte, animação e som**, e quanto tempo por semana o Rodrigo tem para o projeto.
 - **Ordem das mecânicas** que o Gatoelho ganha e o que cada fase ensina — próxima conversa combinada.
+
+## Atualização 2026-09-30 — a primeira fase e a progressão de habilidades
+
+### Progressão de habilidades (decisão do Rodrigo)
+O Gatoelho **começa só andando e pulando** e conquista as habilidades ao longo do jogo; elas ficam salvas e valem em todas as fases, inclusive nas já jogadas — é o que permite voltar e achar segredos. Primeira habilidade: **Orelhas Planadoras** (planar), ganha na Fase 1. O **pulo duplo saiu do kit inicial** e fica para uma fase futura. Escalar paredes já está prometido por um segredo da Fase 1.
+
+### Fase 1 · "Saindo da Toca" (Bosque das Cenouras)
+Pedido do Rodrigo: uma primeira fase com tema de saída de casa, intuitiva, que apresente conceitos do jogo e em que ele ganhe a habilidade de "voar com as orelhas" e precise dela. Desenhada no estilo "ensinar sem falar": cada ideia aparece num lugar seguro, depois é cobrada, depois combinada.
+1. **A toca** — sai pela porta redonda de uma toca no morro; placa ensina a andar; cenouras mostram o caminho.
+2. **Primeiros pulos** — tronco, degrau, vala rasa (cair não custa vida), galhos, um buraco pequeno, espinhos com espaço de sobra.
+3. **Dente-de-leão Dourado** — no alto de um platô, com checkpoint antes; é impossível passar sem pegar. Anúncio "Nova habilidade: Orelhas Planadoras".
+4. **Treino seguro** — vão impossível de pular; quem erra cai num chão seguro com degraus de volta.
+5. **Buraco de verdade** — atravessado planando, com cenouras desenhando a trajetória; segundo checkpoint depois.
+6. **Flores de vento** (a reviravolta) — planando sobre elas, o vento leva para cima; único jeito de subir o paredão; depois, longa descida planando até a bandeira.
+
+### Mecânicas novas
+- **Flor de vento**: coluna de ar de 11 tiles; só afeta quem está planando (orelhas abertas pegam o vento).
+- **Galhos**: plataformas que se atravessam por baixo e seguram por cima.
+- **Cenouras** (55 na fase, contador no HUD) e **Cenouras Douradas** (3 por fase, o "100%") — a proposta de colecionáveis virou decisão.
+- **Checkpoints**: perder uma vida volta ao último.
+- **Placas** com balão de dica ao chegar perto (5 na fase).
+
+### Os três segredos da Fase 1 (a ideia de voltar às fases, já na primeira)
+- Uma Dourada **visível**, que exige subir pelos galhos e pular do mais alto.
+- Uma **flor de vento "adormecida" ao lado da toca**: na primeira passada não faz nada (ele ainda não plana); cenouras sobem pela coluna como pista. Quem volta planando sobe até uma ilha escondida.
+- Uma no **topo de uma chaminé de pedra**, só alcançável escalando — a placa diz "volte quando souber escalar paredes". Ou seja: o 100% da Fase 1 só será possível quando essa habilidade existir.
+
+### Regra de save (decidida em 2026-09-30)
+**Só vale o que se conclui**, como em Super Mario World: habilidades e Cenouras Douradas pegas numa fase só entram no save ao chegar na bandeira; sair da fase descarta. Nasceu de um problema relatado pelo Rodrigo — na segunda partida o Gatoelho "já nascia com a habilidade", porque o progresso único gravava na hora do pickup. Alerta registrado: criança que pega uma Dourada difícil e sai da fase perde a cenoura; a alternativa "pegou, é seu" (só a habilidade presa à conclusão) é uma troca pequena.
+
+### O que os testes ensinaram sobre level design
+- Coluna de vento de 2 tiles é estreita demais: o embalo tira o personagem dela → 3 tiles.
+- Galho de 4 tiles é curto demais: um pulo correndo passa por cima → 5–6 tiles.
+- Posição de colecionável difícil se escolhe por **busca na física** (de onde alcança, de onde não alcança, onde o pulo termina), não no olho.
+- Planar continua forte (alerta de ontem mantido); a fase foi desenhada em volta disso.

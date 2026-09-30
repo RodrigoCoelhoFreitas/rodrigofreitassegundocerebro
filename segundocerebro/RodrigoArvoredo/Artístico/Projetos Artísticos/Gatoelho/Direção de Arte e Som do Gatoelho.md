@@ -32,3 +32,10 @@ Preocupação do Rodrigo desde o início: não transformar imagens bonitas diret
 
 ## Em aberto
 Quem desenha, anima e compõe; técnica de animação definitiva (quadro a quadro × esqueleto); pipeline de exportação de sprites; paleta e tipografia oficiais.
+
+## Atualização 2026-09-30
+- **Fase com cara de bosque**: fundo em camadas com profundidade (céu em degradê, nuvens, montes, duas linhas de árvores), em cores suaves para não competir com o primeiro plano; terreno com grama ondulada e terra com pedrinhas; galhos de madeira com folhinhas.
+- **A toca do Gatoelho**: morrinho verde com porta redonda de madeira, janela acesa e chaminé — é de onde ele sai na Fase 1.
+- Objetos novos (todos provisórios, desenhados por código): cenoura, Cenoura Dourada com brilho (e "fantasma" quando já foi pega antes), Dente-de-leão Dourado, flor de vento azul-clara com tracinhos subindo, placa de madeira com balão de fala, checkpoint com bandeirinha que sobe.
+- **Anúncio de habilidade**: clarão, painel dourado "Nova habilidade!" e o boneco demonstrando de orelhas abertas.
+- Sons novos: cenoura ("plim" discreto), Cenoura Dourada (arpejo brilhante), nova habilidade (fanfarra longa), checkpoint.

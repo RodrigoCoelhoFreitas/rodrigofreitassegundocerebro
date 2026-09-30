@@ -24,3 +24,9 @@ Tudo abaixo foi feito numa única sessão longa com o Claude Code, na máquina n
 13. **Primeiro commit e push**: repositório privado `RodrigoCoelhoFreitas/gatoelho` criado no GitHub (commit `32b63a9`, branch `main`).
 
 **Fim do dia:** repositório com ~4.400 linhas de TypeScript em 52 arquivos, versionado no GitHub; 53 verificações automáticas passando (em scripts temporários, fora do repo); executáveis gerados em `release\`.
+
+## 2026-09-30 — segunda sessão
+1. **Fase 1 "Saindo da Toca"** — desenho da fase, progressão de habilidades (começa sem planar e sem pulo duplo), Dente-de-leão Dourado, flores de vento, galhos, cenouras, três Cenouras Douradas, checkpoints, placas, fundo em camadas. Um robô de simulação encontrou e ajudou a corrigir três problemas de level design antes de qualquer pessoa jogar.
+2. **Save e load** — o Rodrigo relatou que o Gatoelho "já nascia com a habilidade" na Fase 1; a causa era o progresso único gravando na hora do pickup. Solução: três espaços de save, gravação automática com aviso, arquivos em disco no PC, e a regra "só vale o que se conclui".
+3. **Testes para dentro do repositório** (`npm test`, 96 verificações).
+4. Commits `e6261c2` e `52dd444` enviados ao GitHub; vault atualizado.

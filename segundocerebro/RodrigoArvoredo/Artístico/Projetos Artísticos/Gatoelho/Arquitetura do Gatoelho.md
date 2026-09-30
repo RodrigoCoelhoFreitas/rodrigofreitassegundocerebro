@@ -54,3 +54,24 @@ Ramificação de [[Gatoelho]]. Decisões técnicas, organização do código e c
 - O observador de arquivos do Vite segurava `release\electron.exe` aberto e o electron-builder falhava com EPERM — resolvido ignorando `release/` no `vite.config.ts` (a primeira suspeita, o Defender, estava errada).
 - Janela invisível do Electron roda a poucos quadros por segundo; e com o monitor desligado/bloqueado, `capturePage` falha ("display surface not available") — para prints de teste, usar `offscreen: true` + `setFrameRate(60)`.
 - `vite.config.ts` usa `base: './'` para o mesmo build funcionar na web e aberto do disco pelo Electron; `pixi.js` fica em devDependencies para não ser copiado duas vezes para dentro do `.exe`.
+
+## Atualização 2026-09-30
+
+### Fases e objetos
+- Formato ASCII da fase ganhou tiles e entidades (legenda em `TileMap.parse`): `=` galho, `c` cenoura, `C` Cenoura Dourada, `D` item de habilidade, `S` placa, `K` checkpoint, `W` flor de vento, `T` toca. Placas e Douradas são numeradas da esquerda para a direita.
+- `level/bosque1.ts` — a Fase 1, gerada por um script de design e mantida como texto. `level/levels.ts` guarda também os textos das placas e a habilidade que a fase ensina.
+- `game/LevelObjects.ts` (lógica: o que foi pego, checkpoint ativo, placa próxima → eventos) separado de `render/LevelObjectsView.ts` (desenho). `render/ForestBackdrop.ts` = fundo em camadas (parallax). `ui/AbilityBanner.ts` = anúncio de habilidade, reaproveitando o boneco e as animações.
+- Física: `TileMap.windZones` + `inWind`; planar dentro do vento leva `vy` até `-windRiseSpeed`. Galhos só colidem quando os pés estavam acima do topo no passo anterior.
+- Atalhos de desenvolvimento novos: `N` próximo checkpoint, `T` (no mapa) sala de testes.
+
+### Saves
+- `game/progress.ts` virou dados puros (`toData`/`fromData`), sem saber onde são guardados; `completeLevel` é o único ponto que grava o resultado de uma fase (habilidades, Douradas, recordes) de uma vez.
+- `game/saves.ts` — `SaveManager`: 3 espaços, qual está em uso, gravação automática (toda `progress.save()` regrava o espaço), tempo de jogo e data, migração do progresso único antigo para o Espaço 1, arquivo corrompido tratado como espaço vazio.
+- Armazenamento por interface (`SaveStorage`): no navegador, `localStorage`; no PC, **arquivos JSON** em `%APPDATA%\Gatoelho\saves\jogo-N.json`, gravados de forma atômica (arquivo temporário + troca).
+- `electron/preload.cjs` expõe só `read/write/remove` por `contextBridge`; `electron/saves.cjs` valida o número do espaço antes de virar nome de arquivo — a página do jogo continua isolada do sistema.
+- `scenes/SaveSelectScene.ts` (escolha do jogo) e `ui/SaveIndicator.ts` (aviso "Jogo salvo", por cima de qualquer tela).
+
+### Testes
+- As simulações agora moram no repositório: `tests/sim/*.mjs`, rodadas por `npm test` (`tests/run.mjs`). **96 verificações** em 2026-09-30: pulo (8), pulo duplo e planar (10), vida (7), animação (10), chegada e músicas (8), mapa do mundo (10), **robô da Fase 1 (28)**, saves (15).
+- O robô da Fase 1 joga cada trecho com comandos programados e prova três coisas: o trecho é possível com o kit certo, os trechos de planar são impossíveis sem planar, e os segredos só abrem do jeito previsto.
+- Os testes de ponta a ponta no Electron (prints, áudio, controle simulado, saves em arquivo) continuam como scripts avulsos, fora do repositório.
