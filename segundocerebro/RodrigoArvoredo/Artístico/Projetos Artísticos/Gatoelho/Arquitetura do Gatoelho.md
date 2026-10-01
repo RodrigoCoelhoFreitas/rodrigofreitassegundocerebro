@@ -75,3 +75,22 @@ Ramificação de [[Gatoelho]]. Decisões técnicas, organização do código e c
 - As simulações agora moram no repositório: `tests/sim/*.mjs`, rodadas por `npm test` (`tests/run.mjs`). **96 verificações** em 2026-09-30: pulo (8), pulo duplo e planar (10), vida (7), animação (10), chegada e músicas (8), mapa do mundo (10), **robô da Fase 1 (28)**, saves (15).
 - O robô da Fase 1 joga cada trecho com comandos programados e prova três coisas: o trecho é possível com o kit certo, os trechos de planar são impossíveis sem planar, e os segredos só abrem do jeito previsto.
 - Os testes de ponta a ponta no Electron (prints, áudio, controle simulado, saves em arquivo) continuam como scripts avulsos, fora do repositório.
+
+## Atualização 2026-09-30 (noite) — sistemas das fases v3
+- **Mapa (TileMap)**: tile novo `R` (raízes, sólidas até `setGatesOpen`); entidades `L`/`F` (pólen), `1`–`4` (flores-sino), `Q` (mural), `q` (pedra antiga), `u` (Cenoura Roxa), `r` (cenoura fujona), `O` (Onda). Objetos debaixo d'água continuam dentro dela.
+- **Player**: `scramble` (pólen ativo, com tempo) e `swimming`; pólen-pluma muda a gravidade, pólen-escama troca a física por nado. Parâmetros em `config/scramble.ts`.
+- **Lógica nova, sem desenho** (testável): `game/nap.ts` (cochilo), pólen/sinos/Onda/Cenoura Roxa em `LevelObjects`, cenouras fujonas em `LevelActors`, `purpleCarrots` no progresso.
+- **Desenho novo**: `SunspotView` (substitui `GoalView`), `pictograms.ts` (placas), `glyphs.ts` (gatoelhês), `palettes.ts` + `ForestBackdrop` com paleta, sol e antena, `ScrambleFx` (filtro de cor `ColorMatrixFilter` no fundo+mundo, ondas e pólen), barbatanas e pena no `GatoelhoRig`. O confete saiu.
+- **Testes**: 238 verificações (`npm test`), com arquivos novos `embaralhamento-e-cochilo`, `fase-bosque1-camadas` e `fase-bosque2-camadas`. O robô-criança agora pula espinheiros como se fossem buracos.
+- **Gancho de desenvolvimento**: só com `npm run dev`, a fase fica em `window.__fase` (para prints automáticos colocarem o Gatoelho em qualquer lugar e ativarem pólen). Não existe no build final. Script de prints (Electron offscreen contra o servidor do Vite) guardado fora do repo.
+- Scripts de design atualizados: `tools/gerar-bosque1.mjs` e `gerar-bosque2.mjs` (Fase 1 agora 212×22; Fase 2 230×28).
+
+## Atualização 2026-10-01 — banho de gráficos
+- **Resolução real**: o jogo pensa em 960×540, mas o renderer desenha na resolução da tela (`fitResolution` em `game/Game.ts`, refeita ao redimensionar e em tela cheia; teto 3×). A arte é vetorial, então fica nítida em qualquer tamanho.
+- **`src/art/`** (novo): `paint.ts` (degradês reaproveitáveis com `FillGradient`, mistura de cores, contorno "ink", caminhos suaves, `arcLine`), `textures.ts` (texturas geradas uma vez: brilho aditivo, sombra de contato, névoa, vinheta), `palettes.ts` (luz de cada fase: céu, névoa, camadas, grama, terra, água, partículas), `sprites.ts` (catálogo de 64 vagas de sprite).
+- **Armadilha do Pixi 8 descoberta**: `arc()` sem `moveTo` liga o começo do arco ao último ponto com uma reta (riscos atravessando a tela). Usar sempre `arcLine`.
+- **Câmera** (`camera/Camera.ts`): chão fino na tela (Gatoelho a ~74% da altura), segura a altura do último chão nos pulos e voos, desce ao cair rápido ou nadar, suavização vertical, pode subir acima do topo da fase (céu).
+- **Fundo** (`render/ForestBackdrop.ts`): céu, halo do sol, nuvens, pássaros, montanhas e morros com fio de luz, ruínas, duas linhas de copas com cipós, névoa e partículas. Usado também pelos menus (`ui/Backdrop.ts`). `render/Foreground.ts` ficou só com a vinheta.
+- **Lista de sprites**: `node tools/listar-sprites.mjs > docs/sprites.md`; o teste `catalogo-de-sprites` garante que cada vaga aponta para um desenho que existe.
+- **Prints automáticos**: Electron offscreen contra o servidor do Vite, usando o gancho `window.__fase` (só em modo dev) para posicionar o Gatoelho e trocar de fase. Scripts guardados fora do repo.
+- 241 verificações em `npm test`.

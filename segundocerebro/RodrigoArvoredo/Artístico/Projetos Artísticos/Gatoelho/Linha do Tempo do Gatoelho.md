@@ -30,3 +30,12 @@ Tudo abaixo foi feito numa única sessão longa com o Claude Code, na máquina n
 2. **Save e load** — o Rodrigo relatou que o Gatoelho "já nascia com a habilidade" na Fase 1; a causa era o progresso único gravando na hora do pickup. Solução: três espaços de save, gravação automática com aviso, arquivos em disco no PC, e a regra "só vale o que se conclui".
 3. **Testes para dentro do repositório** (`npm test`, 96 verificações).
 4. Commits `e6261c2` e `52dd444` enviados ao GitHub; vault atualizado.
+
+## 2026-09-30 — terceira sessão (visão, história e fases v3)
+1. **Visão em camadas**: a enteada ainda não lê → nenhuma camada da criança depende de texto; o texto é a porta para a lore. Ver [[Game Design do Gatoelho]].
+2. **História**: o Embaralhamento, o laço dos Gatoelhos (Dr. Bigodes = Gatoelho velho de outra dimensão), o final verdadeiro como percepção de que não existe mundo "puro". Arco curto v1 escrito. Ver [[História e Mundos do Gatoelho]].
+3. **Pesquisa de fases** (Mickey/Donald, Cuphead, Castlevania, Super Metroid, Blackthorne, Contra, Hollow Knight e outros). Ver [[Pesquisa de Fases do Gatoelho]].
+4. **Fases 1 e 2 v3**: cochilo no lugar da bandeira, placas sem texto, pólen embaralhador (pluma e escama), a Onda e as cenouras fujonas, gatoelhês, flores-sino, raízes e Cenoura Roxa, luz própria de cada fase e a antena no horizonte. 238 verificações passando. Ainda não commitado ao escrever isto.
+
+## 2026-10-01 — banho de gráficos
+Resolução real da tela, base de arte (degradês, brilhos, sombras), fundo em camadas com névoa, ruínas e pássaros, paletas novas, terreno e objetos arredondados, Gatoelho com acabamento novo (silhueta original mantida), câmera com chão fino, título com o cenário novo e o catálogo de 64 vagas de sprite. Testados e descartados pelo Rodrigo: capim em primeiro plano, raios de sol e um Gatoelho redesenhado demais. 241 verificações passando. Detalhes em [[Direção de Arte e Som do Gatoelho]].

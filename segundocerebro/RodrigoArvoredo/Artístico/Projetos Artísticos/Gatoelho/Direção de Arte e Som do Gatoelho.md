@@ -39,3 +39,25 @@ Quem desenha, anima e compõe; técnica de animação definitiva (quadro a quadr
 - Objetos novos (todos provisórios, desenhados por código): cenoura, Cenoura Dourada com brilho (e "fantasma" quando já foi pega antes), Dente-de-leão Dourado, flor de vento azul-clara com tracinhos subindo, placa de madeira com balão de fala, checkpoint com bandeirinha que sobe.
 - **Anúncio de habilidade**: clarão, painel dourado "Nova habilidade!" e o boneco demonstrando de orelhas abertas.
 - Sons novos: cenoura ("plim" discreto), Cenoura Dourada (arpejo brilhante), nova habilidade (fanfarra longa), checkpoint.
+
+## Banho de gráficos (2026-10-01)
+Pedido do Rodrigo: manter a vibe, mas com formas mais arredondadas e qualidade "padrão Disney", cores lindas e misteriosas como em Hollow Knight, e tudo pronto para depois levantar a lista de sprites.
+
+**Princípios adotados**
+- Formas arredondadas e cheias; volume por degradê (luz em cima, sombra embaixo); contorno colorido e escuro, nunca preto; fio de luz na borda do lado do sol.
+- Profundidade pela névoa: cada camada do fundo mais distante é mais clara e se perde na cor da névoa. Luz quente contra sombra fria.
+- Capricho no **fundo**, frente limpa: silhuetas de capim na frente da câmera foram testadas e **descartadas** pelo Rodrigo; raios de sol também foram testados e **removidos** ("luzes muito, muito mais suaves").
+- **Chão fino na tela**: a câmera enquadra o Gatoelho baixo (bastante céu, pouca terra); nos pulos e voos ela segura a altura do último chão, para o chão continuar à vista nos sobrevoos, e desce quando ele cai ou mergulha.
+- O Gatoelho mantém a **silhueta original** (corpo retangular arredondado, orelhas retas com interior creme, rabo reto com ponta creme, lenço em faixa). Um redesenho mais "Disney" (feijão, focinho, bigodes, mochila) foi testado e recusado por ficar diferente demais; o apelo entra no acabamento (pelagem em degradê, olhos com brilho, bochecha corada).
+
+**O que mudou**
+- O jogo desenha na resolução real da tela (antes era 960×540 esticado e borrado).
+- Fundo novo: céu em degradê, sol/lua com halo, nuvens fofas, bandos de passarinhos, montanhas e morros com fio de luz, **ruínas de pedra com musgo** (arcos, colunas, uma cabeça de pedra de orelhas compridas — pista do "mundo de antes"), duas linhas de copas com cipós, névoa entre as camadas, pozinho de luz.
+- Paletas por fase refeitas: manhã de neblina (Fase 1), tarde dourada com a antena (Fase 2), noite violeta com estrelas e cogumelinhos que brilham (Horta Escondida).
+- Terreno: grama em almofada com borda ondulada, terra que escurece com a profundidade, quinas redondas, pedrinhas e raízes; galhos, troncos, espinheiros e água com volume e brilho.
+- Objetos e seres: cenouras arredondadas, Douradas/Roxa/itens com brilho de verdade, placas e checkpoint de madeira, toca com janela acesa, caracol e passarato fofos, cogumelo brilhante, troncos com anéis, cenouras fujonas com olhinhos.
+- Sombra de contato sob o Gatoelho (fica no chão quando ele pula). Título com o mesmo cenário deslizando.
+
+**Catálogo de sprites**: `src/art/sprites.ts` lista 64 vagas (o que é, tamanho, âncora, animações, variações e onde está o desenho provisório). `node tools/listar-sprites.mjs > docs/sprites.md` gera a lista de encomenda (245 quadros de animação ao todo). Um teste garante que o catálogo continua batendo com o código.
+
+**Ainda no estilo antigo**: o mapa do mundo, os painéis de pausa/resultado e o HUD (corações e ícones).

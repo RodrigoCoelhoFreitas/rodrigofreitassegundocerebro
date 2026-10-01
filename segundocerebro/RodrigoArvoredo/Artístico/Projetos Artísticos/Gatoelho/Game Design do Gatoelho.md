@@ -73,7 +73,7 @@ Gato + coelho deve virar **gameplay**, não só estética. Coelho: saltos altos,
 - A enteada deveria ser **testadora desde cedo**: "10 minutos numa sala cinza e se divertir" era o critério de sucesso do protótipo de movimento.
 
 ## Perguntas em aberto
-- **Idade da enteada** e se ela já joga algo (qual jogo, qual aparelho).
+- ~~Idade da enteada~~ — ainda não lê (2026-09-30). Falta saber se já joga algo (qual jogo, qual aparelho).
 - **Dispositivo**: PC com teclado/controle ou tablet/celular com toque? (o alvo virou PC, mas toque mudaria o kit de movimentos).
 - **Quem produz arte, animação e som**, e quanto tempo por semana o Rodrigo tem para o projeto.
 - **Ordem das mecânicas** que o Gatoelho ganha e o que cada fase ensina — próxima conversa combinada.
@@ -112,3 +112,52 @@ Pedido do Rodrigo: uma primeira fase com tema de saída de casa, intuitiva, que 
 - Galho de 4 tiles é curto demais: um pulo correndo passa por cima → 5–6 tiles.
 - Posição de colecionável difícil se escolhe por **busca na física** (de onde alcança, de onde não alcança, onde o pulo termina), não no olho.
 - Planar continua forte (alerta de ontem mantido); a fase foi desenhada em volta disso.
+
+## Visão decidida em 2026-09-30 — um jogo em camadas
+A enteada **ainda não lê**. Pedido do Rodrigo: o jogo tem que ser bonitinho, intuitivo e divertido para criança, com um **final possível dentro da inocência**, mas ter **camadas mais sérias, com conteúdo e lore para quem sabe ler**, a ponto de ser aclamado pela crítica adulta. Nas palavras dele: "um jogo histórico dentro da simplicidade".
+
+Consequências:
+- **Saber ler vira a chave da segunda camada.** A camada da criança não tem nenhum texto obrigatório; todo o texto é opcional e guarda a lore. O jogo "cresce junto com a criança": o que ela jogou aos 5 anos se revela aos 8.
+- **Camadas**: 0 = criança sem ler (história contada só com imagens, final feliz completo); 1 = quem lê (cartas, descrições de itens, nomes com duplo sentido); 2 = quem investiga (segredos de conhecimento, idioma gatoelhês, final verdadeiro); 3 = comunidade (mistérios coletivos, estilo Fez/Animal Well — opcional, avaliar escopo).
+- **Regra**: a camada adulta nunca estraga a infantil. Nada assustador visível para a criança; o sério mora no texto e em detalhes do cenário. O final da criança é verdadeiro, não um "final ruim"; o final verdadeiro dá um novo sentido a ele sem negá-lo.
+- **As placas de texto das Fases 1 e 2 precisam virar pictogramas/demonstrações** (e o anúncio "Nova habilidade" precisa ser visual).
+- Antes de espalhar pistas, escrever a **bíblia do mundo** (a verdade escondida), senão a lore fica incoerente.
+- Referências da camada dupla: Kirby (lore cósmica escondida em texto de pausa), Pokémon (entradas da Pokédex), Pikmin (anotações sobre os tesouros), Tunic, Fez, Animal Well, Hollow Knight (lore contada pelo ambiente), Chicory, Ghibli, Bluey (camada para os pais).
+- Candidatas a sacada (sessão de 2026-09-30, não decididas): **Nove Vidas** (fantasminhas das vidas perdidas viram ajuda/ponte; adulto usa de propósito), **jogo sem texto com o corpo do Gatoelho como interface** (virou praticamente obrigatório), **idioma gatoelhês**, co-op "de colo", cochilo (dia/noite).
+
+## Decisões de 2026-09-30 — a assinatura do jogo
+- **Fim de fase = cochilo**: a bandeira (herança do Mario) sai; o Gatoelho acha um lugar de sol e cochila, e o sonho faz a transição. Pesquisa em [[Pesquisa de Fases do Gatoelho]]. (Ainda não implementado.)
+- **Re-embaralhamento temporário** adotado: pólens/ondas que mudam as regras da física, as cores e o comportamento dos objetos da fase.
+- **Transformações por DNA** adotadas: o Gatoelho ganha por um tempo um pedaço de outro bicho (peixe nada, tatu rola, morcego pendura, vaga-lume ilumina).
+- Arco principal em história curta: [[História e Mundos do Gatoelho]].
+
+## Fases 1 e 2, versão 3 (2026-09-30) — identidade, camadas e o cochilo
+Pedido do Rodrigo: implementar o cochilo e levar as duas fases "para outro nível de mecânica, beleza e conceito", com mais caminhos ocultos, vários níveis de enigma, pistas e símbolos escondidos. Método em [[Pesquisa de Fases do Gatoelho]].
+
+### Sistemas novos
+- **Cochilo no fim da fase**: a bandeira virou um **cantinho de sol** (raio de luz que desce do céu num tufo de musgo; dá para ver de longe). O Gatoelho anda sozinho até o meio, dá duas voltinhas e se enrola para dormir, com "z z z" e a tela esquentando; o resultado aparece depois. A saída secreta é um **raio de luar roxo**.
+- **Placas sem texto**: cada placa mostra um desenho (Gatoelho em miniatura, setas, botão de pulo; anel em volta = segurar).
+- **Re-embaralhamento temporário (pólen)**: flores de pólen misturam o Gatoelho com outro bicho por um tempo, com onda saindo dele, o mundo num véu de cor e grãos de pólen girando em volta (um grão a menos a cada oitavo do tempo; as cores piscam no fim).
+  - **Flor-Pluma** (10 s): gravidade leve — pulos, quiques e cogumelos bem mais altos. Ganha uma pena na cabeça.
+  - **Flor-Escama** (14 s): DNA de peixe — a água deixa de ser perigo e vira caminho; nada com braçadas (pulo), e o efeito não acaba enquanto ele está na água. Ganha barbatanas.
+- **A Onda do Embaralhamento** (evento de história, sem texto): logo no primeiro passo da Fase 1 ela passa, o mundo pisca em outras cores e as cenouras da horta **ganham pernas e fogem** — correm pela trilha à frente dele (guiando a criança) e, encurraladas numa beirada, se encolhem tremendo e são pegas. Nunca se jogam em buraco, água ou espinho.
+- **Gatoelhês**: quatro símbolos (1 pata, 2 orelha, 3 rabo, 4 bigode). Aparecem nas **flores-sino** (cada uma mostra o seu), no **mural** que dá a ordem delas, nas **pedras antigas** (lore sem função, por enquanto) e, bem apagada, uma orelha gravada perto de toda passagem secreta.
+- **Flores-sino + raízes + Cenoura Roxa** (a camada mais funda): tocar as flores na ordem do mural abre as raízes de um morrinho; dentro, numa câmara escondida, está a **Cenoura Roxa** (uma por fase, salva ao concluir; aparece no resultado só depois de achada). Andando reto (1, 2, 3…) nunca se acerta; é preciso pular por cima das flores.
+- **Luz de cada fase**: manhã (Fase 1), tarde dourada com a **antena do Embaralhamento** soltando ondas no horizonte (Fase 2), roxo (Horta Escondida). Grama, céu, sol e morros mudam juntos.
+
+### Fase 1 "Saindo da Toca" — camadas
+1. **Criança**: a Onda, as três fujonas guiando e sendo pegas, o caminho de sempre, as flores-sino tocadas de passagem, o cochilo.
+2. **Quem sobe nos galhos**: a **Flor-Pluma** no galho baixo da Árvore Grande → galho do topo → **Ninho da Copa** (cenouras e pedra antiga). O pulo duplo (Fase 2) é a segunda chave da mesma porta.
+3. **Quem explora**: a **gruta ao pé do paredão** (quem só cai do paredão, sem planar, pousa perto dela) guarda o **mural**: rabo, pata, orelha.
+4. **Quem lê o mural**: as flores-sino da clareira, o **Morrinho das Raízes** e a **Cenoura Roxa**.
+- Ajuste que o robô achou: quem saía correndo do alto do paredão caía em cima do espinheiral; ele foi afastado dois tiles.
+
+### Fase 2 "Trilha das Cenouras" — camadas
+1. **Criança**: pega a **Flor-Escama** no caminho sem querer (uma placa desenha "flor → nadar"), então cair no rio deixa de ser castigo por um tempo.
+2. **Quem mergulha**: o rio agora é fundo e corre por baixo das pedras; uma trilha de cenouras no fundo aponta um **túnel alagado debaixo do Campo** que dá numa **gruta com ar**, com o mural: orelha, bigode, pata, rabo.
+3. **Quem lê o mural**: quatro flores-sino na reta final, o morrinho das raízes e a Cenoura Roxa.
+
+### Perguntas em aberto
+- O cochilo agrada? (tempo até o resultado: ~1,6 s dormindo)
+- Força das cores do pólen (foi suavizada depois do primeiro print: a primeira versão deixava o mundo rosa-choque).
+- A pedra antiga do Ninho ainda não significa nada: decidir o que ela diz na bíblia da história.

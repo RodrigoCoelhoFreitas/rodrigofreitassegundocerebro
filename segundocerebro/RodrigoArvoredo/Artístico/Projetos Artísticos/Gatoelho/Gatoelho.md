@@ -12,6 +12,8 @@ Nasceu da vontade de fazer um jogo para a **enteada do Rodrigo** — mas sem ser
 - [[Game Design do Gatoelho]] — conceito, princípios, mecânicas (feitas e em estudo), estrutura de mundo/fases, vida e vidas, decisões e perguntas em aberto.
 - [[Arquitetura do Gatoelho]] — tecnologia escolhida e por quê, organização do código, sistemas, comandos, testes e armadilhas do ambiente.
 - [[Direção de Arte e Som do Gatoelho]] — identidade visual, o boneco provisório, animação reaproveitável, áudio sintetizado provisório, pipeline de assets ainda por definir.
+- [[Pesquisa de Fases do Gatoelho]] — como outros jogos constroem fases e o método de fases proposto.
+- [[História e Mundos do Gatoelho]] — bíblia da história em camadas, mundos no modelo Donkey Kong Country 3, finais e missão paralela (rascunho).
 - [[Linha do Tempo do Gatoelho]] — o que foi feito, em ordem, desde a pré-produção.
 
 ## Repositório
@@ -33,3 +35,11 @@ Protótipo jogável de ponta a ponta: abertura "LUDOVIC STUDIO" → título → 
 - A sala de testes continua existindo, fora do mapa (tecla `T` no mapa do mundo), com todas as habilidades.
 
 **Próximos passos possíveis:** Fase 2 (que habilidade ou conceito ela ensina), primeiro inimigo, escalar paredes (já prometido por um segredo da Fase 1), e a arte definitiva do personagem.
+
+## Estado em 2026-10-01
+- **Visão e história**: jogo em camadas (a criança joga sem ler; a lore é para quem lê), o Embaralhamento e o laço dos Gatoelhos, arco curto v1. Ver [[História e Mundos do Gatoelho]] e [[Game Design do Gatoelho]].
+- **Fases 1 e 2, versão 3**: cochilo no cantinho de sol no fim da fase, placas só com desenho, pólen embaralhador (pluma e escama), a Onda e as cenouras fujonas, gatoelhês, flores-sino, raízes e Cenoura Roxa. Método de fases em [[Pesquisa de Fases do Gatoelho]].
+- **Banho de gráficos**: resolução real da tela, fundo em camadas com névoa e ruínas, paletas por fase, terreno e objetos arredondados com volume, Gatoelho com acabamento novo (silhueta original), câmera com chão fino. Catálogo de 64 vagas de sprite pronto para virar lista de encomenda. Ver [[Direção de Arte e Som do Gatoelho]] e [[Arquitetura do Gatoelho]].
+- 241 verificações automáticas passando.
+
+**Próximos passos possíveis:** mapa do mundo, HUD e painéis no estilo novo; mundos e chefes a partir da história; jogar com a enteada e ajustar o cochilo e as cores do pólen.
