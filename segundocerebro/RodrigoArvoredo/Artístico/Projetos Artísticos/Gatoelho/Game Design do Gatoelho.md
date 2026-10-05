@@ -161,3 +161,33 @@ Pedido do Rodrigo: implementar o cochilo e levar as duas fases "para outro níve
 - O cochilo agrada? (tempo até o resultado: ~1,6 s dormindo)
 - Força das cores do pólen (foi suavizada depois do primeiro print: a primeira versão deixava o mundo rosa-choque).
 - A pedra antiga do Ninho ainda não significa nada: decidir o que ela diz na bíblia da história.
+
+## Fases v4 (2026-10-01, noite) — obstáculos com a cara do Gatoelho
+Pedido do Rodrigo: melhorar os obstáculos e a lógica deles, **fugir de elementos clássicos do Mario** (plataformas elevadoras), deixar os "cogumelos saltitantes" mais lúdicos, aumentar um pouco as fases e melhorar a jogabilidade.
+
+### O que saiu e o que entrou
+- **Saíram os troncos flutuantes** (as plataformas que iam e vinham sozinhas).
+- **Sapo-balão** (sapo + baiacu, um híbrido do Embaralhamento) no lugar do cogumelo-mola. Dorme fazendo bolha; acorda estufado quando o Gatoelho chega perto. Continua valendo a regra da criança — **encostou, voa** (7,5 tiles) —, mas agora é uma **cama elástica**: quem cai de mais alto sobe mais alto, e **segurar o pulo na hora do quique dá embalo** (9,7 → 11,8 → 13,7 tiles). Soltando o botão, o quique fica sempre igual. É um brinquedo: a criança quica sem parar; quem entende o embalo chega a lugares novos.
+- **Galho-mola**: galho que brota de um mourão e **verga com o peso** (a ponta mais que a raiz). Pular na hora em que ele volta **arremessa** (até ~6,7 tiles, contra 4,25 do pulo normal); pular na hora errada é só um pulo comum. A janela é de uns 0,2 s, e o galho fica balançando, então dá para tentar de novo. Quem passa por baixo não percebe nada.
+- **Ninguém morre**: pisado, o **caracol se esconde na concha**, que vira um **degrau** por 5 s (e não sai enquanto alguém está em cima dele); o **passarato fica tonto**, desce um pouco com estrelinhas girando e volta para o lugar. Mais gentil para a criança e gera quebra-cabeças (a concha alcança um galho 5 tiles acima do chão).
+
+### Fase 1 "Saindo da Toca" (248 colunas)
+- Ao lado do primeiro caracol, um galho a 5 tiles: só de cima da concha (ou quicando no caracol com o pulo apertado).
+- O sapo-balão leva ao mirante do Dente-de-leão (como o cogumelo levava).
+- **Pomar Velho** (novo, antes das flores-sino): um sapo-balão no caminho (a criança é lançada longe e cai em chão seguro) com uma coluna de cenouras pedindo "mais alto!" — **três quiques de embalo** chegam a um galho altíssimo com cenouras e a pedra antiga; e uma **cerca velha com galho-mola** que, no rebote, arremessa até um galho com cenouras.
+- O cogumelo da Clareira do Tronco Oco saiu (com o embalo, ele permitiria alcançar a Dourada que exige escalar).
+
+### Fase 2 "Trilha das Cenouras" (262 colunas)
+- **Pedras do Rio**: um sapo-balão dorme na última pedra. Quem anda até ele é arremessado por cima do resto do rio até a margem; **dois quiques com embalo** alcançam o galho da Cenoura Dourada 1 (antes era a rota dos troncos).
+- **Pomar dos Galhos-Mola** (novo, depois do Grande Voo): mourões baixos com galhos-mola e um sapo; o **arremesso do galho + o pulo duplo** juntos alcançam uma copa alta com cenouras e uma pedra antiga (nenhum dos dois sozinho chega). A criança só pula os mourões.
+
+### Horta Escondida (98 colunas)
+Os troncos que passeavam viraram mourões com galhos-mola, e entrou uma torre de cenouras sobre um sapo-balão (para quem aprendeu o embalo).
+
+### O cochilo agora é um ritual
+Chegar **ao lado** do objeto do cantinho → **farejar** → **pulinho para dentro** → **amassar o pãozinho** → **duas voltinhas** → **espreguiçar, bocejar e deitar** → dormir (orelha tremendo de vez em quando) → **sonho** → resultado por cima do sonho. Dá para pular o sonho com o botão de pulo. Ver [[Direção de Arte e Som do Gatoelho]].
+
+### Alertas registrados
+- O embalo do sapo-balão é poderoso: qualquer sapo novo precisa ser conferido pelo robô contra segredos próximos (foi assim que o cogumelo da Clareira caiu).
+- A janela do galho-mola (~0,2 s) pode ser difícil para criança pequena; por isso nenhum galho-mola é obrigatório. Observar a enteada jogando.
+- O ritual do cochilo + sonho leva uns 12 s até o resultado (pulável). Se cansar na repetição, encurtar o sonho em revisitas.

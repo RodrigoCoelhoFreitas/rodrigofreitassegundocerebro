@@ -39,3 +39,12 @@ Tudo abaixo foi feito numa única sessão longa com o Claude Code, na máquina n
 
 ## 2026-10-01 — banho de gráficos
 Resolução real da tela, base de arte (degradês, brilhos, sombras), fundo em camadas com névoa, ruínas e pássaros, paletas novas, terreno e objetos arredondados, Gatoelho com acabamento novo (silhueta original mantida), câmera com chão fino, título com o cenário novo e o catálogo de 64 vagas de sprite. Testados e descartados pelo Rodrigo: capim em primeiro plano, raios de sol e um Gatoelho redesenhado demais. 241 verificações passando. Detalhes em [[Direção de Arte e Som do Gatoelho]].
+
+## 2026-10-01 (noite) — fases v4: obstáculos, cochilo e sonhos
+Pedido do Rodrigo: gráficos mais limpos e nítidos, obstáculos melhores e sem clichês do Mario, fases um pouco maiores, fim de fase num canto com objeto doméstico curioso, sonho com pistas e animação melhor de deitar, pistas da história no fundo.
+1. Física nova medida antes de desenhar as fases: sapo-balão (cama elástica com embalo) e galho-mola (arremesso no rebote).
+2. Troncos flutuantes removidos; cogumelo-mola → sapo-balão; inimigos deixam de morrer (concha-degrau e passarato tonto).
+3. Fase 1 ganha o Pomar Velho; Fase 2, o Pomar dos Galhos-Mola e um sapo no rio no lugar da rota dos troncos; Horta maior.
+4. Cochilo em cantinhos com objetos domésticos (cesto, pantufa, relógio, xícara), ritual de gato e sonhos sem texto.
+5. Fundo mais limpo, pistas da história no cenário, curvas mais finas e câmera no pixel da tela.
+6. 266 verificações passando. Detalhes em [[Game Design do Gatoelho]], [[Direção de Arte e Som do Gatoelho]] e [[História e Mundos do Gatoelho]].

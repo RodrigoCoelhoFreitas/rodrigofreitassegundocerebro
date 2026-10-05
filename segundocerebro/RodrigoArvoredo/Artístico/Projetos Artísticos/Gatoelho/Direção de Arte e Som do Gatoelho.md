@@ -61,3 +61,31 @@ Pedido do Rodrigo: manter a vibe, mas com formas mais arredondadas e qualidade "
 **Catálogo de sprites**: `src/art/sprites.ts` lista 64 vagas (o que é, tamanho, âncora, animações, variações e onde está o desenho provisório). `node tools/listar-sprites.mjs > docs/sprites.md` gera a lista de encomenda (245 quadros de animação ao todo). Um teste garante que o catálogo continua batendo com o código.
 
 **Ainda no estilo antigo**: o mapa do mundo, os painéis de pausa/resultado e o HUD (corações e ícones).
+
+## Fases v4 (2026-10-01, noite) — limpeza, nitidez, cochilo e sonhos
+Pedido do Rodrigo: gráficos **um pouco mais limpos**, **melhor qualidade de resolução**, fim de fase num **canto interessante com um objeto doméstico** curioso, transição de **sonho só com pistas** e uma **animação melhor de deitar**.
+
+**Mais limpo**
+- Fundo: a linha de copas de perto ficou rala e entra na névoa; os cipós saíram; menos partículas de luz, mais fracas.
+- Chão: menos pedrinhas, riscos e raízes no terreno; menos tufos, flores e árvores de fundo espalhados; o cantinho do cochilo fica sem enfeites em volta.
+
+**Mais nítido**
+- Curvas desenhadas com mais pontos (bordas redondas grandes não ficam "facetadas" em 2× e 3×).
+- A câmera para no pixel **da tela**, não no pixel do jogo: em tela cheia a rolagem era aos saltos de 2–3 pixels; agora é lisa.
+
+**Os cantinhos do cochilo** (uma luz mansa que desce do céu num objeto de alguém que passou antes):
+- Fase 1 — **cesto de vime** com almofada xadrez; ao lado, um **novelo vermelho desbotado** com agulhas de tricô, e o fio segue adiante pelo chão.
+- Fase 2 — **pantufa velha** com cara de gato e **orelhas de coelho**, um remendo e pompom, grande demais para ele.
+- Saída secreta da Fase 2 — **relógio de bolso** em pé, com os **ponteiros andando para trás** e, na tampa, um retratinho de alguém de orelhas compridas; a corrente enrolada no chão vira ninho.
+- Horta Escondida — **xícara de porcelana** sobre o pires, com **óculos redondos dobrados** ao lado.
+- O objeto tem frente e fundo: o Gatoelho deita **dentro** (a parede do cesto/xícara fica na frente dele).
+
+**Animação de deitar** (canais novos `bodyTilt` e `mouth`): fareja inclinado com a orelha atenta → pulinho para dentro → amassa o pãozinho (olhinhos de satisfação) → duas voltinhas (o corpo "afina" de lado no meio do giro) → espreguiça, **boceja com a boca aberta**, desce devagar, orelhas deitam e o rabo dá a volta → dorme respirando, com a orelha tremendo de vez em quando.
+
+**Sonhos** (tela azul-noite, bolinhas de luz desfocadas, silhuetas lilás, nenhuma palavra): dois mundos que viram um (Fase 1), o velho do lenço (Fase 2), reflexos (saída secreta), cenouras roxas (Horta). O que cada um quer dizer está em [[História e Mundos do Gatoelho]]. A volta para o mapa depois do sonho é um "acordar" macio (some no azul do sonho, em vez da íris).
+
+**Bichos novos**: sapo-balão verde-água com barriga clara e pintinhas de baiacu; galho-mola com folhas e uma florzinha na ponta (o que o diferencia de um galho comum); caracol escondido na concha; passarato tonto com estrelinhas.
+
+**Sons novos** (sintetizados): quique com embalo, arremesso do galho, rangido do galho, "plim" de quem volta ao normal, bocejo, entrada no sonho.
+
+Catálogo de sprites: **77 vagas, 370 quadros** (`docs/sprites.md`).

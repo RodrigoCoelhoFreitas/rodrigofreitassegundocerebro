@@ -94,3 +94,15 @@ Ramificação de [[Gatoelho]]. Decisões técnicas, organização do código e c
 - **Lista de sprites**: `node tools/listar-sprites.mjs > docs/sprites.md`; o teste `catalogo-de-sprites` garante que cada vaga aponta para um desenho que existe.
 - **Prints automáticos**: Electron offscreen contra o servidor do Vite, usando o gancho `window.__fase` (só em modo dev) para posicionar o Gatoelho e trocar de fase. Scripts guardados fora do repo.
 - 241 verificações em `npm test`.
+
+## Atualização 2026-10-01 (noite) — fases v4
+- **TileMap**: `M` agora é o sapo-balão (`entities.frogs`); `J`/`j` é o galho-mola (raiz na borda esquerda/direita do tile, 4 tiles de comprimento; `entities.branches`); `m`/`v` (troncos flutuantes) foram removidos.
+- **`game/LevelActors.ts`** reescrito: "carregadores" genéricos (galho-mola e concha de caracol) com `moveCarriers` antes do jogador e `resolveCarriers` depois; galho = mola amortecida (`sag`, `speed`, `lift` com memória curta para alargar a janela do arremesso; `branchBend` exportado); sapo-balão = cama elástica (`Player.fallHeight` × `frogKeep` + `frogPush` com o pulo apertado, teto `frogMaxHeight`); inimigos com `stun` (caracol na concha, passarato tonto) em vez de sumir. Eventos novos: `fling`, `creak`, `recover`, `bounce.high`.
+- **Player**: `apexY`/`fallHeight` (de que altura vem caindo) e `catapult(extra)`.
+- **Cochilo**: `game/nap.ts` com as fases `approach → sniff → knead → turning → lying → sleeping` (para ao lado do objeto e pula para o meio); `PlayerAnimation.nap(phase)`; clipes `sniff`, `knead`, `turn`, `lieDown`, `sleep`; canais novos `bodyTilt` e `mouth` no `GatoelhoRig`.
+- **`render/NapSpotView.ts`** substitui o `SunspotView`: três camadas (luz atrás do terreno, objeto atrás do Gatoelho, frente do objeto na frente dele) e `bedLift` (quanto ele sobe ao deitar dentro do objeto).
+- **`render/DreamView.ts`**: o sonho (quatro cenas) por cima da fase, por baixo do HUD/resultado; o resultado aparece quando o sonho termina ou é pulado. `SceneManager` ganhou `color` nas transições (o "acordar" azul-noite).
+- **`LevelDef`**: `nap`, `secretNap` (objeto + sonho) e `clues` (pistas no fundo: `fumaca`, `lenco`, `engrenagem`, `constelacao`, `fenda`, `pegadas`), lidas por `ForestBackdrop` e `DecorView`.
+- **Nitidez**: `GraphicsContextSystem.defaultOptions.bezierSmoothness = 0.85` (em `Game.create`) e câmera arredondando ao pixel da tela (`SceneContext.resolution`).
+- **Testes**: 266 verificações. Novos: concha-degrau, sapo com embalo (Fase 1 e rio da Fase 2), galho-mola (janela do arremesso, galho + pulo duplo), ritual do cochilo. Os robôs procuram atores pela posição (a ordem das listas é a de leitura do mapa, linha por linha — o "primeiro caracol" pode não ser o da esquerda).
+- Prints automáticos v4 e a folha de recortes (montagem de vários prints) ficaram na pasta temporária da sessão.

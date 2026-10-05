@@ -43,3 +43,10 @@ Protótipo jogável de ponta a ponta: abertura "LUDOVIC STUDIO" → título → 
 - 241 verificações automáticas passando.
 
 **Próximos passos possíveis:** mapa do mundo, HUD e painéis no estilo novo; mundos e chefes a partir da história; jogar com a enteada e ajustar o cochilo e as cores do pólen.
+
+## Estado em 2026-10-01 (noite) — fases v4, cochilo e sonhos
+- **Obstáculos sem cara de Mario**: os troncos flutuantes (plataformas elevadoras) saíram; o cogumelo-mola virou o **sapo-balão**; entrou o **galho-mola**; inimigos **não morrem** (caracol vira degrau na concha, passarato fica tonto). Ver [[Game Design do Gatoelho]].
+- **Fases maiores**: Fase 1 com o Pomar Velho (212 → 248 colunas), Fase 2 com o Pomar dos Galhos-Mola (230 → 262), Horta Escondida maior (80 → 98).
+- **Fim de fase**: o cochilo acontece num **cantinho com um objeto doméstico curioso** (cesto com novelo, pantufa de orelhas, relógio de bolso, xícara com óculos), com ritual de gato e depois um **sonho sem texto** cheio de pistas. Ver [[Direção de Arte e Som do Gatoelho]] e [[História e Mundos do Gatoelho]].
+- **Pistas no fundo** (fumaça na serra, engrenagem, lenço, constelação, fenda, pegadas grandes) e gráficos mais limpos e nítidos.
+- 266 verificações automáticas passando. Ainda não commitado ao escrever isto.

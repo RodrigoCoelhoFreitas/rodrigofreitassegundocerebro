@@ -8,6 +8,8 @@ Ramificação de [[Gatoelho]]. A história de fundo (a "bíblia": a verdade inte
 
 **Status: arco em construção com o Rodrigo (2026-09-30). O que está em "Decisões do Rodrigo" está decidido; o resto é proposta.**
 
+> **2026-10-05:** a seção "Revisão 2 da história" (no fim da nota) reorganiza tudo em volta da luta do Gatoelho contra ele mesmo mais velho e reduz os finais a três. Ela substitui as partes antigas que contradiz (lista dentro dela).
+
 ## Direção do Rodrigo (2026-09-30)
 - **A menina fica de fora** por enquanto. (Rascunho anterior descartado: casa humana em escala pequena, o Gatoelho nascido de um desenho, Dr. Bigodes como gato abandonado.)
 - **O Embaralhamento**: o DNA do mundo foi embaralhado e todos os animais e plantas viraram híbridos. A missão do Gatoelho é **achar um jeito de reverter isso**.
@@ -94,3 +96,112 @@ A história que a criança vive do começo ao final padrão. Escrita para ser co
 - Como o jogador chega à Dimensão Original (quantas pistas, quais habilidades).
 - Se os finais do laço e da recusa existem como finais jogáveis, ou só o padrão e o verdadeiro.
 - Mundos, fases e chefes: depois que o arco fechar.
+
+## Pistas plantadas nas fases v4 (2026-10-01, noite)
+Pedido do Rodrigo: o fim de fase vira um **sonho com pistas, não muito na cara**, e o **fundo das fases** ganha pistas sutis da história. Tudo abaixo é representado, nunca dito.
+
+**Os objetos do cochilo** são coisas de alguém do tamanho de um Gatoelho grande, que passou antes pelo mesmo caminho (o Bigodes, na bíblia):
+- **Novelo vermelho desbotado** (Fase 1): a mesma cor do lenço — desbotado como o do Bigodes. O fio segue adiante, para onde a história vai.
+- **Pantufa com cara de gato e orelhas de coelho** (Fase 2): quem usaria uma pantufa de Gatoelho num mundo onde só existe um? O dono aparece no sonho da mesma fase com **uma pantufa só**.
+- **Relógio de bolso com os ponteiros para trás** (saída secreta): o Bigodes foi jogado no passado; o retrato na tampa tem orelhas compridas.
+- **Xícara e óculos redondos** (Horta): alguém acabou de estar ali.
+
+**Os sonhos:**
+- **Dois mundos** (Fase 1): um gatinho num mundo, um coelhinho em outro; as bolhas se tocam num clarão e viram um Gatoelho. Criança: um sonho fofo. Quem sabe: a colisão de dimensões (um gato de um mundo e um coelho de outro).
+- **O velho do lenço** (Fase 2): alguém velho, de costas num morro sob a lua, com **orelhas compridas (uma torta)**, **bigodes compridos**, **lenço desbotado** e uma pantufa só; a antena pisca ao longe. A orelha dele **treme igualzinho à do Gatoelho** (ferramenta 4 da bíblia: animação como pista). Ele vira um tiquinho a cabeça, sem mostrar o rosto.
+- **Reflexos** (saída secreta): bolhas-espelho com outros Gatoelhos — o comum, um **Coelhato** (orelhas de gato e pompom), um **velho de bigodes**, um filhote, um com barbatanas — e um relógio enorme **andando para trás**; todos mexem a orelha ao mesmo tempo. As variantes e o laço.
+- **Cenouras roxas** (Horta): cenouras roxas brotando (ferramenta 2: a Dimensão Original), uma **fenda** abrindo no céu, e uma constelação de cabeça de orelhas compridas que **ganha bigodes** (fica velha).
+
+**No fundo das fases:**
+- Fase 1: uma **casinha com chaminé** no alto da serra; de vez em quando a fumaça sai **lilás** (alguém está "embaralhando" coisas lá dentro). **Pegadas grandes** na grama, sempre para a frente.
+- Fase 2: um **lenço vermelho desbotado** preso num galho lá longe; uma **engrenagem enorme** meio enterrada num morro, que gira um tiquinho de tempos em tempos; pegadas; a antena.
+- Horta: a **constelação** de orelhas compridas e a **fenda** finíssima no céu.
+- Todas: a cabeça de pedra das ruínas ganhou **bigodes gravados** — quem fez a estátua conhecia alguém igual ao Gatoelho (o laço é antigo).
+
+## Revisão 2 da história (2026-10-05) — desembaraçando
+Direção do Rodrigo: **o Gatoelho está lutando contra ele mesmo, mais velho**, para desativar as antenas e fazer a realidade parar de ser alterada. Pedido: pensar a história de forma geral e desembaraçar as ideias do final simples e dos outros finais.
+**Status: proposta do Claude, esperando o Rodrigo decidir.** Onde ela entra em conflito com as seções anteriores, ela substitui (lista no fim).
+
+### O que estava embaraçado
+1. **Tempo ou dimensão?** O Bigodes era "de outra dimensão" *e* "jogado no passado", e o Embaralhamento era *ao mesmo tempo* colisão de dimensões e mistura de DNA. Duas explicações para a mesma coisa.
+2. **Uma corrente infinita de Gatoelhos diferentes** deixava a luta "contra si mesmo" pouco pessoal: o vilão era *um* Gatoelho, não *o* Gatoelho.
+3. **Quatro finais** (padrão, laço, recusa, verdadeiro), dois deles quase iguais (a recusa é só não fazer nada).
+4. **"Dimensão Original"**: um lugar que existe só para provar que não existe.
+5. **Por que o velho quer desfazer tudo?** Faltava um motivo de coração; "pureza" é uma ideia, não um sentimento.
+
+### A espinha, em uma frase
+**O Gatoelho luta contra o Gatoelho que ele vai ser se nunca aceitar que é misturado.**
+
+### A mecânica do mundo: uma espiral de tempo (uma explicação só)
+- **O Clarão** do prólogo é a onda de uma máquina de reversão ligada **no futuro**, por um Gatoelho velho. A onda voltou no tempo: em vez de separar os seres, **misturou** — e foi nesse instante que um gato e um coelho viraram **o nosso Gatoelho**, filhote.
+- O velho veio junto com a onda e ficou preso **no passado da própria vida**. É o **Dr. Bigodes**.
+- Ele acha que errou a potência e tenta de novo: espalha **antenas** pelo mundo. Cada pulso tenta desembaralhar e só re-embaralha (cenouras com perna, gravidade trocada): **é o problema da criança**.
+- O laço **não é um círculo, é uma espiral**: cada vez que um Gatoelho velho liga a máquina, nasce uma volta nova do mundo, um pouco diferente. **As fendas mostram as outras voltas** — e os "outros Gatoelhos" (Coelhato, o velho de bigode, o de barbatanas) são o mesmo Gatoelho em outras voltas. O multiverso estilo Rick and Morty continua, mas agora é **o laço visto de lado**, não uma segunda explicação.
+- **Ninguém lembra de um começo** porque não houve: a espiral não tem primeira volta. Igual à biologia.
+
+### Por que o velho faz isso (o coração)
+Ele passou a vida sendo **o único Gatoelho do mundo**. Nunca foi gato o bastante para os gatos, nem coelho o bastante para os coelhos. Concluiu que **ele era o erro** — e que consertar o mundo era consertar a si mesmo. A criança vê um cientista ranzinza e engraçado; o adulto vê alguém que nunca se aceitou. **Lutar contra ele é lutar contra essa ideia.** (O tema anti-pureza fica com rosto, e não precisa de discurso.)
+
+E ele **sabe** quem o pequeno é. Nunca o machuca de verdade; foge, atrapalha, olha demais.
+
+### Os objetos sem começo (o laço contado por coisas)
+- **O lenço vermelho**: o filhote foi achado enrolado num lenço vermelho. O Bigodes usa **o mesmo lenço, desbotado** pelos anos. Ninguém deu o lenço a ninguém: ele só passa de um para o outro, em volta da espiral.
+- **O cesto com o novelo** (cochilo da Fase 1): é **o cesto em que o filhote foi deixado na porta da Vó Tartuja**. Quem deixou foi o Bigodes, logo depois do Clarão. (O fio do novelo segue adiante pelo caminho — até ele.)
+- **A pantufa de orelhas** (Fase 2): é dele; ele anda com uma só.
+- **O relógio que anda para trás** (saída secreta): o tempo dele corre ao contrário do nosso.
+- **A xícara e os óculos** (Horta): ele estava ali agora há pouco.
+Tudo isso já está no jogo (fases v4). A revisão só dá a eles uma razão única.
+
+### Os chefes e as antenas
+- Uma **antena por mundo**, cada uma alterando uma lei: gravidade, cores, água que sobe, objetos com vontade própria, o tempo pulando.
+- Cada antena é guardada por um **híbrido que ela embaralhou demais** (e sofre com isso). Seguindo a regra das fases v4 — **ninguém morre** —, vencer um chefe é **acalmá-lo**: a antena cai, ele volta ao normal (ao "normal embaralhado" dele) e vira amigo, às vezes ensinando uma habilidade.
+- **O Bigodes aparece em todo mundo**, cada vez mais perto: um vulto no horizonte (Mundo 1), uma silhueta fugindo numa engenhoca (2), um encontro de costas (3), uma luta curta em que ele foge pela fenda (4), e o Pico do Clarão.
+
+### Os três finais (eram quatro)
+
+**1. Final da Toca — o simples (a criança).** Obrigatório para terminar a aventura.
+- No Pico do Clarão, a luta é contra as **engenhocas** do Bigodes (pisões nas máquinas, não nele). No fim ele se cansa e senta. O Gatoelho desliga a última antena. As ondas param.
+- O Bigodes olha longamente para ele, ajeita o lenço desbotado e some por uma fenda pequena.
+- Volta para casa: as cenouras voltam para a horta, a Vó desvira, festa na toca, o cochilo mais gostoso do mundo.
+- Pós-créditos: a fenda pequenininha brilha no céu; a orelha dele treme.
+- **Por que é incompleto (só o adulto percebe):** o velho foi embora sem se aceitar. A espiral continua; um dia o nosso Gatoelho pode virar ele.
+
+**2. Final da Espiral — o trágico (opcional, pós-jogo).**
+- Depois do Final da Toca, as fendas abrem. Numa delas está a **máquina de reversão inteira**, intacta. Nada impede o jogador de ligá-la.
+- Se ligar: a tela vira o **Clarão do prólogo, quadro por quadro**, e o jogo volta à abertura. O lenço do Gatoelho no título, a partir daí, aparece **desbotado**.
+- Ninguém explica nada. Quem entende, entende que acabou de virar o Bigodes.
+- (Substitui o "final do laço" e absorve o "final da recusa": não ligar a máquina não é um final, é só o jogo continuando.)
+
+**3. Final do Cochilo — o verdadeiro (quem investiga).**
+- Exige as **Cenouras Roxas** (uma por fase) e o **Faro de DNA**. Elas abrem a fenda para **"O Antes"**: o mundo de antes do Clarão. (Substitui a "Dimensão Original".)
+- O Antes **também é misturado**, com fatos reais: a cenoura é roxa (a laranja foi cultivada depois), há mula e ligre, e um ornitorrinco que nenhum Clarão explica. Farejando um gato "puro" ali, as fitas de DNA dele têm muitas cores. **Não existe começo puro.**
+- De volta ao Pico, a luta muda: se o Gatoelho **fareja o Bigodes** em vez de atacar, vê as mesmas fitas das dele. As engenhocas param sozinhas.
+- O Gatoelho não desliga a máquina nem a quebra: **ele se enrola e cochila do lado do velho.** O jogador só precisa esperar. Pela primeira vez em todo o jogo, **o Bigodes deita e cochila também** — o ritual de gato inteiro, o mesmo do fim de cada fase, só que mais lento e duro de velho.
+- Eles sonham o mesmo sonho: o gatinho e o coelhinho das bolhas, e agora **duas** bolhas de Gatoelho, uma pequena e uma velha, encostadas.
+- As antenas apagam sozinhas, porque ninguém mais precisa delas. O mundo continua se misturando, como sempre se misturou.
+- Última imagem: uma abelha leva pólen entre duas flores diferentes. Uma frase em gatoelhês, que só quem decifrou o idioma lê.
+- **O que fecha:** ele não venceu o velho; **parou de ser o velho**. A espiral acaba nesta volta.
+
+### O que a criança vive, o que o adulto entende
+| Momento | Criança | Quem lê / investiga |
+|---|---|---|
+| Prólogo | Um clarão bonito; o mundo ficou engraçado | É a onda da máquina do próprio Gatoelho, vinda do futuro |
+| O filhote no cesto | A Vó acha um bebê fofo | O velho deixou o bebê que ele mesmo foi |
+| Antenas e chefes | Bichos bagunçados que precisam de ajuda | Tentativas de desfazer a si mesmo, machucando o mundo |
+| Bigodes | Cientista ranzinza de bigodão | O Gatoelho que nunca se aceitou |
+| Final da Toca | Festa e cochilo | O velho foi embora sozinho; a espiral continua |
+| Final do Cochilo | Os dois dormindo juntos | Aceitar-se é o único jeito de sair do laço |
+
+### O que esta revisão substitui
+- "Colisão de dimensões" e "Gatoelho de outra dimensão" → **espiral de tempo**; as dimensões viram **as outras voltas da espiral**.
+- "Corrente infinita de Gatoelhos diferentes" → **o mesmo Gatoelho**, volta após volta.
+- "Dimensão Original" → **O Antes**.
+- Final do laço + final da recusa → **Final da Espiral** (a recusa deixa de ser final).
+- Final verdadeiro "faz as pazes com o Bigodes" → **o cochilo dividido** (feito com a mecânica-assinatura, sem diálogo).
+
+### Perguntas para o Rodrigo
+1. Espiral de tempo (recomendado) ou manter dimensões como explicação principal?
+2. O Bigodes **sabe** que o pequeno é ele? (Recomendado: sim — explica por que ele nunca machuca de verdade e deixou o bebê na Vó.)
+3. O Final da Espiral deve **marcar o save** (lenço desbotado no título dali em diante) ou só tocar a cena?
+4. Quantos mundos/antenas no jogo completo? A estrutura funciona com 4 antenas + o Pico.
+5. A Vó Tartuja sabe de alguma coisa? (Ela "sempre dorme no meio da frase sobre como era antes" — dá para ela ter visto o Bigodes deixar o cesto.)
