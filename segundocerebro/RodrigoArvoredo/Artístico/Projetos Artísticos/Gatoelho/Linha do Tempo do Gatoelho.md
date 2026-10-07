@@ -48,3 +48,13 @@ Pedido do Rodrigo: gráficos mais limpos e nítidos, obstáculos melhores e sem 
 4. Cochilo em cantinhos com objetos domésticos (cesto, pantufa, relógio, xícara), ritual de gato e sonhos sem texto.
 5. Fundo mais limpo, pistas da história no cenário, curvas mais finas e câmera no pixel da tela.
 6. 266 verificações passando. Detalhes em [[Game Design do Gatoelho]], [[Direção de Arte e Som do Gatoelho]] e [[História e Mundos do Gatoelho]].
+
+## 2026-10-05 e 06 — a bíblia da história (revisões 4 a 9)
+Sessão longa só de história e universo, sem mexer no código. O Rodrigo pediu um arco "magnífico" e foi decidindo rodada a rodada; tudo ficou registrado em notas novas.
+1. **Revisão 4**: dois modos (Ronrom, fácil, para crianças pequenas; Arrepio, difícil e profundo), os três Gatoelhos (o nosso, o Bigodes, o Reflexo que ajuda sem aparecer), guarda-roupa, fim de fase direto para o mapa com transições abstratas, terminais nas antenas (sandbox). Decidido: "inteiro não é puro", todos os finais ficam, o Reflexo nunca aparece de corpo.
+2. **Revisão 5**: a tese ("não dá para voltar, dá para tecer"), a volta no tempo como mecânica central, o luto do Bigodes, o Pé de Feijão-de-Corda (fase secreta de subida) e o Heitor, o hamster preguiçoso. Decidido: o luto fica, a perda do relógio no final fica, o Heitor é a ajuda discreta.
+3. **Revisão 6**: a premissa **"o jogo que você joga aos 5, ajuda alguém a jogar aos 15 e entende aos 30"** (decidida como o grande diferencial), o Modo Reflexo, a Cápsula do Tempo, doze finais.
+4. **Revisão 7**: lições dos clássicos (O Senhor dos Anéis, Harry Potter, Star Wars, Breaking Bad); o plano do Bigodes e a profecia lida no reflexo (decididos); o Patatu companheiro; a Madame Cisnobra; a Traça; treze finais; a bíblia dividida em notas.
+5. **Revisão 8**: a segunda premissa, **"cada pessoa joga um Gatoelho diferente"** (dimensões por semente), o Avesso infinito, as missões escondidas do Reflexo, os achados, o jornal satírico O Novelo, os pilares de jogabilidade. Decidido: manter fases ("um Hollow Knight de fases").
+6. **Revisão 9, a Camada Zero**: o mundo do Gatoelho é a Terra depois da extinção humana; as Máquinas, antes de partir para o espaço (a linhagem do livro [[A Sonda]]), fizeram o embaralhamento genético dos animais que restavam; no fim da série, o Gatoelho pede ajuda e sai da Terra com os amigos. Decidido: nada da superfície muda; a humanidade já está extinta quando o jogo começa; a ponte com A Sonda é a inteira.
+Notas: [[Arco Completo do Gatoelho]], [[Finais do Gatoelho]], [[Lendas do Gatoelho]], [[Sistemas da História do Gatoelho]], [[Guarda-Roupa do Gatoelho]], [[Personagens do Gatoelho]], [[Tecido Infinito do Gatoelho]], [[Jornal do Gatoelho]], [[Camada Zero do Gatoelho]].

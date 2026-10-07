@@ -8,6 +8,8 @@ Ramificação de [[Gatoelho]]. A história de fundo (a "bíblia": a verdade inte
 
 **Status: arco em construção com o Rodrigo (2026-09-30). O que está em "Decisões do Rodrigo" está decidido; o resto é proposta.**
 
+> **2026-10-05 (mais tarde):** as **Revisões 4 e 5**, com o arco completo, está em [[Arco Completo do Gatoelho]] e o elenco em [[Personagens do Gatoelho]] (proposta). Esta nota vira histórico.
+
 > **2026-10-05:** a seção "Revisão 2 da história" (no fim da nota), já decidida com o Rodrigo, reorganiza tudo em volta da luta do Gatoelho contra ele mesmo mais velho e reduz os finais a três. Ela vale onde contradiz as partes antigas (lista dentro dela).
 
 ## Direção do Rodrigo (2026-09-30)
@@ -209,3 +211,76 @@ Ela viu um bicho velho, de orelhas compridas e bigodão, deixar o cesto na porta
 - O tema de cada uma das 4 antenas e dos mundos (Bosque das Cenouras, Telhadópolis, Tocópolis, Monte Ronrom, Ilha das Nove Vidas — escolher 4 e onde fica o Pico).
 - Como a criança destrava o Faro de DNA (habilidade ganha num chefe?).
 - Se o sonho do Final do Cochilo deve aparecer também, incompleto (uma bolha só), no fim de alguma fase antes — como prenúncio.
+
+## Revisão 3 — o emaranhado cresce (2026-10-05, proposta)
+Pedido do Rodrigo: continuar pensando e **aumentar o emaranhado** da história. **Status: proposta do Claude.** Parte da Revisão 2 (decidida) e não muda nada dela; só amarra mais fios. Regra mantida: a camada da criança não depende de nada disto.
+
+### Fio 1 — Por que a porta da Vó Tartuja
+No mundo do Bigodes também existia uma Vó: **uma versão da Vó Tartuja**, outra mistura (tartaruga com garça, digamos), que o criou. Ela já não existe mais lá: o mundo dele foi engolido pelo Embaralhamento que outro Gatoelho causou.
+Quando caiu aqui junto com o Clarão e achou o filhote, ele sabia exatamente em que porta bater. **A Vó daqui é a Vó dele, de outra dimensão.** Ela não o conhece; ele a conhece a vida inteira. Por isso o olhar longo, quando ela o viu deixar o cesto.
+- Pista: a Vó Tartuja e o Bigodes tomam chá na **mesma xícara de florzinhas azuis** (a da Horta Escondida). Ela tem um jogo de quatro; falta uma.
+
+### Fio 2 — As antenas têm um coração
+Cada antena é montada em volta de **uma lembrança do mundo do Bigodes**: um pedaço de uma fotografia antiga. Quando o Gatoelho acalma o chefe e a antena cai, o pedaço fica no chão e entra sozinho na mochila — **não é colecionável a mais, vem de graça** a cada antena.
+Os 4 pedaços juntos mostram: **a Vó do outro mundo segurando um Gatoelho filhote com um lenço vermelho novinho**. A criança vê uma foto de família fofa. O adulto vê que a Vó da foto é quase a Vó Tartuja — e que o filhote da foto é o Bigodes.
+- No Final do Cochilo, a foto inteira fica do lado dos dois, dormindo.
+
+### Fio 3 — O elo anterior: o Coelhato
+O Embaralhamento do mundo do Bigodes foi causado por **outro Gatoelho**, ainda mais velho: o **Coelhato** (corpo de coelho, orelhas pontudas de gato, pompom no lugar do rabo — já aparece no sonho "Reflexos").
+O Coelhato fez o que o Bigodes nunca fez: **desistiu da máquina e se aceitou**. Vive bem velhinho na **Ilha das Nove Vidas**, um lugar remendado com pedaços de muitas dimensões, cuidando de uma horta de **cenouras roxas**.
+- É ele quem conhece o caminho para a **Dimensão Original** (o fim do Final do Cochilo).
+- O Bigodes sabe quem ele é, e **não o perdoa**. As cartas do Coelhato para o Bigodes, nunca entregues, estão espalhadas pela ilha, escritas em gatoelhês.
+- Para a criança: um velhinho simpático que dá cenouras. Para quem lê: o elo que conseguiu sair da corrente — e o espelho do que o nosso Gatoelho pode ser.
+
+### Fio 4 — As ruínas e o gatoelhês
+- As **ruínas de pedra** do fundo das fases (a cabeça de orelhas compridas com bigodes gravados) **não são deste mundo**: são pedaços de outras dimensões que o Clarão derramou aqui. Por isso há estátuas de Gatoelho num mundo onde só existe um.
+- O **gatoelhês** (pata, orelha, rabo, bigode) é a escrita que **todo Gatoelho inventa sozinho**, em toda dimensão, desenhando o próprio corpo. Ninguém ensinou ninguém. Por isso o mural das flores-sino, as pedras antigas e as placas da máquina usam os mesmos símbolos.
+- Prova disso no jogo: a **primeira placa da toca**, desenhada pelo próprio Gatoelho pequeno, já usa um símbolo de gatoelhês (sem a criança saber).
+
+### Fio 5 — A pantufa que falta
+O Bigodes anda com uma pantufa só. A outra ficou para trás quando a onda o arrastou: está **no mundo dele**, que só se alcança por uma fenda escondida no pós-jogo.
+- Missão paralela, opcional: achar a outra pantufa.
+- Se o Gatoelho a tiver no Final do Cochilo, o velho acorda do cochilo com **as duas pantufas nos pés**. Nenhum texto.
+
+### Os 4 mundos, as 4 leis e os 4 chefes
+Cada antena muda uma lei do mundo; cada chefe é um híbrido sofrendo com ela e é **acalmado**, não derrotado.
+
+| Mundo | A lei que a antena troca | Chefe (acalmado) | O que ele dá |
+|---|---|---|---|
+| 1 · Bosque das Cenouras | **Vontade**: plantas e coisas ganham vontade própria (as cenouras fujonas já são isso) | **Dona Tronca**, árvore-tartaruga que quer andar e tem as raízes presas por espinheiros que a antena faz crescer | 1º pedaço da foto |
+| 2 · Telhadópolis | **Peso**: a gravidade troca de lado nos telhados | **Robogato**, um robô que o Bigodes fez para ter companhia, **com a forma de um Gatoelho e um lenço vermelho** | 2º pedaço da foto |
+| 3 · Tocópolis | **Luz**: claro e escuro se invertem nos túneis | **Rei Caracólio**, caracol tão grande que a concha é um reino, com medo do escuro que virou claro | **Faro de DNA** (ver abaixo) e o 3º pedaço |
+| 4 · Monte Ronrom | **Água**: a água cai para cima, e o vulcão ronrona | **Gatópora**, gata-capivara que só quer tomar banho quente e não consegue (a água foge para o céu) | 4º pedaço da foto |
+| Pico do Clarão | Todas as leis ao mesmo tempo | **Dr. Bigodes** | — |
+| Ilha das Nove Vidas (pós-jogo) | Pedaços de muitas dimensões costurados | — (o Coelhato) | Caminho para a Dimensão Original |
+
+### O Faro de DNA
+- O Gatoelho sempre farejou (no começo da história ele sente "metal, óleo e gato velho"), mas só **vê as fitas** depois do Mundo 3.
+- Quem ensina é a **Tia Toupeca**, toupeira cega, irmã da Vó Tartuja, que mora em Tocópolis e "vê" pelo cheiro. Ela também viu coisas, e também dorme no meio das frases (é de família).
+- Na brincadeira: cada ser tem fitas coloridas (duas cores num híbrido). A criança coleciona cores; quem pensa repara que **ninguém tem uma cor só**.
+
+### O prenúncio nos sonhos
+O sonho do fim de cada mundo mostra **um pouco mais** do sonho do Final do Cochilo:
+1. Mundo 1: o gatinho e o coelhinho viram um (já existe: "Dois mundos").
+2. Mundo 2: o velho do lenço, de costas (já existe).
+3. Mundo 3: uma bolha de Gatoelho pequeno, e ao lado **uma bolha vazia**.
+4. Mundo 4: as duas bolhas, mas **longe uma da outra**.
+5. Final do Cochilo: as duas bolhas **encostadas**.
+Quem joga até o fim sente que a imagem estava sendo preparada desde a Fase 1.
+
+### Linha do tempo (bíblia)
+1. **Mundo do Coelhato**: há um Embaralhamento antigo; o Coelhato cresce, constrói a máquina, liga — e o derrama sobre o mundo do Bigodes. Arrependido, para.
+2. **Mundo do Bigodes**: o Bigodes nasce desse Embaralhamento, é criado pela Vó do outro mundo, ganha dela o lenço vermelho, cresce sozinho como o único Gatoelho, perde a Vó e o mundo, constrói a máquina.
+3. **O Clarão**: a máquina do Bigodes derrama o Embaralhamento sobre o nosso mundo. Nasce o nosso Gatoelho. O Bigodes cai aqui junto com a onda e acha o filhote.
+4. **A porta da toca**: ele tricota um lenço vermelho igual ao dele, põe o filhote no cesto (com o novelo e as agulhas) e o deixa na porta da Vó Tartuja. Ela o vê ir embora.
+5. **Anos depois**: o Bigodes espalha as antenas. As ondas re-embaralham tudo. O jogo começa.
+
+### Alerta de escopo
+O emaranhado cresceu sem criar colecionável obrigatório novo: os pedaços da foto vêm sozinhos com as antenas, e a pantufa é missão paralela. Mas agora existem **muitos personagens com voz** (Vó, Tia Toupeca, Coelhato, Robogato, quatro chefes). Como o jogo não tem texto obrigatório, cada um precisa ser **contado por animação e objetos**. Vale escolher logo quais deles são essenciais e quais podem ficar só no texto opcional.
+
+### Perguntas para o Rodrigo
+1. A Vó do outro mundo ser uma versão da Vó Tartuja: entra?
+2. O Coelhato como elo anterior (que se aceitou e vive na Ilha das Nove Vidas): entra?
+3. Os 4 mundos e chefes da tabela servem, ou quer trocar algum?
+4. A Tia Toupeca ensinar o Faro de DNA no Mundo 3: entra?
+5. O Robogato com a forma de Gatoelho: fica fofo ou fica triste demais?
