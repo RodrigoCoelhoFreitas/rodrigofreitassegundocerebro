@@ -148,6 +148,7 @@ Com um servidor mínimo, a Traça pode ser **uma só para todas as dimensões**:
 - No Fio Vermelho, a ilha é a primeira coisa recosturada.
 
 ## O calendário
+> ⚠ Em revisão: ver o ajuste 3 em [[A História do Gatoelho]] (o mundo já era misturado antes do Clarão).
 - O povo do nosso mundo conta os anos **a partir do Clarão**: o ano do Clarão é o ano zero, e o jogo começa no **ano 8 D.C.** (Depois do Clarão). A idade do Gatoelho é a idade do mundo misturado.
 - As marcas de altura no batente da toca são oito.
 - No caderno do Bigodes, as datas estão em outro calendário: o do mundo dele. O último registro tem data de **antes** do Clarão, riscada.

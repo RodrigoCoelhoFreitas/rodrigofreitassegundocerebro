@@ -14,6 +14,8 @@ Ramificação de [[Gatoelho]]. **A bíblia da história**: a premissa, o que tor
 - [[Jornal do Gatoelho]] — O Novelo, o jornal de todas as dimensões: a sátira.
 - [[Camada Zero do Gatoelho]] — a verdade por baixo de tudo, nunca dita: a Terra depois do fim da humanidade, a Arca das Máquinas, a casa da Vó de Todas, a ligação com o livro [[A Sonda]]. **Não muda nenhum acontecimento desta nota** (decisão do Rodrigo).
 
+**A trama inteira, em ordem e com marcos numerados, está em [[A História do Gatoelho]].**
+
 As revisões 1 a 3 ficam em [[História e Mundos do Gatoelho]], como histórico.
 
 **Status: Revisão 8 (2026-10-05), proposta do Claude** sobre as decisões do Rodrigo (lista no fim). A Revisão 8 acrescentou o [[Tecido Infinito do Gatoelho]], o [[Jornal do Gatoelho]] e a Traça desenvolvida em [[Lendas do Gatoelho]]; o arco abaixo não mudou. Fases e antenas concretas continuam para depois.
@@ -169,6 +171,7 @@ O vilão precisa de um plano à altura de um clássico. O do Bigodes tem três c
 5. **A máquina.** Ele constrói uma máquina para voltar no tempo e "desfazer a Corrente". Era para ver a Vó de novo.
 6. **O Clarão.** Ao ligar a máquina, o tempo e as dimensões (o mesmo tecido) rasgam. A onda se derrama sobre o nosso mundo. Um gatinho de rua que ninguém esperava e um coelhinho cuja mãe o esperava viram um filhote: a nona vida. O Bigodes é arrastado junto, com a caixinha de música e três xícaras no colete, e perde uma pantufa.
 7. **A porta da toca.** Ele acha o filhote. Tricota um lenço vermelho igual ao seu, põe o filhote no cesto e o deixa na porta da Vó Tartuja (a versão daqui da Vó dele). **Ergue a pata para bater e não tem coragem.** Escreve uma carta para ela e a entrega ao carteiro, o **Pinguinguru**, mas volta correndo e pede: *"Só entregue quando eu tiver coragem."* O carteiro guarda a carta até hoje.
+> ⚠ Em revisão: ver os ajustes 1 e 2 em [[A História do Gatoelho]] (o Robogato teria sido feito antes do Clarão, no mundo do Bigodes).
 8. **Os anos.** O Bigodes mora na Casinha da Serra, vigiando a toca pela luneta. **Toda noite a Vó deixa chá na janela; toda madrugada ele toma e devolve a xícara lavada, de boca para baixo.** É assim que ela sabe que ele continua lá. Ele liga a máquina 4.096 vezes, constrói companheiros de corda (o Robogato, os gêmeos Tic e Tac), espalha as antenas e monta a trilha.
 9. **A Madame Cisnobra** (cisne com cobra, que odeia a própria metade cobra) descobre a máquina e decide usá-la para si: quer ser só cisne. Rouba os gêmeos de corda e passa a atrapalhar todo mundo.
 10. **A Vó sai atrás.** Na manhã em que o Gatoelho parte, a Vó também sai, sem ninguém ver, no passo de tartaruga.

@@ -14,6 +14,7 @@ Nasceu da vontade de fazer um jogo para a **enteada do Rodrigo** — mas sem ser
 - [[Direção de Arte e Som do Gatoelho]] — identidade visual, o boneco provisório, animação reaproveitável, áudio sintetizado provisório, pipeline de assets ainda por definir.
 - [[Pesquisa de Fases do Gatoelho]] — como outros jogos constroem fases e o método de fases proposto.
 - [[História e Mundos do Gatoelho]] — bíblia da história em camadas, mundos no modelo Donkey Kong Country 3, finais e missão paralela (rascunho).
+- [[A História do Gatoelho]] — **a trama inteira contada de uma vez**, em ordem, com marcos numerados (do fim da humanidade à Sonda), mais os ajustes de coerência e os pontos soltos (2026-10-06).
 - [[Arco Completo do Gatoelho]] — a bíblia da história (Revisão 7, proposta, 2026-10-05): a premissa ("o jogo que você joga aos 5, ajuda alguém a jogar aos 15 e entende aos 30"), o que torna um arco perfeito, a tese, o plano do Bigodes e o arco ato por ato. Notas irmãs:
   - [[Finais do Gatoelho]] — treze finais e o sistema de variantes.
   - [[Lendas do Gatoelho]] — o Tecido, as Nove Vidas, a profecia lida no espelho, o gatoelhês, a Traça, a cantiga.
@@ -68,3 +69,6 @@ Protótipo jogável de ponta a ponta: abertura "LUDOVIC STUDIO" → título → 
 - **Alertas registrados**: arte no nível de Hollow Knight pede desenho à mão; a simulação determinística e as sementes precisam entrar no motor cedo (servem à volta no tempo, à geração e à rede); o primeiro lançamento é o modo Ronrom.
 
 **Próximos passos possíveis:** decidir as perguntas em aberto da bíblia; definir os mundos e as antenas concretos; trazer para o código a volta no tempo (com simulação determinística) e o Heitor no mapa.
+
+### A história consolidada (2026-10-06)
+A trama inteira foi juntada em [[A História do Gatoelho]]: a verdade em ordem, 21 marcos do jogo 1, seis marcos da saga, seis ajustes de coerência e os pontos soltos. **Próximo passo:** o Rodrigo aprovar ou trocar os ajustes; depois, levá-los às notas de origem.
