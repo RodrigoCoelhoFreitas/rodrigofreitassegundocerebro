@@ -6,6 +6,8 @@ tags: [projeto, jogo, game-design, lore, personagens]
 
 Ramificação de [[Gatoelho]]. Elenco do [[Arco Completo do Gatoelho]] (Revisão 7, 2026-10-05). **Status: proposta do Claude. Nomes provisórios.** A lista é grande de propósito: é um cardápio para escolher, não uma lista para fazer tudo.
 
+> **Continuação (2026-10-16):** misturas com plantas, as Douradas, os Ao-Pé-da-Letra, a família com o carisma completo, o Carrapatu e alertas de coerência estão em [[Misturas do Gatoelho]] (proposta).
+
 ## Regras do elenco
 1. **O nome é a mistura**, num português que soa natural de falar alto (Vacaré, Tubaramster). A criança tem que conseguir repetir.
 2. **Toda mistura tem uma contradição**, e a contradição é ao mesmo tempo a piada e a história do bicho.
