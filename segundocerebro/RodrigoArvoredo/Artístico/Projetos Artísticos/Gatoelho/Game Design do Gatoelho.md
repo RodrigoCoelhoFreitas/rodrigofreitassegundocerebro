@@ -35,6 +35,8 @@ Pequeno aventureiro, muito ágil: curioso, alegre, energético, brincalhão, lev
 Gato + coelho deve virar **gameplay**, não só estética. Coelho: saltos altos, salto duplo, impulso das patas traseiras, velocidade, orelhas para planar. Gato: garras, ataques rápidos, escalar/agarrar parede, salto de parede, aterrissagens, entrar em lugares pequenos, esconder-se.
 
 ## Estrutura do jogo (decidida em 2026-09-29)
+> **Proposta pendente (2026-10-16):** a [[Planeta e Mundos do Gatoelho]] troca o mapa de fora por um planeta redondo à moda do Donkey Kong Country 3 (nove gomos, as nove realidades) e mantém, dentro de cada mundo, o mapa de caminhos abaixo. Nada decidido.
+
 - **Mapa do mundo visto de cima, estilo Super Mario World**: o Gatoelho anda entre as fases pelos caminhos, entra numa fase ao confirmar/clicar, e **o próprio mapa também terá segredos** (caminhos escondidos).
 - **O Gatoelho ganha muitas e muitas mecânicas com o tempo**; por isso começamos pelas mais básicas. Com mecânicas novas, ele **volta às fases antigas e encontra segredos e recursos secretos** (modelo Mega Man X).
 - Visão inicial de escopo do jogo completo: **5 mundos × (4 fases + 1 chefe) ≈ 25 fases** — referência, não compromisso. Começar pelo contrário: um trecho pequeno com qualidade muito alta (vertical slice no Bosque das Cenouras).
