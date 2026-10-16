@@ -314,7 +314,46 @@ Se as nove redomas cabem no jogo 1, o jogo 2 perde o assunto que a Camada Zero t
 
 ---
 
-## Parte 13 — Decisões pedidas
+## Parte 13 — Ideias guardadas (alternativas e soltas)
+Tudo o que foi pensado nesta rodada e não entrou na proposta, com o motivo. Nada aqui é descartado para sempre.
+
+### Outras formas do planeta
+1. **Planeta de lado** (*O Pequeno Príncipe*): um círculo visto de perfil, e o Gatoelho anda na borda, como numa fase. Em volta, **camadas concêntricas**: o céu (o Feijão, a lua dupla), a superfície (os nove mundos), o subsolo (Tocópolis), o Avesso (anéis cada vez mais fundos e mais antigos) e o núcleo. Mais simples para a criança e para o código. **Perdeu** porque os gomos não se encontram num ponto que se vê (o topo) e o mapa vira uma linha. **Guardar:** as camadas concêntricas como desenho do Avesso.
+2. **Gomos de polo a polo**, com o Pico no polo norte e a Ilha no polo sul. A piada: no fundo do mundo tudo fica de cabeça para baixo, e foi por isso que o Bigodes leu a profecia pelo avesso. **Perdeu** porque não sobra lugar para o lado de fora.
+3. **As nove redomas como pétalas em volta do polo, com a Ilha no polo** e o Pico perto de casa. **Perdeu** para o Pico no topo, que vira a bússola.
+4. **Cilindro com horizonte curvo** (o "tronco que rola" do *Animal Crossing*): mais barato, mas só dá a volta de leste a oeste. **Plano B técnico** se a esfera confundir a criança.
+5. **Lado do dia × lado da noite:** o lado de cá iluminado; o de lá numa noite sem fim, porque o céu daquelas redomas quebrou. Ficou só um pedaço (o lado de lá aparece escuro no pós-créditos do Ronrom).
+6. **A Ilha no centro do planeta** (Terra oca): descartada, por ser clichê e por brigar com a física.
+
+### Outras distribuições dos mundos
+1. **Telhadópolis como a cidade portuária da Navegante** (alternativa forte). As marés de máquina inundam as ruas, por isso todo mundo mora nos telhados, e o gato nunca desce. Azulejo de Lisboa, terra dos navegadores; caravela no porto; tubarão e crocodilo, bichos de água; e o cronômetro de bordo (o relógio que deixou os navegadores acharem a longitude) como o relógio dela. Nesse caso, **Monte Ronrom vira o mundo do Relojoeiro**: a montanha ronrona porque é cheia de engrenagens por dentro, com vapor e fontes quentes. **Perdeu** porque o Relojoeiro perderia a cidade dos relógios e o Cucodrilo perderia o sentido de cuco. Serve **se a troca da 2ª com a 3ª vida não agradar**.
+2. **Monte Ronrom no gelo:** um vulcão debaixo de uma geleira (como na Islândia), gêiseres que sobem e congelam no ar, bichos tomando banho em fonte quente na neve (como os macacos do Japão). **Perdeu** porque tiraria a cara tropical do lugar (ipê, jabuticaba, vitória-régia). **Guardar** para o Pico ou para um mundo do lado de lá.
+3. **A Fiandeira no gelo:** geada parece teia, e "prender tudo para nada mudar" é congelar. **Perdeu** para a fiação (dá a segunda zona industrial e o tear).
+4. **A Sem Rosto como um mundo que a neve cobriu de branco para todo mundo ficar igual** (ninguém tem rosto). Foi absorvida na Planície Branca.
+5. **A criança na ordem Bosque → Tocópolis → Monte Ronrom → Telhadópolis**, sem trocar as vidas: a volta no tempo chegaria no Mundo 4, tarde demais. Descartada.
+6. **Pulsos viajando pelo topo**, onde todos os gomos se tocam (assim qualquer mundo seria vizinho de qualquer outro e a ordem das vidas ficaria livre da geografia). **Perdeu** para a ordem geográfica, que é mais simples e bate com a Camada Zero.
+7. **Tocópolis como o metrô entre todos os mundos**, com túneis por baixo de todos os muros. Ficou só entre o nosso mundo e o da Sem Rosto.
+
+### Ideias soltas
+1. **Coelho bate a pata no chão para chamar os outros:** o pisão, que é o ataque do jogo inteiro, vira o gesto de bater na porta no Arrepio.
+2. **Uma segunda placa, "ARCA 1",** mais funda em Tocópolis: quem acha as duas entende que os mundos têm número. Fica de fora por enquanto, porque passa do limite de pistas da Camada Zero.
+3. **Piadas geográficas para quem sabe:** o ornitorrinco vive no hemisfério de baixo, como o de verdade; o Pinguinguru é feito de dois bichos do sul (pinguim e canguru); a Ilha fica num lago debaixo do gelo, como os lagos de verdade enterrados na Antártida.
+4. **Modo luneta:** na Casinha, a luneta do velho vira uma lente para espiar o lado de lá do planeta antes de poder ir.
+5. **O Feijão cresce um pouco a cada mundo terminado**, e dá para ver no planeta.
+6. **As Girafassóis** da [[Misturas do Gatoelho]] mostram a hora do dia no planeta.
+7. **As antenas são luzes no planeta;** quando caem, a luz sobe para o topo (o Marco 8 visto de longe).
+8. **O Avesso em camadas da história:** descer é voltar no tempo da humanidade, camada por camada (placa de metrô, rosácea de catedral, coluna romana, ponta de pirâmide, fósseis, com o dinossauro que é avô da galinha), até a parede das mãos.
+9. **Um carrossel parado** no mundo do Coelhato (quem parou de girar em círculo), como alternativa ao círculo de pedras.
+10. **O Mundo Parado como uma Pompeia do luto:** uma cidade parada num instante, uma xícara no meio do servir. Sem os corpos.
+11. **Outros cutucos considerados:** o Elevador Lacerda (Salvador) ou o de Santa Justa (Lisboa) para a cidade vertical; o relógio astronômico de Praga; o Big Ben; o Cristo Redentor e o Congresso de Brasília (as duas cúpulas, uma para cima e uma para baixo, seriam "redomas" perfeitas), ambos fora por direito de imagem e direito autoral.
+12. **Uma Vó em cada mundo**, cada uma uma tartaruga misturada de outro jeito. Ficou só a xícara na janela, que é mais barata e diz o mesmo.
+13. **Duas portas para o Mundo Parado:** a dos fundos da Casinha e a da casa do Coelhato, que mora do outro lado do mesmo muro e nunca bateu.
+14. **O orelhão do Bosque** é onde o Heitor dorme no Arrepio.
+15. **O dia e a noite andam no mapa** enquanto o Gatoelho anda, e as fases mudam de hora conforme a hora em que se entra nelas.
+
+---
+
+## Parte 14 — Decisões pedidas
 Dá para responder por número ("aprovo tudo menos o 7").
 1. **O planeta:** nove gomos que se encontram no Pico (polo norte), a Ilha embaixo do Pico, a Borda no equador, o lado de fora no hemisfério de baixo, o Feijão na Borda.
 2. **A ordem dos gomos** e a troca da 2ª com a 3ª vida (andar para leste é andar a Corrente).
@@ -333,7 +372,7 @@ Dá para responder por número ("aprovo tudo menos o 7").
 (Ainda nenhuma.)
 
 ## Perguntas em aberto
-- As da Parte 13.
+- As da Parte 14.
 - Os nomes provisórios: Planície Branca, Horta Perfeita, Reino de Vidro, As Teias, Os Campos, Mundo Parado, e os nomes das fases.
 - O que a criança encontra no lado de lá se, num save do Ronrom, chegar a uma porta (proposta: a porta não abre, e alguém do outro lado responde batendo de volta).
 - O que a Horta Perfeita, o Reino de Vidro e As Teias dão de concreto para o Fio Vermelho, além do que ensinam.
