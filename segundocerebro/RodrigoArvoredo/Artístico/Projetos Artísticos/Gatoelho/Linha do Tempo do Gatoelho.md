@@ -78,3 +78,12 @@ Pedido do Rodrigo, numa conversa só de enredo (em paralelo a outras frentes do 
 4. **Sete ideias novas**, entre elas a foto como instantâneo (por que o Bigodes desliga a máquina), o desejo e o defeito do herói e a xícara cheia como ponte entre o Ronrom e o Arrepio.
 5. **Pontos soltos com recomendação**: uns 150 anos entre a Partida e o jogo; a Vó Tartuja fica na Terra; a Sonda é outra linhagem.
 6. Converge com [[Misturas do Gatoelho]] (força × encontro, o Patatu que pede ajuda, o Carrapatu); diverge no Fio Vermelho (lá: "a Agulha pergunta"). Os seis ajustes de 2026-10-06 entram nas treze decisões pedidas ao Rodrigo.
+
+## 2026-10-16 — a paleta (proposta)
+Pedido do Rodrigo, numa conversa só de cor (em paralelo às outras frentes): continuar pensando na paleta. Resultado: a nota [[Paleta do Gatoelho]] e uma página com prints do jogo e simulação de daltonismo, proposta, nada decidido. Nenhum arquivo do jogo foi alterado: as paletas novas foram testadas trocando as cores com o jogo rodando.
+1. **Um dicionário de cores**, com as cores para jogar (laranja pega, dourado é novo, roxo é escondido e verdadeiro, pontas claras machucam, fio de luz é chão) e as cores para ler (latão do Bigodes, porcelana da casa, luz das Máquinas, sépia do passado, cinza só da Traça, sonho, Onda iridescente).
+2. **A regra do vermelho**: só é vermelho o que foi tricotado por uma Vó (o vermelho é a única cor que veio das pessoas). Fio com nozinho para quem não enxerga vermelho; corações do HUD de tricô. Cinco lugares do código fogem da regra hoje.
+3. **Regiões**: Bosque (cenoura), Telhadópolis (azulejo), Tocópolis (vaga-lume), Casinha (âmbar e sépia), Monte Ronrom (ipê-rosa), Pico (os quatro feixes somam branco); noite escura em azul-chuva. Os feixes foram conciliados com o Nó 5 do [[Fio da Meada do Gatoelho]]: saem na cor da região e viram as cores das fitas do Gatoelho.
+4. **Consertos achados nos prints**: a tarde da Fase 2 some para quem tem daltonismo vermelho-verde (proposta de sombra violeta testada); caracol da cor da cenoura; sapo da cor da grama na Horta; halo do sol dourado; espinheiro de cor fixa; Onda rosa-choque.
+5. **Robô daltônico** proposto para `tests/sim`, com critério em ΔE; as paletas atuais da manhã e da tarde não passam, as propostas passam.
+6. Também: dimensões do Ato IV como transformações de cor, pelagens sorteadas com limites, o Bigodes como a pelagem do jogador envelhecida, fitas do Faro pelo que o bicho sabe fazer (o Gatoelho em azul-noite e ocre).

@@ -153,7 +153,34 @@ Transformação por cima da paleta (`ColorMatrixFilter`), **nunca nas cores de j
 - **Cores fixas que passam a seguir a região**: corpo do espinheiro, flores do chão, árvores do mapa.
 - **Dimensões e ondas**: filtro no fundo e no terreno; cenouras, espinhos, lenço e Gatoelho fora.
 - **Robô daltônico** em `tests/sim`, irmão do robô-criança, com o critério da Parte 6.
-- O script de prints (Electron sem janela, troca de paletas com o jogo rodando) ficou na pasta temporária da conversa; pode virar ferramenta do repo.
+- O script de prints (Electron sem janela, troca de paletas com o jogo rodando) ficou na pasta temporária da conversa; pode virar ferramenta do repo. O jeito de refazer está abaixo.
+
+### Como refazer os prints com outra paleta
+Sem mexer em nenhum arquivo do jogo:
+1. Subir o Vite numa porta livre (`npx vite --port 5199 --strictPort`) e abrir com Electron offscreen (`offscreen: true`, `setFrameRate(60)`, rodar com `env -u ELECTRON_RUN_AS_NODE`); o quadro mais recente chega pelo evento `paint`.
+2. No contexto da página, capturar o gerenciador de cenas e o `ctx` embrulhando o `goTo` (a abertura chama `goTo` sozinha, então o `ctx` aparece em poucos segundos):
+```js
+const m = await import('/src/scenes/SceneManager.ts');
+const orig = m.SceneManager.prototype.goTo;
+m.SceneManager.prototype.goTo = function (next, opt) {
+  window.__cap = { mgr: this };
+  return orig.call(this, () => { const s = next(); window.__cap.scene = s; return s; }, opt);
+};
+```
+3. Trocar a paleta e entrar direto na fase:
+```js
+const pm = await import('/src/art/palettes.ts');      // Object.assign(pm.palettes, { telhado: {...} })
+const lv = await import('/src/level/levels.ts');      // lv.levels['bosque-1'].palette = 'telhado'
+const gs = await import('/src/scenes/GameplayScene.ts');
+__cap.mgr.goTo(() => new gs.GameplayScene(__cap.scene.ctx, 'bosque-1'));
+```
+4. Posicionar: `__fase.player.respawnAt(ponto)` e `__fase.snapCamera = true`. Os pontos bons são as placas e checkpoints (`__fase.objects.checkpoints[i].at`, `__fase.objects.signs`); o quadro usado nos prints foi o 10º ponto da Fase 1 (tronco oco, espinheiro, sapo, placa) e o 2º/6º da Fase 2.
+
+### As contas do robô daltônico
+- **Simulação**: em RGB linear, multiplicar pela matriz de Machado, Oliveira e Fernandes (2009), severidade 1. Deuteranopia: `[0.367322, 0.860646, -0.227968; 0.280085, 0.672501, 0.047413; -0.011820, 0.042940, 0.968881]`. Protanopia: `[0.152286, 1.052583, -0.204868; 0.114503, 0.786281, 0.099216; -0.003882, -0.048116, 1.051998]`. Tritanopia: `[1.255528, -0.076749, -0.178779; -0.078411, 0.930809, 0.147602; 0.004733, 0.691367, 0.303900]`.
+- **Diferença**: converter para CIELAB (D65) e medir com CIEDE2000.
+- **Critério**: cenoura (`#f77f00`) contra céu do meio, horizonte, névoa, montanhas, morros, árvores longe e perto: ΔE ≥ 20, com visão normal e com deuteranopia. Dourado (`#ffc93c`) contra o halo do sol: ΔE ≥ 15. Nenhuma cor de cenário em vermelho saturado (matiz até ~15° ou acima de ~342°, saturação alta).
+- A mesma simulação pode virar opção de depuração no jogo: um `ColorMatrixFilter` com essas matrizes na tela inteira.
 
 ### Paletas propostas (testadas no motor)
 Mesma estrutura de `Palette` em `src/art/palettes.ts`. `tardeFria` herda da `tarde` atual.

@@ -12,6 +12,7 @@ Nasceu da vontade de fazer um jogo para a **enteada do Rodrigo** — mas sem ser
 - [[Game Design do Gatoelho]] — conceito, princípios, mecânicas (feitas e em estudo), estrutura de mundo/fases, vida e vidas, decisões e perguntas em aberto.
 - [[Arquitetura do Gatoelho]] — tecnologia escolhida e por quê, organização do código, sistemas, comandos, testes e armadilhas do ambiente.
 - [[Direção de Arte e Som do Gatoelho]] — identidade visual, o boneco provisório, animação reaproveitável, áudio sintetizado provisório, pipeline de assets ainda por definir.
+  - [[Paleta do Gatoelho]] — **proposta (2026-10-16, nada decidido)**: dicionário de cores, "só é vermelho o que foi tricotado", dominante e destaque por região testados dentro do jogo, consertos achados com simulação de daltonismo e o robô daltônico.
 - [[Pesquisa de Fases do Gatoelho]] — como outros jogos constroem fases e o método de fases proposto.
 - [[História e Mundos do Gatoelho]] — bíblia da história em camadas, mundos no modelo Donkey Kong Country 3, finais e missão paralela (rascunho).
 - [[A História do Gatoelho]] — **a trama inteira contada de uma vez**, em ordem, com marcos numerados (do fim da humanidade à Sonda), mais os ajustes de coerência e os pontos soltos (2026-10-06).
