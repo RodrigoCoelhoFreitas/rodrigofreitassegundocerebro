@@ -70,5 +70,8 @@ Protótipo jogável de ponta a ponta: abertura "LUDOVIC STUDIO" → título → 
 
 **Próximos passos possíveis:** decidir as perguntas em aberto da bíblia; definir os mundos e as antenas concretos; trazer para o código a volta no tempo (com simulação determinística) e o Heitor no mapa.
 
+### Leitura completa do código (2026-10-15)
+Tudo o que estas notas descrevem bate com o código (266 verificações passando), e a simulação já é determinística (base para a volta no tempo). Achados ainda não corrigidos: **teclas de desenvolvimento ativas no jogo final**, **"Fim de jogo" que volta ao checkpoint em vez de recomeçar a fase**, **executáveis de 30/09 desatualizados**, README velho e texto obrigatório que ainda aparece na tela. Detalhe em [[Arquitetura do Gatoelho]]. Correção: os avisos "ainda não commitado" das seções de 2026-10-01 ficaram velhos — as fases v3 e v4 estão nos commits `425a925` e `deca98a`.
+
 ### A história consolidada (2026-10-06)
 A trama inteira foi juntada em [[A História do Gatoelho]]: a verdade em ordem, 21 marcos do jogo 1, seis marcos da saga, seis ajustes de coerência e os pontos soltos. **Próximo passo:** o Rodrigo aprovar ou trocar os ajustes; depois, levá-los às notas de origem.

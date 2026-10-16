@@ -32,6 +32,8 @@ Vale pros dois repos ([[NapShift Backend]] e [[NapShift Web]]), que são um prod
 
 **Atualização dos números (2026-09-29):** a suíte do backend passou de 239 pra ~1100 testes, ainda 100% mockada (nenhum executa SQL real — lacuna registrada no backlog). O Playwright do Web segue como estava; o lint do Web tem 191 erros antigos, e por isso as releases do Web saem com `--sem-testes`.
 
+**Atualização dos números (2026-10-16, conferido rodando nesta máquina):** backend com **1365 testes** verdes (ainda 100% mockados) e `typecheck` limpo, versão 1.4.0. No Web, o lint caiu para **37 erros** e 40 avisos (não 191), e a suíte Playwright **não serve de rede** (última execução em abril, specs quebrados). Versões publicadas: `v1.3.0` (2026-09-29) e `v1.4.0` (2026-10-01). Desde 2026-10-01 os repos se chamam **napshift-api** e **napshift-app** (e há o `napshift-site`, que vai direto em `main`, fora da release); o deploy do backend segue manual no Easypanel.
+
 ## Infraestrutura real (confirmado pelo Rodrigo, 2026-07-08) — trabalho em aberto
 - Os projetos (pelo menos [[1060crm]] e [[NapShift Web]]) já estão configurados pra deploy automático via Vercel a partir de push no git — **mas ainda precisam de ajuste/organização**, não está tudo redondo.
 - O **Easypanel roda numa VPS da Hostinger** — e não serve só pra hospedar o container do [[NapShift Backend]]: é lá que ficam **os bancos de dados e as APIs** do ecossistema todo. Também precisa de organização — tarefa pendente explícita, não só o container do backend.

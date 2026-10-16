@@ -67,6 +67,25 @@ Mudanças desde o estudo de julho — algumas corrigem o que está escrito acima
 - **Vercel Hobby tem um membro só:** commit de outro autor (Rodrigo) pode ter o deploy bloqueado até a conta virar Pro.
 - Tabela de preços da landing (fechada em 2026-08-04): Starter R$ 397, Pro R$ 497, Escala R$ 897; SDR só a partir do Pro. O banco (`agencia_planos`) é a fonte de verdade — ao mudar plano, conferir os dois lados.
 
+## Estado em 2026-10-16 (leitura completa do repositório, homolog em `ba802ff`)
+
+- **Agora se chama `napshift-app`** (renomeado em 2026-10-01). Produção em **app.napshift.com**; este deploy ainda serve a landing antiga em napshift.com e redireciona as rotas de portal (307) para o subdomínio. O site novo (`napshift-site`) já serve napshift.com desde 2026-10-05.
+- Versão 1.4.0. ~30 mil linhas, 62 páginas. Next 16.2.0, React 19.2.4, Base UI, Tailwind 4. `tsc` limpo.
+- **Corrige o que está acima:** o desenvolvimento local **não aponta mais para produção** — sem `NEXT_PUBLIC_API_URL`, o `npm run dev` fala com homolog por um proxy `/_api`, e apontar para produção exige `NEXT_PUBLIC_ALLOW_PROD=1` (2026-10-09, BACKLOG 10.13). Credenciais de teste por papel (ADM, GERENTE, CLIENTE) ficam no `.env.test` local (não existe nesta máquina).
+- **Corrige o que está acima:** o lint tem hoje **37 erros** (30 `no-explicit-any`, 6 `set-state-in-effect`, 1 `immutability`) e 40 avisos, não 191. E a suíte Playwright **não serve de rede** (auditoria de 2026-10-09): a última execução registrada é de abril, contra outro projeto na porta 3000, com specs quebrados.
+- **Cores reais da marca:** `#6D3CFA` e `#121423` (a paleta `#7C3AED` do design system antigo nunca bateu com o arquivo do logo).
+- **Cobrança no portal (v1.3.0):** o estado vem pronto do backend e o front só lê (`src/lib/cobranca.ts`); modo leitura com `PagamentoBanner`/`EncerradoBanner` no layout; tela reage ao `motivo` do erro, nunca ao texto; assistente de assinatura virou componente usado em "novo workspace" e "reassinar".
+
+### O redesenho do portal (branch `feat/redesign-portal`)
+- Redesenho completo do painel ADM/GERENTE e do portal do cliente, na **identidade nova** (roxo `#6D3CFA`, fontes Instrument Sans/Serif e Fragment Mono, tema claro e escuro), numa branch longa com **release única**. Decisão do Eduardo (2026-10-09): troca só o front, contra o backend atual (congelado); o que falta de backend virou o G12 de [[NapShift Backend]].
+- **Em 2026-10-16 ainda é só documento**, nenhuma tela nova: F0 (ambiente seguro) e F1 (inventário e regras de negócio) feitas. Próximo: **F2**, arquitetura e protótipo navegável, aprovado pelo Eduardo no "Gate A" antes de qualquer código de tela. Depois: F3 (fundação), F4 (ondas de telas W1–W6), F5 (release).
+- **Já decidido:** portal do cliente com linguagem simples ("Tarefas" vira "Postagens", a URL não muda); `/adm` vira a fila "Hoje"; gerente remarca pelo calendário (com travas no front até o G12); aprovação do gerente pelo portal (botões ligam quando o 12.1 sair); TanStack Query.
+- **10 decisões abertas para o Gate A**, entre elas: cliente aprovar pelo portal mesmo com canal WhatsApp; Fotos e Referências virarem "Sua marca"; kanban do cliente virar "esta semana" + calendário; o que "Cliente ativo" e "Ativo" fazem com a cobrança.
+- **Material de estudo:** `docs/redesenho/01-regras-de-negocio.md` (na branch longa) explica, com arquivo e linha, como datas, aprovação, ativação e cobrança funcionam de verdade e onde o portal atual engana. Exemplo: desligar o "Ativo" de um workspace cancela a assinatura no Asaas, sem confirmação; o `PUT` de tarefa aceita data `null`, ignora fuso e não confere cota.
+
+### Nesta máquina
+Pasta `napshift-web`, remoto `napshift/napshift-web.git` (funciona pelo redirecionamento). `node_modules` instalado em 2026-10-15.
+
 ## Relacionamentos
 - Consome [[NapShift Backend]] via REST puro (contrato snake_case).
 - Parte do mesmo produto vendido via [[1060crm]].

@@ -14,10 +14,15 @@ O [[1060crm]] e a venda de sites estão **extremamente interligados neste moment
 ## Frentes de produto
 - **[[Produto Sites]]** — a única frente com pipeline ativo hoje. Planos, preços, comissão do vendedor, termos jurídicos completos e discurso de vendas documentados ali (fonte: termos de serviço + proposta comercial oficiais, jul/2026). Ligado à nova iniciativa de [[Geração de Sites via IA]].
 - **NapShift** — plano futuro: vender por **assinatura mensal**. Ainda sem comissão/processo comercial formalizado. *Estado em 2026-09-29:* tabela da landing fechada em 2026-08-04 — Starter R$ 397, Pro R$ 497, Escala R$ 897/mês; SDR só a partir do Pro. A cobrança ainda está em sandbox no Asaas, então os botões de contratar mandam pro WhatsApp comercial. Único cliente externo ativo: AEMJS. Custo de produção medido (~US$ 0,12–1,10 por peça, ver [[NapShift Backend]]) ficou ~2x o estimado e é a base pra revisar os planos; destino decidido pelo Eduardo é um teste grátis de 30 dias, que depende de o cliente conseguir se configurar sozinho no portal.
+  *Estado em 2026-10-16:* a conta Asaas de produção foi ligada em 2026-10-04, mas a **tokenização de cartão responde 403** (liberação pedida pelo Eduardo ao Asaas), então ninguém assina no cartão pelo sistema ainda. Desde a v1.3.0 vale a régua **"sem pagamento, tudo para"** (carência de 3 dias, parada no D+4, encerramento no D+30, sem período grátis) — os termos foram reescritos e esperam revisão do Eduardo antes de abrir venda pelo site. Carteira: AEMJS (único externo publicando) e **Carlson Gracie Hendersonville**, nos EUA (2026-10-02, primeiro cliente fora do Brasil, ainda em ativação); Casa ProVida encerrada em 2026-10-01. Para o NapShift vender sozinho pelo site ainda faltam o cartão, o onboarding feito pelo próprio cliente e o App Review da Meta. Detalhe em [[NapShift Backend]].
 - **SDR** — plano futuro: vender **individualmente para empresas** (não só embutido em outro pacote). Ainda sem comissão/processo comercial formalizado.
 - Branding, marketing — sem plano de comercialização formal definido ainda.
 
 Fio condutor estratégico dado pelo Rodrigo: as futuras frentes (NapShift, SDR) vão abordar **as mesmas tecnologias já usadas no NapShift e no 1060crm** — esse padrão de stack é considerado confiável o bastante pra ser reaproveitado, o que reforça o valor de manter [[Disciplinas]] e [[Backend]] bem documentados (aplica pra produto futuro, não só pros 3 projetos atuais).
+
+## Clientes
+Cada cliente com trabalho em andamento ganha uma subpasta própria com nota-tronco.
+- **[[EMMV]]** — Escola de Música Marcelo Vaz (Rio Grande/RS), cliente de [[Produto Sites]]. Briefing feito em 2026-10-14.
 
 ## O que já se sabe (via estudo do 1060crm)
 - Processo: prospecção em massa por nicho/cidade (scraping) → importação no CRM → higienização → abordagem por vendedor → pipeline por produto (site é a frente com pipeline ativo hoje).

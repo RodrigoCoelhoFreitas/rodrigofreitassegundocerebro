@@ -110,6 +110,32 @@ Usuário **ADM** no painel (promovido de GERENTE) e com permissão de escrita no
 ### Onde ler mais (dentro do repo)
 `CLAUDE.md` → `.claude/memory/INDEX.md` (estado mais recente no topo) → `docs/BACKLOG.md` (grupos G1–G11, só o que falta) → `docs/HISTORICO.md` (o que foi feito, com causa raiz) → `docs/VERSIONAMENTO.md`. A skill `/wrapnap`, que fecha as sessões e atualiza BACKLOG/HISTORICO, vive na configuração de usuário do Eduardo — não existe na máquina do Rodrigo.
 
+## Estado em 2026-10-16 (leitura completa do repositório, homolog em `f6715ba`)
+
+Conferido rodando a suíte nesta máquina: **1365 testes passando** e `typecheck` limpo, versão **1.4.0**.
+
+### Versões novas
+- **v1.3.0 (2026-09-29): "sem pagamento, tudo para"** (decisão do Eduardo). Carência de 3 dias depois do vencimento (boleto: 3 dias úteis + 2 de compensação); do D+4 param pipeline, SDR e escrita do portal (fica leitura e pagar); volta sozinho ao pagar; sem período grátis (só opera com uma cobrança paga); contestação e estorno param na hora e viram dívida; **D+30 encerra o workspace por inadimplência**; dívida bloqueia reassinar e abrir workspace novo. Um único predicado de "workspace operante" (`src/db/workspace-operante.ts` e `src/utils/workspace-estado.ts`) vale para filas, Estrategista, Pesquisador, campanhas e SDR. Entraram também: encerrar e reabrir vínculo (só ADM) com reassinatura pelo portal; falha do provedor inteiro (Anthropic/fal.ai) **adia** a tarefa em vez de pausar; tetos do SDR vindos do plano (Pro 3000/mês e 100/dia, Escala 15000 e 500). Migrations 0012 e 0013.
+- **v1.4.0 (2026-10-01):** portal em **app.napshift.com**; repositórios renomeados para **`napshift-api`**, **`napshift-app`** e **`napshift-site`** (site institucional, que serve napshift.com desde 2026-10-05); `COBRANCA_AUTOMATICA=true` ligado só em produção (escritas externas da régua: cancelar no Asaas, logout da Evolution, encerramento no D+30). O deploy do backend continua manual (Implantar no Easypanel); conferir pelo `gitSha` do `/health`.
+
+### Depois da v1.4.0
+- **Asaas de produção ligado (2026-10-04)**, com webhook próprio só do grupo Cobranças; homolog segue no sandbox. **A tokenização de cartão responde 403 na conta de produção** (liberação pedida pelo Eduardo ao Asaas), então nenhuma assinatura no cartão sai pelo sistema; a da AEMJS não foi criada. Pix e boleto não foram testados em produção. IDs do sandbox gravados no banco de produção viraram órfãos.
+- **Primeiro cliente fora do Brasil (2026-10-02): Carlson Gracie Hendersonville** (Tennessee), plano Pro isento (paga a 1060 por fora), criado pela API e configurado pelo `/onboardnap` (47 referências, 11 eventos, 4 álbuns). Ainda inativo, esperando a conexão Meta. Revelou 7 pontos em que o sistema assume Brasil (idioma do conteúdo, busca em pt-BR, Whisper forçado em português, fusos fixos de São Paulo) — BACKLOG 4.14.
+- **Regra nova (2026-10-06):** story nunca desenha nada que imite a interface do Instagram (botão, enquete, "arraste para cima"); só convida a link da bio, DM ou responder o story (BACKLOG 8.66).
+- **Casa ProVida encerrada** pelo painel em 2026-10-01.
+- **Redesenho do portal (2026-10-09):** o backend fica **congelado** até a release única do redesenho do front ([[NapShift Web]]). O que o portal novo precisa e não existe virou o **G12** do BACKLOG (22 itens); os principais são 12.1 (aprovação do gerente pelo portal, com canal de aprovação por papel — o WhatsApp com várias peças misturadas confundiu o gerente) e 12.2 (remarcar tarefa com regras no servidor; hoje o `PUT /adm/tarefas/:id` não valida data nenhuma).
+- **TikTok** é o candidato a primeiro canal novo (2026-10-14): o slideshow de fotos do TikTok é o carrossel que o Produtor já gera.
+
+### O que segue aberto (BACKLOG, 216 itens em G1–G12)
+- **G1:** conferências em produção que pedem uma pessoa; **teste de restauração do backup nunca feito** (a fazer em homolog); confirmar `cobranca-automatica=ON` no log; fase B da virada de domínio.
+- **Riscos de sócio que continuam:** fallback silencioso para o GPT-4o quando o Claude falha (8.65, conferido no código); dado de saúde no SDR (7.30, LGPD); tokens de rede social sem cifragem (2.18); promessas públicas que o sistema não cumpre (6.31); texto novo dos termos esperando revisão do Eduardo (6.32).
+- **Para vender sozinho pelo site ainda falta:** cartão em produção, onboarding pelo próprio cliente (4.9) e o App Review da Meta (para o cliente conectar a rede sem o Eduardo).
+
+### Nesta máquina
+- As pastas continuam `napshift` e `napshift-web`, e os remotos usam os nomes antigos (`napshift/napshift.git`, `napshift/napshift-web.git`), que funcionam pelo redirecionamento do GitHub. Os docs dos repos citam `../napshift-app/` e `../napshift-api/`, então links relativos entre eles quebram aqui.
+- `node_modules` instalado em 2026-10-15; sem `.env` (a suíte usa o `.env.test` versionado, de propósito falso).
+- O `.claude/settings.json` do repo libera `git commit`, `git merge`, `curl` e `gh` sem perguntar: numa sessão aqui o Claude commita sem confirmação; o que barra push em `main` é só o hook `.githooks/pre-push`.
+
 ## Relacionamentos
 - Consumido por [[NapShift Web]] (frontend) via REST puro, contrato em snake_case.
 - Vendido como produto via [[1060crm]].

@@ -106,3 +106,22 @@ Ramificação de [[Gatoelho]]. Decisões técnicas, organização do código e c
 - **Nitidez**: `GraphicsContextSystem.defaultOptions.bezierSmoothness = 0.85` (em `Game.create`) e câmera arredondando ao pixel da tela (`SceneContext.resolution`).
 - **Testes**: 266 verificações. Novos: concha-degrau, sapo com embalo (Fase 1 e rio da Fase 2), galho-mola (janela do arremesso, galho + pulo duplo), ritual do cochilo. Os robôs procuram atores pela posição (a ordem das listas é a de leitura do mapa, linha por linha — o "primeiro caracol" pode não ser o da esquerda).
 - Prints automáticos v4 e a folha de recortes (montagem de vários prints) ficaram na pasta temporária da sessão.
+
+## Leitura completa do código (2026-10-15)
+Rodada só de leitura, sem nenhuma mudança no repositório. `main` sincronizada com o GitHub (último commit `deca98a`), **266 verificações passando** e `tsc` limpo; ~11 mil linhas de TypeScript. Tudo o que as notas descrevem bate com o código: tamanhos das fases (F1 248×22, F2 262×28, Horta 98×22), lugares, segredos, sapo-balão, galho-mola, concha-degrau, flores-sino, Cenoura Roxa, ritual do cochilo, saves e catálogo de 77 sprites / 370 quadros.
+
+**Bom sinal para a história:** a simulação **já é determinística** — não há sorteio nem relógio na lógica do jogo (só no áudio e na animação). É a base que a volta no tempo, os Ecos e as sementes vão precisar. O sistema de sementes ainda não existe.
+
+**Problemas encontrados (não corrigidos):**
+1. **Teclas de desenvolvimento ligadas no jogo final.** `1`/`2` desligam pulo duplo e planar, `G` leva à chegada, `N` pula trechos, `R` volta ao checkpoint e `T` (no mapa) abre a sala de testes, também no build de produção (`core/Input.ts`, `GameplayScene.handleDebugInput`). Só o gancho `window.__fase` é exclusivo do modo dev. Uma criança apertando teclas pode desligar o planar e travar a fase.
+2. **"Fim de jogo" não faz o que diz.** A mensagem é "Recomeçando a fase…", mas o Gatoelho volta ao último checkpoint mantendo as cenouras; o [[Game Design do Gatoelho]] diz "recomeça a fase com vidas cheias".
+3. **Os executáveis em `release\` são de 2026-09-30** (só Fase 1 + saves): sem Fase 2, v3 nem v4. Jogar pelo `.exe` hoje é jogar uma versão antiga.
+4. **O README está desatualizado** (fala de bandeira, cogumelos-mola e troncos que se movem, que saíram na v4); alguns comentários do código também.
+
+**Diferenças entre o código e o que o vault decidiu ou propôs (pendências, não bugs):**
+- **Ainda há texto obrigatório na tela:** o anúncio de habilidade ("Nova habilidade!", "No ar, SEGURE o botão…" — o Game Design diz que precisa ser visual), os avisos da fase ("Ops! −1 vida", "Um segredo!", "Checkpoint!"), o painel de resultado e os textos do mapa ("Bloqueada: conclua as fases anteriores", "Clique para ir até lá").
+- O fim de fase ainda mostra o painel "Voltar ao mapa / Jogar de novo" (a Revisão 4 propõe ir direto ao mapa com transição abstrata).
+- `glideFallSpeed` continua 80 (o alerta de testar 120–150 nunca foi aplicado).
+- Só existem 3 músicas (título, mapa, fase); a cantiga da Vó ainda não está no jogo. Volta no tempo, Patatu, Heitor, Faro e antenas também não (esperado: a história veio depois).
+
+**Detalhes:** o `desktop:dev` do Electron aponta fixo para a porta 5173 (nesta máquina o Vite costuma subir na 5174); o executor de testes só conta linhas "OK" (um teste que deixasse de rodar uma verificação não seria acusado); `isGone()` em `LevelActors` é código morto; os dois `git stash` são pontos de salvamento antigos de trabalho já commitado (podem ser descartados).

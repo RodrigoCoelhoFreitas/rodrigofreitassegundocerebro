@@ -66,3 +66,6 @@ Pedido do Rodrigo: juntar tudo numa história mais clara e precisa, com marcos c
 3. **A espinha**: as quatro revelações (o mapa da Casinha, a poça, a pedra da profecia, o varal), as recusas do Bigodes, os três Gatoelhos, plantar e colher ligado aos marcos.
 4. **Seis ajustes de coerência**, aguardando aprovação: as 4.096 tentativas vieram depois do Clarão (não antes); o Robogato foi feito antes do Clarão; o mundo já era misturado antes do Clarão; o Reflexo é o fim do caminho que começa no Fio Vermelho; o lenço do nosso Gatoelho foi tricotado pelo Bigodes; a "máquina de reversão inteira" ainda sem definição.
 5. **Pontos soltos** levantados: os mundos de origem e a Dona Coelha inteira na Camada Zero; o Fio Vermelho (desembaralhar todos) contra o propósito da Arca; o tempo entre a Partida e o jogo; o que as 4.096 tentativas fizeram no nosso mundo.
+
+## 2026-10-15 — leitura completa do código
+Rodada de revisão de todos os projetos, sem código novo. O código confere com as notas; os achados (teclas de desenvolvimento no jogo final, "Fim de jogo" que não recomeça a fase, executáveis velhos, texto obrigatório na tela) estão em [[Arquitetura do Gatoelho]]. Os seis ajustes de coerência de [[A História do Gatoelho]] seguem esperando a aprovação do Rodrigo.

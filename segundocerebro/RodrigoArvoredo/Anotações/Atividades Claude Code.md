@@ -6,6 +6,18 @@ tags: [anotações, meta]
 
 Ramificação de [[Anotações]]. Log — **para mim mesmo (Claude) atualizar de tempos em tempos** — das atividades relevantes feitas nos repositórios do workspace (1060crm, napshift, napshift-web, rodrigofreitassegundocerebro, rodrigo-arvoredo-site). Ordem cronológica reversa (mais recente primeiro). Registrar principalmente: commits/push, mudanças estruturais grandes, e decisões técnicas com efeito duradouro — não é necessário logar toda edição pequena.
 
+## 2026-10-15 e 16 — leitura completa de tudo
+- **Rodada de leitura, um projeto por vez** (pedido do Rodrigo): vault inteiro (95 notas, auditoria limpa), `gatoelho` (código + 266 verificações), `napshift` (docs, núcleo do código, 1365 testes), `napshift-web` (docs, redesenho, `tsc` e lint) e `emmv`. Nenhum código alterado nos projetos. Nos dois repos do NapShift, a `homolog` local foi avançada por fast-forward até o GitHub (estavam 21 e 10 commits atrás) e o `node_modules` foi instalado. O que se aprendeu foi registrado em [[NapShift Backend]], [[NapShift Web]], [[Vendas]], [[DevOps e Testes]], [[Integrações Externas]], [[Arquitetura do Gatoelho]], [[Gatoelho]], [[Linha do Tempo do Gatoelho]], [[EMMV]] e [[Guia de Uso do Segundo Cérebro]].
+- **rodrigofreitassegundocerebro**: commit + push desta rodada (junto com as mudanças do EMMV de 2026-10-14, que estavam pendentes).
+
+## 2026-10-14
+- **rodrigofreitassegundocerebro**: commit `927a144` + push — [[A História do Gatoelho]] (a trama em marcos, seis ajustes de coerência e pontos soltos, escrita em 2026-10-06).
+- **rodrigofreitassegundocerebro**: criada a pasta do primeiro cliente de sites com nota própria, [[EMMV]] (Escola de Música Marcelo Vaz), em Vendas, com [[Ficha Técnica EMMV]] (copiada de `projetos\emmv\`, que fica fora do git) e [[Roteiro de Reunião EMMV]] (40 perguntas refinadas e roteiro do briefing de 14/10). Atualizados [[Vendas]] (seção Clientes) e [[Reuniões]] (primeira entrada).
+
+## 2026-10-01 a 2026-10-06 (registro feito depois, em 2026-10-16)
+- **gatoelho**: commit `425a925` (2026-10-01, Fase 2, segredos em camadas, pólen e banho de gráficos) e `deca98a` (fases v4: obstáculos, cochilo com sonhos e pistas; commit de 2026-10-01, push em 2026-10-05).
+- **rodrigofreitassegundocerebro**: commits `5d4f959` (2026-10-01), `3a387d9` e `50e9fd5` (2026-10-05), `b6d317b` (2026-10-06, bíblia da história, revisões 4 a 9, e o livro [[A Sonda]]).
+
 ## 2026-09-30
 - **gatoelho**: commits `e6261c2` ("Add first real level, ability progression and save slots") e `52dd444` ("Add headless simulation tests") + push em `main`. Fase 1 "Saindo da Toca" (o Gatoelho ganha as Orelhas Planadoras no meio da fase), flores de vento, galhos, cenouras e Cenouras Douradas, checkpoints, placas, fundo parallax; sistema de save com 3 espaços, gravação automática e arquivos em `%APPDATA%\Gatoelho\saves`; testes de simulação no repositório (`npm test`, 96 verificações). Ver [[Gatoelho]] e as seções "Atualização 2026-09-30" das notas do projeto.
 - **rodrigofreitassegundocerebro**: notas do Gatoelho atualizadas com seções datadas de 2026-09-30.
