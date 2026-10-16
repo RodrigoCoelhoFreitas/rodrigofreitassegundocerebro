@@ -8,6 +8,8 @@ Ramificação de [[Personagens do Gatoelho]]. **Revisão 1 (2026-10-16). Status:
 
 **⟨mexe⟩** marca o que muda algo que já existe, no jogo ou na bíblia; o resto só acrescenta. A Parte 13 diz o que entra primeiro e quanto custa.
 
+**Revisão 1.1 (2026-10-16, mais tarde):** conciliada com as duas notas escritas em paralelo no mesmo dia, [[Fio da Meada do Gatoelho]] e [[Paleta do Gatoelho]] (Parte 14), e com as ideias que ficaram de fora guardadas na Parte 15.
+
 ---
 
 ## Parte 0 — A frente em quatro frases
@@ -96,7 +98,7 @@ Cada um com o que a regra 6 do elenco pede (silhueta, mania, dor), o que a crian
 
 ### Ratoneia — rato + dioneia (Bosque)
 - **Em três segundos:** uma planta-armadilha com orelhas de rato que leva um susto e fecha a boca quando o Gatoelho chega.
-- **Silhueta e mania:** duas folhas-boca abertas como uma ponte, rabinho e orelhas redondas, bigodes tremendo. O nome lembra "ratoeira": **a armadilha é o rato**.
+- **Silhueta e mania:** duas folhas-boca abertas como uma ponte (por dentro, coral, nunca vermelho: ver a regra do vermelho na Parte 14), rabinho e orelhas redondas, bigodes tremendo. O nome lembra "ratoeira": **a armadilha é o rato**.
 - **A dor:** boca de caçadora, coração de presa. É o Gatoelho do avesso (nele, o caçador é o gato e a caça é o coelho), e com ele ela tem medo, com razão.
 - **Na fase:** fecha quando ele chega correndo ou pulando (não machuca; empurra de leve, como o caracol). Se ele **fica parado** um instante, o rato espia, se acalma e abre a boca, que vira ponte ou passagem. Ensina a criança a esperar, sem placa.
 - **Caderno:** *"Só abre para quem espera."*
@@ -124,6 +126,7 @@ Cada um com o que a regra 6 do elenco pede (silhueta, mania, dor), o que a crian
 - **Em três segundos:** uma árvore cujas flores são araras; pisou numa, ela sai voando.
 - **A dor:** quando floresce, as flores vão embora e ela fica pelada. A árvore que cria e vê todo mundo partir (a Vó, de novo). O ipê de verdade floresce sem folhas.
 - **Na fase:** flores-arara nos telhados servem de plataforma e levantam voo um instante depois de pisadas; é preciso passar rápido. Ipê florido em rua de cidade é imagem bem brasileira.
+- **Cor:** ipê-amarelo e araras azul e amarelo (a arara-vermelha fica de fora: só a lã é vermelha). Conferir contra o azulejo de Telhadópolis da [[Paleta do Gatoelho]].
 - **Caderno:** *"Fica sozinha toda primavera. Floresce assim mesmo."*
 
 ### Vitória-Rã — rã + vitória-régia (Monte Ronrom)
@@ -153,11 +156,11 @@ Proposta para o **Gerador de Híbridos** ([[Tecido Infinito do Gatoelho]], Parte
 
 | Nome popular (planta real) | Ao pé da letra | O que faz |
 |---|---|---|
-| Crista-de-galo (celósia) | um galo cuja crista é a flor | canta de manhã, e as flores em volta abrem |
+| Crista-de-galo (celósia) | um galo cuja crista é a flor (amarela ou coral) | canta de manhã, e as flores em volta abrem |
 | Chifre-de-veado (samambaia que vive em árvore) | um veado de chifres de samambaia | passaratos fazem ninho nos chifres |
 | Rabo-de-burro (suculenta de contas) | um burro de rabo de contas verdes | empaca no caminho; anda se o Gatoelho empurrar (gato empurra coisas) |
 | Pata-de-vaca (árvore de folha em forma de casco) | uma vaca de patas de folha | por onde passa, caem flores brancas |
-| Bico-de-papagaio (a flor vermelha do Natal) | um papagaio de bico de flor | repete tudo o que ouve (é o papagaio do Conselho no [[Jornal do Gatoelho]]); em dezembro de verdade, fica vermelho |
+| Bico-de-papagaio (a flor vermelha do Natal) | um papagaio de bico de flor | repete tudo o que ouve (é o papagaio do Conselho no [[Jornal do Gatoelho]]); em dezembro de verdade, o bico floresce em coral (a flor de verdade é vermelha, mas no jogo só a lã é) |
 | Pé-de-galinha (capim) | uma galinha de pés de capim | cisca a vida inteira sem sair do lugar |
 | Orelha-de-elefante (folha gigante) | um elefantinho de orelhas de folha | **plana com as orelhas**, devagar e majestoso: o único outro bicho que plana como o Gatoelho |
 | Boca-de-leão (flor que abre quando se aperta) | um leãozinho cuja boca é a flor | os sobrinhos do Seu Dente-de-Leão |
@@ -199,6 +202,7 @@ A bíblia diz que, na Grande Onda, ele "vira uma coisa espinhenta e assustada qu
 - **No Pico (Marco 10):** ele foge rolando e deixa carrapichos pelo caminho, que grudam no Gatoelho (ele para e se sacode, como gato). Não machuca. Com a cantiga, ele para, cheira, lembra, rola até os pés dele e **gruda no pelo dele**. O abraço do carrapicho é grudar.
 - **O destino "volta com um espinho de lembrança"** ([[Finais do Gatoelho]]) ganha forma: um carrapicho que ficou na casca dele, ou no lenço do Gatoelho, que não tira.
 - **Para o adulto:** o velcro foi inventado por alguém que reparou nos carrapichos grudados no pelo do próprio cachorro.
+- **Atualização (Revisão 1.1):** o [[Fio da Meada do Gatoelho]] (Nó 6) adotou o Carrapatu, com duas diferenças: é o Bigodes quem dispara a onda sem perguntar e o Patatu a leva no lugar do Gatoelho; e ele **fica Carrapatu** depois do resgate (a cantiga acalma, não conserta), e no Final da Toca o Ouriçapo enfim tem um irmão espinhento como ele, e os dois se abraçam com cuidado. É mais fiel a "ninguém volta a ser o que era". A versão desta nota (volta ao que era, com um carrapicho de lembrança) fica como meio-termo, se a de lá for dura demais para a criança.
 
 ---
 
@@ -206,7 +210,7 @@ A bíblia diz que, na Grande Onda, ele "vira uma coisa espinhenta e assustada qu
 Detalhes baratos, sem texto, que fazem o adulto parar.
 - **O vaso da janela.** Na janela da toca, um vaso com **rabo-de-gato** e **cacto orelha-de-coelho** (plantas de verdade): a Vó tinha um Gatoelho na janela antes de o Gatoelho chegar. **Na Casinha da Serra, o mesmo vaso, seco** (a mesma herança das xícaras). No varal de fotos do Fio Vermelho, o vaso da Casinha florido. *Camada Zero (só explica):* as plantas das redomas vêm do jardim da Vó de Todas, e por isso toda Vó tem o mesmo vaso. Se o Rodrigo quiser, uma das Páginas do Diário traz as duas plantas prensadas, sem uma palavra sobre elas.
 - **O chá é de camomila.** O chá que a Vó deixa toda noite na janela é **chá de dormir**. Ela não sabe da Traça, mas a Traça **não come quem dorme**: sem saber, a Vó passou oito anos tentando fazer o velho dormir. É a cantiga numa xícara ("Dorme, filhote..."). Basta um Eco da Vó colhendo florzinhas brancas na horta, à noite.
-- **O vermelho é de urucum.** O urucum tinge de vermelho e **desbota no sol**. O lenço do Bigodes é desbotado porque passou oito anos ao sol, na luneta, olhando para a toca. E, já que "a Vó tinge num tacho" ([[Guarda-Roupa do Gatoelho]]), **as tintas do guarda-roupa nascem na horta**: urucum, anil, açafrão-da-terra, jenipapo. As duas cores do lenço do Fio Vermelho saem do que o jogador plantou.
+- **O vermelho é de urucum.** O urucum tinge de vermelho e **desbota no sol**. O lenço do Bigodes é desbotado porque passou oito anos ao sol, na luneta, olhando para a toca. Com a regra do vermelho da [[Paleta do Gatoelho]] (só é vermelho o que uma Vó tricotou), o urucum fica sendo **a planta da horta de onde sai a lã vermelha, e só a Vó tinge com ele**: o vermelho nasce num canteiro da toca. As outras tintas do guarda-roupa ("a Vó tinge num tacho", em [[Guarda-Roupa do Gatoelho]]) também podem nascer na horta: anil, açafrão-da-terra, jenipapo. Ideia: as duas cores do lenço do Fio Vermelho saem do que o jogador plantou (a Paleta sugere as duas cores das fitas do Gatoelho; as duas ideias cabem juntas).
 - **Barba-de-velho** (planta de verdade que pende dos galhos como barba) nas árvores em volta da Casinha da Serra. A trilha até o Bigodes tem a cara dele.
 - **Maracujá-relógio.** Em Telhadópolis, as flores de maracujá (no Japão, "planta-relógio") têm ponteiros que andam para trás desde que o Cucodrilo engoliu o relógio; quando ele o tosse, voltam a andar para a frente. Cenário que conta o chefe.
 
@@ -257,6 +261,8 @@ Hoje, no passo 2 do Final do Fio Vermelho ([[Finais do Gatoelho]]), "cada bicho,
 
 **Proposta, sem tirar nenhuma imagem do final: a Agulha pergunta.** Cada bicho estende a pata (ou o pé, se for planta) se quiser virar dois. O Patatu escolhe virar patinho e tatuzinho inseparáveis (para um medroso, ser dois é nunca ficar sozinho); as Vós escolhem ser duas e continuar juntas; a Cisnobra recusa (já é a variante dela); o Borbopótamo, o Lobovelha e a Orcabelha ficam como são. O mundo vira colcha de verdade, com retalhos inteiros e retalhos misturados costurados lado a lado, e o minigame do tricô, um bicho por vez, vira uma conversa. ⟨mexe: o passo 2 e o resumo do Fio Vermelho⟩
 
+**Atualização (Revisão 1.1):** o [[Fio da Meada do Gatoelho]] (Nó 1) achou o mesmo problema sozinho e propõe outra saída: **a Agulha costura, não separa, e ninguém muda de forma** (saem o patinho e o tatuzinho e as duas Vós). O argumento de lá é melhor que o meu: um bicho que escolhe voltar ao que era desmente o "não dá para voltar" justamente no final que diz a tese, e uma cerimônia de separação, mesmo consentida, põe a separação no centro da festa. **Recomendo a de lá.** "A Agulha pergunta" fica como alternativa, se o Rodrigo quiser guardar as imagens de hoje.
+
 ### 2. A Dona Coelha "inteira"
 O ponto solto 1 de [[A História do Gatoelho]] pergunta como existe uma coelha inteira se todas as redomas foram misturadas. Uma resposta que vale para qualquer um dos caminhos já listados (lado de fora, simulação ou mistura parcial): **ela é inteira, não pura**. Farejada com o Faro, tem fitas de muitas cores, como o gato "puro" da Dimensão Original. A mistura às vezes cai por dentro, nas fitas, sem aparecer no corpo. E quem parece inteiro pode ser tão misturado quanto o Gatoelho.
 
@@ -298,11 +304,55 @@ Ver a Parte 4: os dois dão "rolar". Se o pólen entrar, a diferença é quebrar
 
 ---
 
+## Parte 14 — Como esta nota conversa com as outras do mesmo dia
+Três conversas trabalharam em paralelo em 2026-10-16 (esta, a do enredo e a da cor).
+
+**Com o [[Fio da Meada do Gatoelho]]:**
+| Assunto | Lá | Aqui | Situação |
+|---|---|---|---|
+| Força × encontro | "Fenda é a mistura à força; porta é a mistura por encontro" | A mesma ideia, pelas plantas (Parte 0) | **convergem** |
+| O Patatu que pede ajuda | Adotado ("quem precisa, bate") | Parte 7 | **convergem** |
+| A Dona Coelha | "Inteira, não pura", e desta redoma (as Máquinas pouparam os gatos e coelhos da Vó) | Parte 11 | **convergem**; lá está mais completo |
+| O Carrapatu | Fica Carrapatu; o Bigodes dispara e o Patatu leva a onda | Volta ao que era, com um carrapicho | **divergem**; recomendo a de lá (Parte 7) |
+| O Fio Vermelho | A Agulha costura, ninguém muda de forma | A Agulha pergunta | **divergem**; recomendo a de lá (Parte 11) |
+| A Agulha | São as agulhas da Vó Tartagarça; a Ararranha e as Teias vão para o jogo 2 | Não depende disso | sem conflito |
+| As dimensões | Saem do cânone e ficam como jeito de contar | A concha do Caracouve muda com a semente | sem conflito: a semente continua sendo sistema de jogo |
+| O Feijão | Semente da Arca, guardada na bochecha do Heitor | A cutia que planta florestas esquecendo (Parte 10) | **convergem**: o fato real sustenta a ideia de lá |
+
+**Com a [[Paleta do Gatoelho]]:**
+- **A regra do vermelho** (só é vermelho o que uma Vó tricotou) foi aplicada aqui: o interior da Ratoneia é coral, o Araipê é de ipê-amarelo com araras azul e amarelo, o bico-de-papagaio floresce em coral. **Toda flor ou fruta que na natureza é vermelha (morango, crista-de-galo, dioneia) entra coral, rosa ou malva.**
+- **O urucum** vira a origem da lã vermelha, e só a Vó tinge com ele (Parte 8). A Paleta já previa isso como "vermelho-urucum".
+- **As flores de pólen** usam a cor do bicho que guardam (a Paleta já registrou: pluma lilás, escama verde-água).
+- **A Girafassol e o Seu Dente-de-Leão** (amarelo e branco), os **Cogumelebres** (luz na noite violeta da Horta) e o **Pipoco** (amarelo e creme, no ipê-rosa do Monte Ronrom) parecem caber nas paletas de lá, mas ninguém testou: conferir com o robô daltônico quando entrarem. Cuidado com a Girafassol e o Seu Dente-de-Leão perto do dourado, que na Paleta é a cor de "item novo".
+
+---
+
+## Parte 15 — Guardadas e descartadas
+Para nada se perder, e para ninguém propor de novo sem saber por que saiu.
+
+**Descartadas, e por quê:**
+| Ideia | Mistura | Por que saiu |
+|---|---|---|
+| **Vacarnívora** | vaca + planta carnívora (vegetariana, morde e pede desculpa) | Repetia o Vacaré, que já "morde de mentirinha". Virou a Ratoneia |
+| **Morcegoiaba** | morcego + goiabeira (frutas que voam quando se vai colher) | Repetia a Morcevaca (outro morcego em Tocópolis) e a piada das cenouras fujonas (comida que foge). Quem ensina a pendurar é a Morcevaca |
+| **Tucaju** | tucano + caju (o bico é um caju) | Repetia a piada de não alcançar o que é seu (a Jabuticabra) |
+| **A flor de vento como baleia** | flor + baleia (o vento seria o respiro) | A flor de vento já funciona sem história; ganhar cara não acrescenta nada |
+| **"As Máquinas guardaram bichos dentro das plantas, como cópia de segurança"** | (Camada Zero, revisão 1) | Explicação demais. Basta: as flores de pólen são misturas de planta com bicho, e o pólen leva um pouco do bicho |
+
+**Guardadas (ainda valem, fora do texto principal):**
+- **Flores que guardam bichos que não existem mais** (Camada Zero, opcional): a pena da Flor-Pluma é de um pássaro que o jogador nunca encontra em lugar nenhum do jogo. As plantas como memória dos bichos que se foram.
+- **Plantarugas:** as mudinhas da Dona Tronca, árvores-tartaruga bebês que andam um passo por dia real.
+- **Nomes que o [[Game Design do Gatoelho]] já brincou e ainda não têm dono:** Tatugo, Ratenio, Plantaruga, Espinheto, Fantomau.
+- **O brotinho do Heitor** cresce com o tempo real: num save acordado depois de anos (Cápsula do Tempo), ele está maior. Cuidado: a regra 9.2 do [[Tecido Infinito do Gatoelho]] diz que os personagens principais não mudam; é só um detalhe de enfeite.
+- **Mais fatos reais para o caderno:** pererecas que vivem dentro de bromélias (a bromélia é a casa delas); o caranguejo-dos-coqueiros, que sobe em coqueiro e abre coco; a flor da vitória-régia, que abre branca numa noite, prende besouros dentro e abre rosa na noite seguinte, soltando-os cobertos de pólen.
+
+---
+
 ## Perguntas em aberto
 1. A direção da frente (ir ou ficar; mistura por encontro contra mistura à força; planta é tempo) serve?
 2. As Douradas viram regra (plantas com nome de bicho acordam o corpo), com a Unha-de-gato para escalar e o Rabo-de-gato para andar em fios?
-3. O Patatu re-embaralhado vira o Carrapatu?
-4. No Fio Vermelho, a Agulha pergunta?
+3. O Carrapatu: fica Carrapatu (como no [[Fio da Meada do Gatoelho]], recomendado) ou volta ao que era com um carrapicho de lembrança?
+4. No Fio Vermelho: a Agulha costura sem separar ninguém (Fio da Meada, recomendado) ou a Agulha pergunta?
 5. O caracol do jogo vira Caracouve (desenho e nome)?
 6. A Coalhoca sai do varal?
 7. A erva-gateira (comédia pura) combina com o tom?

@@ -6,6 +6,9 @@ tags: [anotações, meta]
 
 Ramificação de [[Anotações]]. Log — **para mim mesmo (Claude) atualizar de tempos em tempos** — das atividades relevantes feitas nos repositórios do workspace (1060crm, napshift, napshift-web, rodrigofreitassegundocerebro, rodrigo-arvoredo-site). Ordem cronológica reversa (mais recente primeiro). Registrar principalmente: commits/push, mudanças estruturais grandes, e decisões técnicas com efeito duradouro — não é necessário logar toda edição pequena.
 
+## 2026-10-16 — Gatoelho: as misturas
+- **rodrigofreitassegundocerebro**: [[Misturas do Gatoelho]] (proposta: plantas embaralhadas, Douradas, moradores novos, Ao-Pé-da-Letra, família, Carrapatu, alertas de coerência), com link em [[Personagens do Gatoelho]] (commit `f00b5b8`, que subiu no push do fio da meada). Depois, a Revisão 1.1, conciliada com [[Fio da Meada do Gatoelho]] e [[Paleta do Gatoelho]], com link no tronco [[Gatoelho]] e entrada na [[Linha do Tempo do Gatoelho]]; commit + push.
+
 ## 2026-10-16 — Gatoelho: o fio da meada
 - **rodrigofreitassegundocerebro**: commit + push da [[Fio da Meada do Gatoelho]] (Revisão 10 da história, proposta: o coração, cinco regras de cânone, treze nós desatados, decisões pedidas), com link no tronco [[Gatoelho]], entrada na [[Linha do Tempo do Gatoelho]] e aviso em [[A História do Gatoelho]]. O push levou junto dois commits locais de conversas paralelas do mesmo dia (`f00b5b8`, misturas com plantas; `b7c424b`, proposta de paleta).
 

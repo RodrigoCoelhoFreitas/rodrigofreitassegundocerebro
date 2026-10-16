@@ -26,6 +26,7 @@ Nasceu da vontade de fazer um jogo para a **enteada do Rodrigo** — mas sem ser
   - [[Jornal do Gatoelho]] — O Novelo, o jornal satírico de todas as dimensões.
   - [[Camada Zero do Gatoelho]] — **o segredo do universo** (Revisão 9): a Terra depois do fim da humanidade, a Arca das Máquinas, as nove redomas, a casa da Vó de Todas, o Protocolo da Porta, a série até o pedido de ajuda e a ponte com o livro [[A Sonda]].
 - [[Personagens do Gatoelho]] — elenco meio a meio: família, amigos, inimigos, chefes e os bichos reais que "já vieram assim".
+  - [[Misturas do Gatoelho]] — **proposta (2026-10-16, nada decidido)**: as plantas também foram embaralhadas. Bicho vai, planta fica; mistura à força × mistura por encontro; as Douradas (plantas com nome de bicho que acordam o corpo); moradores novos (Seu Dente-de-Leão, Girafassol, Ratoneia, Caracouve…); os Ao-Pé-da-Letra; a família com o carisma completo; o Carrapatu; a janela da Vó (camomila, urucum, o vaso); a horta que cruza.
 - [[Linha do Tempo do Gatoelho]] — o que foi feito, em ordem, desde a pré-produção.
 
 ## Repositório

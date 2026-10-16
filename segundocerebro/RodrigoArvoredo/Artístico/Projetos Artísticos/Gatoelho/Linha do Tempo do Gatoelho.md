@@ -70,6 +70,18 @@ Pedido do Rodrigo: juntar tudo numa história mais clara e precisa, com marcos c
 ## 2026-10-15 — leitura completa do código
 Rodada de revisão de todos os projetos, sem código novo. O código confere com as notas; os achados (teclas de desenvolvimento no jogo final, "Fim de jogo" que não recomeça a fase, executáveis velhos, texto obrigatório na tela) estão em [[Arquitetura do Gatoelho]]. Os seis ajustes de coerência de [[A História do Gatoelho]] seguem esperando a aprovação do Rodrigo.
 
+## 2026-10-16 — as misturas (proposta)
+Pedido do Rodrigo, numa conversa só de personagens (em paralelo às outras frentes): continuar pensando nos personagens e nas misturas entre bichos e plantas. Resultado: a nota [[Misturas do Gatoelho]], proposta, nada decidido. Nenhum arquivo do jogo foi alterado.
+1. **A frente:** as plantas já estavam no jogo sem história (o Dente-de-leão e o Trevo dão as habilidades, o pólen dá as transformações). Bicho vai, planta fica; o Clarão misturou à força, a abelha mistura por encontro; planta é tempo.
+2. **Seis regras** para misturas com planta (entre elas: comida não tem rosto; perigo parado não ganha rosto; uma piada por bicho).
+3. **As Douradas:** plantas de verdade com nome de bicho acordam a metade gato ou coelho (Unha-de-gato para escalar, Rabo-de-gato para andar em fios); o pólen só empresta.
+4. **Dez moradores novos** com silhueta, mania, dor e uma linha do caderno do Bigodes: Seu Dente-de-Leão (as plumas ensinam o planar sem texto), Girafassol, Ratoneia, Caracouve (o caracol do jogo ganha par), Batatus, Cogumelebres, Araipê, Vitória-Rã, Jabuticabra, Pipoco.
+5. **Os Ao-Pé-da-Letra:** bichos de fundo tirados ao pé da letra de nomes populares de plantas do Brasil, para o Gerador.
+6. **A família:** mania e dor para os irmãos (o Ouriçapo como alfineteiro da colcha, a Coalhoca que abraça, a Orcabelha que poliniza); o Patatu como o único que pede ajuda; o **Carrapatu** para o Patatu re-embaralhado.
+7. **A janela da Vó:** o chá é de camomila (de dormir, e a Traça não come quem dorme); o vermelho é de urucum, que desbota ao sol; o vaso de rabo-de-gato e orelha-de-coelho. Mais a **horta que cruza**, fatos reais para o caderno e o custo de cada ideia.
+8. **Alertas de coerência:** o Fio Vermelho separava todo mundo sem perguntar (aqui: "a Agulha pergunta"; o [[Fio da Meada do Gatoelho]] depois propôs "a Agulha costura", que esta nota passou a recomendar); a Dona Coelha é inteira, não pura.
+9. **Revisão 1.1**, no mesmo dia: conciliada com o Fio da Meada e com a regra do vermelho da [[Paleta do Gatoelho]]; ideias descartadas e guardadas registradas.
+
 ## 2026-10-16 — o fio da meada (Revisão 10, proposta)
 Pedido do Rodrigo, numa conversa só de enredo (em paralelo a outras frentes do jogo): limpar os detalhes da história e solidificar o fio da meada, numa grande rodada de pensamento. Resultado: a nota [[Fio da Meada do Gatoelho]], proposta, nada decidido.
 1. **O fio**: o coração da história (o velho que não bateu na porta, a velha que deixa chá na janela, o filhote que é o fio entre os dois), a tese inteira ("não dá para voltar, dá para tecer, e um fio sozinho não tece") e a imagem da saga, **fenda × porta** ("fenda é porta que ninguém bateu").
