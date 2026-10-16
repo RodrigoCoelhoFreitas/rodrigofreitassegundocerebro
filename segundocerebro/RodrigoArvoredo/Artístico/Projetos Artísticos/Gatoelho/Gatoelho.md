@@ -15,6 +15,7 @@ Nasceu da vontade de fazer um jogo para a **enteada do Rodrigo** — mas sem ser
 - [[Pesquisa de Fases do Gatoelho]] — como outros jogos constroem fases e o método de fases proposto.
 - [[História e Mundos do Gatoelho]] — bíblia da história em camadas, mundos no modelo Donkey Kong Country 3, finais e missão paralela (rascunho).
 - [[A História do Gatoelho]] — **a trama inteira contada de uma vez**, em ordem, com marcos numerados (do fim da humanidade à Sonda), mais os ajustes de coerência e os pontos soltos (2026-10-06).
+- [[Fio da Meada do Gatoelho]] — **Revisão 10 (2026-10-16, proposta, nada decidido)**: a rodada que limpa a bíblia e solidifica o fio. O coração da história, a tese inteira ("um fio sozinho não tece"), fenda × porta, cinco regras de cânone, treze nós desatados (o Fio Vermelho que separava todo mundo, a profecia com a física do lago, por que o herói derruba as antenas) e as decisões pedidas.
 - [[Arco Completo do Gatoelho]] — a bíblia da história (Revisão 7, proposta, 2026-10-05): a premissa ("o jogo que você joga aos 5, ajuda alguém a jogar aos 15 e entende aos 30"), o que torna um arco perfeito, a tese, o plano do Bigodes e o arco ato por ato. Notas irmãs:
   - [[Finais do Gatoelho]] — treze finais e o sistema de variantes.
   - [[Lendas do Gatoelho]] — o Tecido, as Nove Vidas, a profecia lida no espelho, o gatoelhês, a Traça, a cantiga.

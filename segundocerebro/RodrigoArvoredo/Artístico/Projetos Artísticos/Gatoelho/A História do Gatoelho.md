@@ -268,3 +268,5 @@ Perguntas que a trama já levanta e que nenhuma nota responde. Cada uma pede uma
 
 ## Decisões do Rodrigo
 (Ainda nenhuma sobre esta nota.)
+
+> **Proposta pendente (2026-10-16):** a [[Fio da Meada do Gatoelho]] (Revisão 10) propõe mudanças em vários marcos desta nota, responde aos ajustes 1 a 6 e aos pontos soltos da Parte 6, e pede treze decisões. Quando forem tomadas, esta nota é reescrita como fonte única da verdade.
