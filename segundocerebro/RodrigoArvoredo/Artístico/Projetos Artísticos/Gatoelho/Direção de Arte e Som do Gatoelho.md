@@ -33,6 +33,8 @@ Preocupação do Rodrigo desde o início: não transformar imagens bonitas diret
 ## Em aberto
 Quem desenha, anima e compõe; técnica de animação definitiva (quadro a quadro × esqueleto); pipeline de exportação de sprites; paleta e tipografia oficiais.
 
+**Paleta:** proposta completa em [[Paleta do Gatoelho]] (2026-10-16, nada decidido): dicionário de cores, a regra do vermelho (só é vermelho o que foi tricotado), dominante e destaque por região testados dentro do jogo, consertos achados com simulação de daltonismo (a tarde da Fase 2 é o ponto fraco) e o "robô daltônico" para os testes.
+
 ## Atualização 2026-09-30
 - **Fase com cara de bosque**: fundo em camadas com profundidade (céu em degradê, nuvens, montes, duas linhas de árvores), em cores suaves para não competir com o primeiro plano; terreno com grama ondulada e terra com pedrinhas; galhos de madeira com folhinhas.
 - **A toca do Gatoelho**: morrinho verde com porta redonda de madeira, janela acesa e chaminé — é de onde ele sai na Fase 1.
