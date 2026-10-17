@@ -33,6 +33,8 @@ Preocupação do Rodrigo desde o início: não transformar imagens bonitas diret
 ## Em aberto
 Quem desenha, anima e compõe; técnica de animação definitiva (quadro a quadro × esqueleto); pipeline de exportação de sprites; paleta e tipografia oficiais.
 
+**Cutscenes e arte trocável:** proposta em [[Cutscenes do Gatoelho]] (Parte 17, 2026-10-16, nada decidido): roteiros como dados, catálogo de vagas com prompt para a IA, planos em camadas, personagens sempre em camada própria (as manchas sorteadas, a roupa e o lenço mudam), atores das cutscenes em recorte com gestos como dados, folhas de modelo antes de qualquer cenário.
+
 **Paleta:** proposta completa em [[Paleta do Gatoelho]] (2026-10-16, nada decidido): dicionário de cores, a regra do vermelho (só é vermelho o que foi tricotado), dominante e destaque por região testados dentro do jogo, consertos achados com simulação de daltonismo (a tarde da Fase 2 é o ponto fraco) e o "robô daltônico" para os testes.
 
 ## Atualização 2026-09-30
