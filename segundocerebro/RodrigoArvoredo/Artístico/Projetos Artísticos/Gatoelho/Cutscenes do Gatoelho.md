@@ -6,6 +6,8 @@ tags: [projeto, jogo, lore, história, cutscenes, arte]
 
 Ramificação de [[Gatoelho]]. **Proposta do Claude (2026-10-16). Nada decidido.** Pedido do Rodrigo, numa conversa só de cutscenes (em paralelo às outras frentes do dia): roteiros de **todas as cutscenes do jogo, do início ao fim**, inteligentes e bonitos, que deem pistas e contem a história **sem complexidade para a criança e com muita complexidade para o adulto**. Tudo o que for programado agora vai ser **trocado por sprites desenhados à mão** (no nível de Hollow Knight, gerados depois com uma IA especializada), então **todo gráfico tem que ser trocável**.
 
+> **Roteiros desenvolvidos (2026-10-16):** esta nota é a escaleta. Cada cena escrita por inteiro, batida por batida, está em [[Roteiros do Gatoelho]] (sete notas, na pasta Roteiros). Onde as duas divergem, vale o roteiro.
+
 **Base usada.** Os marcos 0 a 20 de [[A História do Gatoelho]] na versão limpa do [[Fio da Meada do Gatoelho]] (Revisão 10), no chão do [[Planeta e Mundos do Gatoelho]], com as cores da [[Paleta do Gatoelho]] e os moradores da [[Misturas do Gatoelho]]. **As três são propostas ainda não decididas**: onde um roteiro depende de uma delas, está marcado com **⟨depende⟩**, e a Parte 19 diz o que muda se a decisão for outra. Outras marcas: **⟨novo⟩** nasceu nesta nota; **⟨conserta⟩** resolve algo que estava solto.
 
 ---
