@@ -10,6 +10,8 @@ Marcas usadas aqui: **⟨conserta⟩** resolve uma contradição ou um buraco qu
 
 ---
 
+> **Revisão 11 (2026-10-21):** [[A História do Gatoelho]] foi reescrita como fonte única. Ela **adota as recomendações desta nota** (Nós 1 a 13, ajustes, pontos soltos, Ideias 2 e 3), todas ainda vetáveis, e troca a Regra 1 ("uma Terra, nove redomas") por **nove dimensões simultâneas empilhadas**, por decisão do Rodrigo. A lista do que foi adotado está na Parte 7 da História.
+
 ## Parte 1 — O fio da meada
 
 ### A espinha e o coração

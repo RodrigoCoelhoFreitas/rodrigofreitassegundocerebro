@@ -8,6 +8,8 @@ Ramificação de [[Gatoelho]], parte da bíblia do [[Arco Completo do Gatoelho]]
 
 > **Estas são as lendas: o que os bichos acreditam.** Todas continuam valendo. O que elas são de verdade, por baixo (as redomas, a Arca, a casa da Vó de Todas), está na [[Camada Zero do Gatoelho]]. As duas versões nunca se contradizem: a lenda é a verdade contada em linguagem de bicho.
 
+> **Revisão 11 (2026-10-21), em [[A História do Gatoelho]]:** as dimensões deixam de ser fios lado a lado e viram **nove camadas do mesmo pano, uma debaixo da outra**: "de baixo, puxa-se; de cima, só se pode deixar cair". A ordem das vidas troca a 2ª e a 3ª (o Relojoeiro é a 2ª, a Navegante a 3ª). A profecia fica gravada embaixo de uma pedra debruçada sobre o lago, e não pintada no chão. Onde esta nota contradisser a História, vale a História.
+
 ## O Tecido (a cosmologia)
 O mundo do Gatoelho é **um tecido**. Os termos vêm do tear, e é por isso que tricô, novelo, colcha e agulha aparecem o jogo inteiro:
 - **A urdidura** são os fios esticados de cima para baixo: **as dimensões**, lado a lado, cada uma um mundo.

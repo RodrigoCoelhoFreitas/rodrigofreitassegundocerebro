@@ -8,6 +8,8 @@ Ramificação de [[Gatoelho]], a camada mais funda da bíblia do [[Arco Completo
 
 > **Esta nota é o maior segredo do universo.** Nada dela é dito no jogo, nem em nenhum livro do Gatoelho, até o fim da série. Ela existe para que tudo seja **consistente**, não para ser contada.
 
+> **Revisão 11 (2026-10-21), em [[A História do Gatoelho]]:** decisão do Rodrigo: **as nove redomas passam a ser nove dimensões simultâneas.** Na proposta da História, as Máquinas **dobram** a vida da Terra em nove camadas do mesmo planeta (a nossa no topo, o Avesso embaixo), e o hemisfério sul fica de fora, nunca dobrado. Continuam valendo: a extinção, as Máquinas, a Arca, a Vó de Todas, o Protocolo da Porta, os consoles e os mastros, a série e a Sonda. Saem: as redomas em círculo, as "iterações" da redoma 9 e as simulações infinitas como fato (a semente por partida continua como jeito de contar). Onde esta nota contradisser a História, vale a História.
+
 ## A regra de ouro (decisão do Rodrigo)
 **Tudo o que foi criado até agora continua igual.** A história, os personagens, o que o Bigodes faz, os finais, a lenda das Nove Vidas, o Tecido, a Traça. A Camada Zero **não troca nenhum acontecimento**: só explica, por baixo, **por que** cada coisa é como é. Quem nunca descobrir a Camada Zero joga uma fábula completa; quem descobrir vê que a fábula sempre foi verdade, de outro jeito.
 

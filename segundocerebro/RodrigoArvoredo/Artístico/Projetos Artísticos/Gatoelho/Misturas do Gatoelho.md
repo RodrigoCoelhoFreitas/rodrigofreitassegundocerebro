@@ -12,6 +12,8 @@ Ramificação de [[Personagens do Gatoelho]]. **Revisão 1 (2026-10-16). Status:
 
 ---
 
+> **Revisão 11 (2026-10-21), em [[A História do Gatoelho]]:** o Fio Vermelho **acolchoa** (um ponto atravessa as nove camadas e ninguém muda de forma); "a Agulha pergunta" fica guardada. O Carrapatu fica Carrapatu (a versão desta nota, com o carrapicho de lembrança, é a alternativa pedida na Parte 8 da História). As partes de bicho dos moradores daqui viram peças do Ateliê da Vó ([[Guarda-Roupa do Gatoelho]], Revisão 11).
+
 ## Parte 0 — A frente em quatro frases
 1. **As plantas já estão no jogo, só não têm história.** O Dente-de-leão Dourado e o Trevo Dourado dão as duas habilidades que existem; as flores de pólen dão as transformações; as cenouras fogem; o galho-mola arremessa; as flores-sino guardam o gatoelhês; as raízes guardam a Cenoura Roxa; o Pé de Feijão-de-Corda é o tempo. Na bíblia, o Abacachorro, o Cenourato e a Dona Tronca já são bicho com planta.
 2. **Bicho vai, planta fica.** A contradição de toda mistura com planta é **ir ou ficar**: a mesma da Vó (ficou oito anos na toca e um dia foi atrás) e o contrário da do Bigodes (não consegue ficar em lugar nenhum).

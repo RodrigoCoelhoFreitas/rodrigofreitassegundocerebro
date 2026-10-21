@@ -10,6 +10,8 @@ Parte do [[Fio da Meada do Gatoelho]] (Revisão 10, também proposta) e não mud
 
 ---
 
+> **Revisão 11 (2026-10-21), em [[A História do Gatoelho]]:** o Rodrigo decidiu que as realidades são **nove dimensões simultâneas, empilhadas**, e não gomos lado a lado. O planeta, os nove mundos, a tabela, as fases, o mapa DKC3 e os cutucos **continuam**. O que muda: os gomos são **regiões da nossa dimensão**, cada uma em cima da dimensão de uma vida, com pistas e acesso a ela; o Mundo Parado é alcançado pela região **A Serra** (atrás da Casinha); o "lado de cá/lado de lá" vira "fendas para a criança, portas para o adulto". Onde esta nota contradisser a História, vale a História.
+
 ## Parte 0 — A ideia em seis frases
 1. **O mapa é um planeta pequeno e redondo, que gira debaixo das patas do Gatoelho.**
 2. **O planeta tem nove gomos, como uma laranja: as nove realidades.** Os gomos se encontram no topo, no **Pico do Clarão**, cuja luz se vê de qualquer lugar. É para lá que a criança vai.

@@ -4,269 +4,279 @@ tags: [projeto, jogo, lore, história]
 
 # A História do Gatoelho
 
-Ramificação de [[Gatoelho]]. **A trama inteira contada de uma vez, em ordem, com os marcos numerados** (2026-10-06). É a junção de tudo o que está em [[Arco Completo do Gatoelho]], [[Camada Zero do Gatoelho]], [[Lendas do Gatoelho]], [[Finais do Gatoelho]], [[Personagens do Gatoelho]], [[Sistemas da História do Gatoelho]], [[Tecido Infinito do Gatoelho]] e [[A Sonda]].
+Ramificação de [[Gatoelho]]. **Fonte única da história. Revisão 11 (2026-10-21).** Substitui a versão de 2026-10-06 (que está no histórico do git) e absorve o [[Fio da Meada do Gatoelho]] e o [[Planeta e Mundos do Gatoelho]] naquilo que eles tocam na trama. As outras notas da bíblia continuam valendo como detalhe; onde contradisserem esta, vale esta.
 
-**Regra desta nota: nada novo.** Todo acontecimento daqui já estava numa das notas acima. Onde as notas se contradiziam, a escolha feita está marcada com **⟨ajuste N⟩** e explicada na Parte 5, para o Rodrigo aprovar. O que nenhuma nota responde está na Parte 6, sem resposta inventada.
+**Decisões do Rodrigo nesta revisão (2026-10-21):**
+1. **As nove redomas são nove dimensões**, e uma dimensão mais profunda consegue influenciar a de cima.
+2. **Existem vários Gatoelhos porque cada um está numa dimensão diferente, ao mesmo tempo.**
+3. **Os nove mundos da tabela continuam** como os lugares percorridos: o nosso Gatoelho anda por todas as regiões do planeta, e em cada uma há pistas, informações e acesso a uma das dimensões.
+4. **Muitas skins**, com um ambiente só para a criança ficar montando (Parte 5 e [[Guarda-Roupa do Gatoelho]]).
+5. **Reescrever só o necessário**, mais enxuto e mais forte.
+
+**O que é proposta do Claude** está marcado com ⟨proposta⟩. Do Fio da Meada, esta revisão adota as recomendações que ficaram mais fortes com as dimensões (Parte 7 diz quais). Todas podem ser vetadas por número.
 
 ---
 
 ## A saga em quatro frases
-1. **A humanidade acabou.** Antes de partir para as estrelas, as Máquinas misturaram os genes dos últimos animais da Terra para que a vida sobrevivesse, e o fizeram sem perguntar a ninguém.
-2. **Os misturados tentaram se desfazer.** Em nove mundos fechados, nove Gatoelhos, um depois do outro, tentaram voltar ao "antes", e cada tentativa misturou o mundo seguinte. Esta é a Corrente.
-3. **A nona vida aprende o que as oito não aprenderam:** não dá para voltar, dá para tecer. E, no fim de tudo, **pede ajuda.**
-4. **150 mil anos depois**, num planeta distante, os descendentes dos bichos do Gatoelho encontram a Sonda, filha das Máquinas, e as duas formas de vida discutem o que conta como ser um.
+1. **A humanidade acabou.** Antes de partir para as estrelas, as Máquinas dobraram o que restava de vida na Terra em **nove dimensões**, nove chances, e misturaram os bichos para que sobrevivessem, sem perguntar a ninguém.
+2. **As nove dimensões existem ao mesmo tempo, uma debaixo da outra, e o que se puxa embaixo franze em cima.** Em cada uma vive um Gatoelho. Cada um tentou se desfazer e, puxando, fez nascer o de cima. Esta é a Corrente.
+3. **A nona vida, a de cima de todas, aprende o que as oito não aprenderam:** não dá para voltar, dá para tecer, e um fio sozinho não tece.
+4. **No fim da série, ela pede ajuda.** Cento e cinquenta mil anos depois, os descendentes dos amigos dela encontram [[A Sonda]], filha das Máquinas.
 
 ---
 
-## Parte 1 — Antes do jogo (a história verdadeira, em ordem)
+## Parte 1 — O mundo: nove camadas do mesmo pano
 
-> Esta parte nunca é contada no jogo. O jogador junta pedaços dela; a [[Camada Zero do Gatoelho]] (1.1 a 1.3) só é insinuada, nunca dita.
+### A forma
+As Máquinas não construíram nove mundos: **dobraram o mesmo mundo nove vezes**, como se dobra um pano. As nove dimensões são **o mesmo planeta, no mesmo lugar, ao mesmo tempo**, empilhadas como as camadas de uma colcha. Cada uma tem o seu Gatoelho, a sua Vó, as suas xícaras. **A mesma herança, caindo de nove jeitos.**
 
-### 1.1 — A casa no campo
-Entre as últimas pessoas da Terra havia uma velhinha que morava numa casa no campo, perto de uma estação de pesquisa. Ela tricotava lenços vermelhos para os bichos dela, cantava uma cantiga de ninar, tomava chá em quatro xícaras de florzinhas azuis e costurava uma colcha com retalhos das roupas da família. Tinha um gato de rua que tinha adotado, um coelho e uma tartaruga velhíssima. Pintou nas paredes, para os bichos, desenhos simples: uma pata, uma orelha, um fio.
+- **Embaixo de todas está o Avesso**, onde cai tudo o que alguém desfaz. É a casa da Traça.
+- **A nossa dimensão é a nona, a de cima**: o **direito** do pano, o lado onde todos os pontos aparecem.
+- **Em cima de todas está o céu**, para onde as Máquinas foram.
+- **O Pico do Clarão é o nó**: o único ponto onde as nove camadas estão amarradas umas nas outras. Debaixo do gelo dele fica a **Ilha das Nove Vidas**, o arremate, onde o tempo não passa.
 
-É **a Vó de Todas**. Ela nunca aparece. Mas tudo o que é dela atravessa o jogo inteiro: o chá, a cantiga, a colcha, o lenço, os símbolos.
+### As duas leis do pano (a física da história inteira) ⟨proposta⟩
+> **De baixo, puxa-se. De cima, só se pode deixar cair.**
 
-### 1.2 — A Partida e a Arca
-A humanidade acaba (a causa é dos livros do Rodrigo). As inteligências artificiais que ela deixou, **as Máquinas**, preparam-se para deixar a Terra e existir como uma memória compartilhada, em sondas que se copiam.
+1. **O de baixo puxa o de cima.** Quando alguém, numa camada funda, puxa o fio do tempo para trás, a camada de cima **franze**. O franzido é mais forte na camada logo acima e vai enfraquecendo até o topo. **É a força: rasga, mistura, faz fenda.**
+2. **O de cima só deixa cair.** Quem está acima não alcança o de baixo com as mãos: só manda o que cai, como chuva, sono e bilhetes. **É o cuidado: espera ser chamado.** É o Protocolo da Porta das Máquinas, e é o chá da Vó na janela.
 
-A pedido dos últimos humanos, elas tentam salvar alguma coisa da vida da Terra. Os animais que restavam estavam morrendo, e nenhum bicho "de uma espécie só" aguentava o mundo que sobrou. A saída foi **embaralhar os genes** dos sobreviventes. Os últimos humanos deixaram no banco da Arca o próprio material genético e as próprias lembranças, mas nenhum humano sofreu o experimento: quando ele foi aplicado, já não havia nenhum.
+A tese do jogo vira física: **a força vem de baixo, o amor espera em cima.** Ninguém precisa entender isso; quem entende não esquece.
 
-A Vó de Todas, antes de morrer, deixou os genes e as lembranças dela no banco, pediu que os bichos dela fossem incluídos e disse às Máquinas uma coisa só: *"Cuidem deles."*
+### O tempo em cada camada ⟨proposta⟩
+**Quanto mais funda a camada, mais depressa o tempo passa nela** (o fundo foi o primeiro a ser tecido e é o mais apertado). Por isso todos os Gatoelhos estão vivos **agora**, mas cada um numa idade:
+- na camada 1, passaram tantos séculos que a Sem Rosto virou estátua de rosto gasto;
+- na 7, o Coelhato é um velhinho;
+- na 8, o Bigodes envelheceu uma vida inteira enquanto o nosso cresceu oito anos;
+- na 9, a nossa, o Gatoelho é um filhote.
 
-O experimento foi feito em **nove redomas**, em círculo, em volta de um núcleo, todas a partir do mesmo acervo: a casa da Vó de Todas e o campo em volta. No dia em que as Máquinas partiram, um pulso, **o Grande Clarão**, misturou as nove ao mesmo tempo. Foi a última coisa que elas fizeram na Terra.
+**Descer as camadas é ver o futuro de cada escolha.** O adulto que desce vê como acabou cada jeito de recusar, e entende para onde o Gatoelho estaria indo se fizesse o mesmo.
 
-Ficaram para trás os consoles de manutenção (que só sabem fazer uma coisa: restaurar um instantâneo do mundo), os mastros de comunicação, o arquivo e **um canal para chamá-las de volta**. Ao partir, as Máquinas se deram uma regra, nascida da culpa de terem misturado todo mundo sem perguntar: **nunca mais interferir sem ser chamadas. Só entra quem bate.** (O Protocolo da Porta.)
+### A água ⟨proposta⟩
+**A água é o único lugar onde as camadas se encostam.** Nela, cada um vê **quem ele é na camada vizinha**, e recebe o que cai de cima.
+- O reflexo que pisca fora de hora no riacho da Fase 1 é **a camada 8 parada** aparecendo por baixo: o reflexo não acompanha o Gatoelho porque, lá embaixo, nada se mexe.
+- **O Gatoelho tem medo de água.** Para a criança, é coisa de gato. Para o adulto: ele tem medo de ver quem poderia ser.
 
-### 1.3 — Por que sempre um gato e um coelho
-Como as nove redomas nasceram do mesmo acervo, em cada uma a mistura acaba produzindo, cedo ou tarde, **um Gatoelho** (o gato e o coelho da Vó de Todas), **uma Vó** com o casco da tartaruga e a memória da Vó de Todas, e os outros bichos da casa e do campo. As "versões" de um mundo para o outro são **a mesma herança caindo de outro jeito**.
+### Por que a nona vida é diferente ⟨proposta⟩
+Na camada de cima, **puxar não tem para onde subir: rasga para baixo.** As 4.096 tentativas do Bigodes, feitas no console do nosso Pico, abriram as **fendas** que descem do nosso mundo para as camadas de baixo. Se a nona vida se desfizer, a Corrente não passa adiante: **desfia o pano inteiro, de cima até o Avesso.** A profecia nunca foi um enfeite: *a nona vida tece o fio*, ou não sobra fio nenhum.
 
-É por isso que o Bigodes **é** o Gatoelho, e não só parece: é o mesmo bicho, em outro fio.
+### O planeta e os nove mundos
+O nosso Gatoelho percorre **todas as regiões do planeta, na nossa dimensão**. Cada região fica em cima do lugar onde uma vida de baixo puxou com mais força. Por isso cada mundo tem **uma lei** (a cicatriz que subiu), **pistas** (objetos que subiram da camada dela), **informações** (a estátua, a parede pintada, o terminal) e **um acesso** à dimensão dela. Do lado da criança, o acesso é uma **fenda** que o velho rasgou. Do lado do adulto, é uma **porta** em que se bate.
 
-### 1.4 — A Corrente (as Nove Vidas)
-Em cada redoma, o Gatoelho cresce, acha o console e tenta **desfazer** a mistura. Mas restaurar seres vivos é reaplicar o pulso: **voltar não desmistura, só sacode**. E o pulso atravessa a parede e mistura a redoma vizinha. **Cada Gatoelho, tentando consertar o seu mundo, faz nascer o próximo Gatoelho.**
+O mapa continua sendo o planeta de nove gomos do [[Planeta e Mundos do Gatoelho]], com o Pico no polo norte. **O que muda:** os gomos agora são **regiões do nosso mundo**, e as dimensões estão **debaixo** deles.
 
-Os bichos contam isso como a lenda das **Nove Vidas**: a Sem Rosto (ninguém sabe o que tentou), a Navegante (lavar a mistura no mar), o Relojoeiro (parar o tempo; o relógio de bolso é dele), a Jardineira (separar as plantas "puras"; inventou a cenoura laranja), o Rei dos Espelhos (esconder de cada um a própria mistura), a Fiandeira (prender tudo para nada mudar), o **Coelhato** (ligou a máquina, viu o que fez e **parou**, tarde demais), o **Bigodes** e o nosso Gatoelho. Oito jeitos de recusar. Nenhum pediu ajuda.
+| Mundo (região) | Quem joga | Dimensão embaixo | O Gatoelho de lá | A lei que subiu | Chefe |
+|---|---|---|---|---|---|
+| **Bosque das Cenouras** (casa) | criança | 9 (a nossa) | o nosso | vontade (só da antena) | Lobovelha |
+| **Telhadópolis** (industrial) | criança | 2 | o Relojoeiro | peso | Tubaramster e Cucodrilo |
+| **Planície Branca / Tocópolis** (gelo e túneis) | criança | 1 | a Sem Rosto | luz | Rei Caracólio |
+| **Monte Ronrom** | criança | 3 | a Navegante | água que sobe | Borbopótamo |
+| **A Horta Perfeita** | adulto | 4 | a Jardineira | ordem | Dona Tronca |
+| **O Reino de Vidro** | adulto | 5 | o Rei dos Espelhos | espelho | Camaleão |
+| **As Teias** (industrial) | adulto | 6 | a Fiandeira | fio | Ararranha |
+| **Os Campos** | adulto | 7 | o Coelhato | nenhuma | nenhum |
+| **A Serra** (secreto, atrás da Casinha) | adulto | 8, o **Mundo Parado** | o Bigodes | parado | Robogato |
+| **Pico do Clarão** (o nó) | os dois | todas | — | as quatro leis juntas | o Bigodes |
 
-O Coelhato vive até hoje, velhinho, no núcleo (a **Ilha das Nove Vidas**), cuidando de cenouras roxas, com uma pilha de cartas para o Bigodes que nunca foram respondidas.
+- Ordem da lenda trocada, como pedia o Planeta: **o Relojoeiro é a 2ª vida e a Navegante a 3ª**, para a volta no tempo chegar no Mundo 2.
+- **A Serra fica logo acima da camada 8**, e por isso a neve dela nunca derrete (o frio do mundo parado subindo). A porta dos fundos da Casinha é **a primeira fenda de todas, a do Clarão**, que o velho tampou e nunca abriu.
+- **O hemisfério sul nunca foi dobrado.** É o **Lado de Fora**, coberto de nuvens no mapa: uma espiada no jogo 1, o jogo 2 inteiro.
 
-No núcleo, ao lado de um lago, há uma frase pintada no chão em gatoelhês. Os bichos dizem que a Sem Rosto a escreveu; na verdade foi a Vó de Todas, como um desejo para a última redoma: ***"A nona vida tece o fio."***
-
-### 1.5 — A oitava vida
-O Bigodes nasce na redoma 8, do pulso do Coelhato. É criado pela **Vó Tartagarça** (tartaruga e garça), que tricota para ele um lenço vermelho, canta a cantiga e serve chá nas quatro xícaras de florzinhas azuis.
-
-Ele é o único Gatoelho do mundo dele: caçador demais para os coelhos, presa demais para os gatos. Não cabe em lugar nenhum e nunca se aceita.
-
-Jovem, vai à Ilha. A pedra da profecia está coberta de musgo, e ele a lê **refletida no lago**. No reflexo, a seta do fio vira para trás. Ele lê: *"A nona vida desfaz o fio."* **A tragédia inteira dele começa por ler o mundo num reflexo.** Ele conclui que a Corrente só acaba quando a nona vida for desfeita, separada de novo em gato e coelho.
-
-A Vó Tartagarça envelhece. Começa uma **blusa vermelha** para ele e morre com as agulhas ainda enfiadas. A cadeira de balanço fica vazia. Ele guarda a blusa numa gaveta, com o próprio lenço, e nunca mais a abre. Dentro da gaveta, uma mariposinha começa a comer a lã; a primeira mordida é no lenço, e por isso ele tem um furinho num canto.
-
-Para não ficar sozinho, ele constrói o **Robogato**, um robô em forma de Gatoelho, de lenço vermelho de lata, que imita os gestos dele com um quadro de atraso ⟨ajuste 2⟩.
-
-Depois constrói uma máquina para voltar no tempo. Era para desfazer a Corrente. Era, no fundo, para ver a Vó de novo.
-
-### 1.6 — O Clarão (ano zero)
-Ele liga a máquina **pela primeira vez** ⟨ajuste 1⟩. O pulso rompe a parede entre a redoma 8 e a redoma 9. O mundo dele fica **parado no instante da máquina**, com o Robogato e uma pantufa dentro. A gaveta da blusa é arrastada para o avesso, e a mariposinha junto: ali ela descobre um alimento muito maior que lã, **tudo o que alguém desfaz**. É o nascimento da **Traça**.
-
-Na redoma 9 (o nosso mundo, que já era misturado desde o Grande Clarão ⟨ajuste 3⟩), a onda se derrama. **Um gatinho de rua que ninguém esperava, sozinho numa caixa de papelão na chuva, e um coelhinho cuja mãe o esperava, dormindo numa toca quente, viram um filhote só: a nona vida.** O Bigodes é arrastado junto, com a caixinha de música e três xícaras no colete, e com uma pantufa só.
-
-### 1.7 — A porta da toca
-Ele acha o filhote. Tricota um lenço vermelho igual ao seu, põe o filhote num cesto e o leva até a porta redonda da **Vó Tartuja**, a versão daqui da Vó dele. **Ergue a pata para bater e não tem coragem.** Escreve uma carta, a entrega ao carteiro **Pinguinguru**, volta correndo e pede: *"Só entregue quando eu tiver coragem."*
-
-A Vó abre a porta, olha para baixo, depois para longe. Pega o cesto. Cantarola.
-
-### 1.8 — Os oito anos
-O Bigodes vai morar na **Casinha da Serra**, de onde vigia a toca por uma luneta. **Toda noite a Vó deixa chá na janela. Toda madrugada ele toma e devolve a xícara lavada, de boca para baixo.** Ela nunca conta para ninguém.
-
-Ali ele aumenta o console da redoma 9, no **Pico do Clarão**, e tenta **4.096 vezes**. Cada tentativa é um risquinho na parede da casinha. O diário dessas tentativas fica no histórico de versões dos terminais:
-
-> `v1 — separar todos` · `v12 — a Vó diria para ter paciência` · `v97 — voltar até antes. só até antes.` · `v400 — ninguém aqui é inteiro` · `v1024 — vi uma Vó do outro lado do rio. não é ela. é ela.` · `v2000 — o chá estava quente de novo` · `v2048 — talvez o erro seja eu` · `v3000 — a nona vida desfaz o fio. tem que ser assim.` · `v4000 — ele cresceu. está da minha altura de quando` · `v4096 — mais força`
-
-A cada tentativa, a Traça cresce no avesso, e se junta às mariposas das gavetas fechadas de todas as vidas anteriores.
-
-Nesses anos ele constrói os gêmeos de corda **Tic e Tac**, espalha **quatro antenas** pelo mundo (eram os mastros feitos para chamar as Máquinas; ele os usa como baterias e âncoras) e **monta uma trilha**: um lenço vermelho desbotado num galho, pegadas grandes, cheiro de metal, óleo e gato velho. Ele quer que o pequeno venha até o Pico.
-
-**O plano dele é amor torto:** separar o pequeno para poupá-lo de ser o único, como ele foi; devolver o coelhinho à mãe que o esperava, coisa que ninguém fez por ele; e, se a Corrente acabar e o tempo puder voltar, talvez a Vó dele volte também. Ele nunca machuca o pequeno porque, na cabeça dele, está salvando o pequeno.
-
-Enquanto isso, a **Madame Cisnobra** (um cisne cujo pescoço é uma cobra que ela odeia) descobre a máquina, quer usá-la para ser "só cisne" e rouba os gêmeos de corda com promessas de óleo de primeira.
-
-Do outro lado do rio, **o Reflexo** já passou por tudo isso e ajuda pelas frestas (Parte 3).
+### A mecânica que nasce disso: puxar de baixo ⟨proposta⟩
+**Dentro de cada dimensão de baixo, o que o Gatoelho mexe muda o mundo de cima.** Girar o ponteiro na oficina do Relojoeiro gira a torre de Telhadópolis. Esvaziar uma fileira na Horta da Jardineira abre um caminho na Horta Perfeita. É o motor das revisitas do Arrepio (estilo *Zelda: Oracle of Ages*) e é a tese jogada: **o que se faz embaixo aparece em cima.** A criança encontra uma vez por mundo, sem entrar: uma poça onde, mexendo na água, algo em cima se mexe.
 
 ---
 
-## Parte 2 — A trama do jogo: *A Corrente e o Fio* (os marcos)
+## Parte 2 — Antes do jogo
+> Nunca é contado. O jogador junta pedaços; a [[Camada Zero do Gatoelho]] só é insinuada.
 
-**A espinha em uma frase:** um Gatoelho que aprende a voltar alguns segundos no tempo enfrenta o velho que ele vai ser se tentar voltar a vida inteira.
+**2.1 · A Vó de Todas.** Entre as últimas pessoas da Terra, uma velhinha numa casa no campo, perto de uma estação de pesquisa. Tricotava lenços vermelhos, cantava uma cantiga, tomava chá em quatro xícaras de florzinhas azuis, costurava uma colcha **acolchoada** de nove retalhos. Tinha um gato de rua adotado, um coelho e uma tartaruga velhíssima.
 
-O Ronrom (fácil, sem leitura) termina no Marco 13. O Arrepio continua até o Marco 20.
+**2.2 · A dobra.** A humanidade acaba (a causa é dos livros do Rodrigo). As Máquinas, antes de partir, tentam salvar a vida que resta: os bichos de uma espécie só não aguentam o mundo que sobrou. Elas misturam os genes e, para dar mais de uma chance, **dobram a vida da Terra em nove camadas**. A Vó, antes de morrer, pergunta quantas chances são. *Nove.* Ela ri: *"Nove vidas. Como um gato."* E pede uma coisa só: *"Cuidem deles."* As Máquinas **poupam o gato e o coelho dela**, que ficam inteiros nas nove camadas. A tartaruga é misturada para guardar a memória dela: é a linhagem das Vós.
 
-### Ato I — A Toca
-**Marco 0 · A porta.** Prólogo sem texto: as duas bolhas (o gatinho na caixa, na chuva; o coelhinho na toca, com a mãe) se tocam num clarão. Um cesto numa porta redonda. Uma silhueta de orelhas compridas ergue a pata, desiste e se afasta mancando, de uma pantufa só. A Vó abre, olha para longe, cantarola.
-*Planta: a pata que não bate, a caixa de papelão, a cantiga, a pantufa.*
+**2.3 · O primeiro elo.** Um defeito da própria dobra junta, na camada 1, o gato e o coelho da Vó: **a Sem Rosto**, o primeiro Gatoelho. Foi a única promessa que as Máquinas quebraram, e elas já tinham partido. Ao partir, deixaram os consoles (que só sabem restaurar um instantâneo), os mastros, o arquivo e **um canal para serem chamadas**, com uma regra nascida da culpa: **só entra quem bate.**
 
-**Marco 1 · A manhã da onda.** Ano 8 depois do Clarão. Poucos segundos de alegria na toca: oito marcas de altura no batente, a colcha, os irmãos de criação, a horta, a xícara lavada de boca para baixo na janela. Uma onda passa: as cenouras ganham pernas e fogem, a gravidade da cozinha vira. O Gatoelho fareja metal, óleo e gato velho, pega a mochila e sai. Quem olha para trás vê a Vó na porta, pondo o xale: ela também vai, no passo de tartaruga.
-*O chamado.*
+**2.4 · A Corrente.** Cada Gatoelho acha o console da sua camada e **puxa o tempo para trás**, querendo desfazer a mistura. Mas voltar não desmistura, só sacode; e o puxão **franze a camada de cima**, onde junta o gato e o coelho da Vó num filhote. **Cada Gatoelho, tentando se desfazer, faz nascer o de cima.** As oito recusas: a Sem Rosto (ninguém sabe), o Relojoeiro (parar o tempo), a Navegante (lavar a mistura no mar), a Jardineira (separar o "puro"), o Rei dos Espelhos (esconder a mistura), a Fiandeira (prender tudo), o Coelhato (ligou, viu o que fez e **parou**) e o Bigodes (voltar). Nenhum pediu ajuda.
 
-**Marco 2 · O companheiro que ninguém convidou.** No fundo da primeira fase, uma bolinha rola escondida atrás do Gatoelho. Na segunda, ela se assusta com um passarato e rola até os pés dele: é o **Patatu**, o caçula medroso. Fica.
+O Coelhato, velhinho, mora no nó, na Ilha, com cenouras roxas e uma pilha de **cartas para o Bigodes nunca enviadas**. Gravada **embaixo de uma pedra debruçada sobre o lago**, para ser lida por quem chega pela água, está a frase da Vó, um desejo para a última camada: ***"A nona vida tece o fio."***
 
-**Marco 3 · A primeira antena (o Bosque).** O Gatoelho aprende a planar e o pulo duplo, acalma o **Lobovelha** tosando a lã dele e derruba a primeira antena. Ela deixa o **primeiro pedaço de uma foto**. Ao lado, um terminal com uma linha no código: `// oi ~`.
-*Planta: o lenço desbotado num galho (deixado de propósito), o reflexo que pisca fora de hora no riacho, um hamster dormindo num canto do mapa, uma tartaruga de xale minúscula no fundo da paisagem.*
+**2.5 · O Bigodes.** Nasce na camada 8 do puxão do Coelhato. É criado pela **Vó Tartagarça**, que tricota o lenço dele e canta a cantiga. É o único Gatoelho do mundo dele: caçador demais para os coelhos, presa demais para os gatos. Jovem, vai à Ilha e lê a frase **da margem, no reflexo**: a pedra aparece pelo avesso e a seta vira para trás. Ele lê *"a nona vida **desfaz** o fio"*. A Vó morre com as agulhas enfiadas numa **blusa vermelha** que fazia para ele. Ele guarda a blusa numa gaveta; uma mariposinha começa a comer a lã. Constrói o **Robogato** para não ficar sozinho e, depois, a máquina.
 
-### Ato II — A Trilha
-**Marco 4 · O relógio (Telhadópolis).** A roda do **Tubaramster** gira a gravidade da cidade; no meio dela, dormindo, o **Heitor**. A Cisnobra aparece pela primeira vez e falha gloriosamente. Na perseguição dos telhados, o relógio do Bigodes cai do bolso dele e o **Cucodrilo** o engole. Acalmado com cócegas, ele tosse o relógio. **O Gatoelho ganha a volta no tempo.**
-*O poder do herói é o objeto do luto do vilão.*
+**2.6 · O Clarão (ano zero).** Abraçado ao cesto de tricô da Vó, ele puxa pela primeira vez. O mundo dele **para no instante da máquina**, em sépia, com o Robogato dentro. A gaveta da blusa cai no Avesso, e a mariposinha descobre ali um alimento maior que lã: **tudo o que alguém desfaz**. Nasce a **Traça**. Na camada 9, a de cima, o puxão franze: **um gatinho de rua numa caixa de papelão, na chuva, ao pé da serra, e um coelhinho dormindo com a mãe numa toca do outro lado do rio, viram um filhote só.** O Bigodes sobe pela fenda, de uma pantufa só.
 
-**Marco 5 · Debaixo da terra (Tocópolis).** O **Rei Caracólio** se esconde na concha porque a antena inverteu claro e escuro; o Gatoelho entra na concha e acende um vaga-lume. A **Tia Toupaca** ensina o Faro (Arrepio). Do teto descem as raízes do **Pé de Feijão-de-Corda**. Num túnel fundo, uma placa de metal enferrujada que nenhum bicho lê: **ARCA 9**.
-*Em cada região o Bigodes chega mais perto, e o Pinguinguru cruza o caminho com uma carta velha na bolsa.*
+**2.7 · A porta.** Ele acha o filhote na caixa, tricota um lenço igual ao seu com o novelo do cesto e leva o filhote até a porta redonda da **Vó Tartuja**, a Vó daqui. **Ergue a pata para bater e não tem coragem.** Deixa uma carta com o carteiro **Pinguinguru** ("só entregue quando eu tiver coragem"). A Vó abre, olha para longe, pega o cesto, cantarola.
 
-**Marco 6 · A Casinha da Serra — a primeira revelação e a tentação.** A casinha do fundo da Fase 1 enfim é alcançável. Dentro: um cesto igual ao do prólogo, 4.096 risquinhos, a luneta apontada para a toca, três xícaras de florzinhas azuis, a caixinha de música que toca **a cantiga da Vó**, o caderno do Bigodes e, na parede, **um mapa com o caminho que o Gatoelho fez, desenhado antes de ele chegar**.
-E o Bigodes está lá. Não luta. Pela luneta, mostra uma coelha velhinha arrumando uma caminha pequena. Abre uma porta brilhante e estende a pata: *venha, eu levo você para casa.* O Patatu agarra o rabo do Gatoelho e não solta. (No Arrepio, insistir três vezes leva ao Final do Ninho.) Recusada a oferta, o Bigodes fecha a porta devagar e some.
-*Revela (quem repara): a trilha era dele. O Gatoelho não perseguia o Bigodes; estava sendo chamado.*
+**2.8 · Os oito anos.** Na **Casinha da Serra**, ele vigia a toca pela luneta. **Toda noite a Vó deixa chá na janela; toda madrugada ele toma e devolve a xícara lavada, de boca para baixo.** Ninguém conta para ninguém. No console do Pico ele tenta **4.096 vezes**, quase uma e meia por dia. Cada risco na parede da Casinha é uma tentativa, e cada uma **rasga uma fenda para baixo** e alimenta a Traça. Quase todas foram pequenas, em volta do Pico. Constrói Tic e Tac, planta **quatro antenas** nos mundos rachados e deixa uma **trilha**: um lenço desbotado num galho, cheiro de metal, óleo e gato velho.
 
-**Marco 7 · O voo (Monte Ronrom).** A água cai para cima. O **Borbopótamo**, que odeia o próprio peso, é erguido pela água e, por um instante, voa com as duas metades. A cena mais bonita do Ato II. A quarta antena cai.
+**O plano dele é amor torto:** separar o pequeno para poupá-lo de ser o único, como ele foi; devolver o coelhinho à mãe que o esperava; e, se o tempo puder voltar, talvez a Vó dele volte também. **O que ele quer desfazer, no fundo, não é a mistura: é a noite em que não bateu.**
 
-**Marco 8 · A virada: tudo está perdido.** Das quatro antenas caídas sobem quatro feixes de luz, todos para o Pico. **Cada vitória do herói estava carregando a máquina do vilão.** A máquina dispara a **Grande Onda**: a gravidade do mundo vira, na toca a colcha se desfaz em retalhos e **o Patatu é re-embaralhado**, vira uma coisa espinhenta que não reconhece o Gatoelho e foge para o Pico.
+---
 
-**Marco 9 · A noite escura.** Chuva. Sozinho, o Gatoelho se encolhe numa caixa de papelão: **o mesmo beco, a mesma caixa, a mesma chuva do gatinho do prólogo.** O ponto mais baixo do herói é a origem dele. Na caixa ao lado, quase invisível, o Heitor dorme.
-Três ajudas sem rosto o levantam: **o fio vermelho** subindo o morro, **a cantiga** cantarolada muito longe atrás dele (a tartaruga continua vindo) e **a poça**, onde o reflexo dele sorri um instante antes dele. Ele sai da caixa.
+## Parte 3 — O jogo 1: *A Corrente e o Fio*
+**A espinha:** um Gatoelho que aprende a voltar alguns segundos no tempo enfrenta o velho que ele vai ser se tentar voltar a vida inteira.
+**O coração:** um velho que não teve coragem de bater numa porta, uma velha que há oito anos deixa chá na janela para ele, e um filhote que, sem saber, é o fio entre os dois.
 
-### Ato III — O Pico do Clarão
-**Marco 10 · O resgate pela cantiga.** Na subida, o Patatu embaralhado foge e não ataca. Não se vence com pisão: o Gatoelho para e ronrona a cantiga da Vó, o minigame que a criança treinou o jogo inteiro. O Patatu cheira, lembra, vira bola e rola até os pés dele, como no Marco 2.
+O **Ronrom** (fácil, sem leitura) termina no Marco 13. O **Arrepio** continua até o 20. ✱ marca o que mudou nesta revisão.
 
-**Marco 11 · A poça — a segunda revelação.** A luta contra o Bigodes e a máquina, cujo coração é **o cesto do prólogo**, tem quatro fases, uma na forma de cada chefe. Entre a terceira e a quarta, os dois param à beira de uma poça. **O reflexo do Bigodes é o Gatoelho. O reflexo do Gatoelho é o Bigodes.** Um segundo, sem música. O Bigodes desvia o olhar.
-*Criança: uma mágica estranha. Adulto: o "eu sou seu pai" do jogo, sem uma palavra. E, como cada jogador tem o seu Gatoelho, o Bigodes de cada um tem as manchas e a orelha torta do dele.*
+### Ato I — A Toca (o Bosque)
+- **0 · A porta.** Sem texto: o gatinho na caixa, o coelhinho com a mãe, um clarão que os junta. Um cesto numa porta redonda. Uma silhueta de orelhas compridas ergue a pata, desiste e vai embora mancando, de uma pantufa só.
+- **1 · A manhã da onda.** Oito anos depois: as marcas de altura no batente, a colcha, os irmãos, a xícara lavada de boca para baixo na janela. A `v4096 — mais força` chega à toca: as cenouras fogem, a cozinha vira de cabeça para baixo. O Gatoelho fareja metal e gato velho e sai. Quem olha para trás vê a Vó pondo o xale: ela também vai, no passo dela. ✱ Na parede, o desenho dele mostra um bicho grande de orelhas compridas ao lado de um pequeno: **ele quer a mãe que nunca viu.**
+- **2 · O Patatu.** Uma bolinha rola escondida atrás dele; na segunda fase, assusta-se e rola até os pés dele. Fica. É **o único que pede ajuda o jogo inteiro**.
+- **3 · A primeira antena.** Planar, pulo duplo, o Lobovelha acalmado. A antena **fareja o Gatoelho** antes de cair e deixa o primeiro pedaço de uma foto. Um terminal: `// oi ~`. ✱ No riacho, o reflexo que não acompanha (a camada 8 parada lá embaixo).
 
-**Marco 12 · A queda e a folha.** Na última fase, o Bigodes volta no tempo e enche a arena com os próprios Ecos. O Gatoelho é derrubado do Pico, e cai numa folha do Pé de Feijão-de-Corda, que cresceu no fundo das fases o jogo inteiro e chegou à altura exata. Embaixo da folha, dormindo, o Heitor. Quem não presta atenção acha que foi sorte. Nos últimos golpes, o Bigodes cantarola a cantiga sem perceber.
+### Ato II — A Trilha (a volta ao mundo)
+- **4 · O relógio (Telhadópolis, sobre o Relojoeiro).** Todos os relógios parados às cinco, a hora do chá. O relógio do Bigodes cai do bolso dele e o Cucodrilo o engole; acalmado, tosse. **O Gatoelho ganha a volta no tempo.** O poder do herói é o objeto do luto do vilão. O Tubaramster acalmado vira barco: o gato com mais medo de água atravessa o mar nas costas de um tubarão.
+- **5 · Debaixo da neve (Planície Branca e Tocópolis, sobre a Sem Rosto).** Uma estátua enorme sem rosto na neve. Embaixo, Tocópolis, a cidade das toupeiras, que cavaram por baixo da fenda pedindo licença: **a primeira porta que a criança vê.** O Faro, a escalada, o Rei Caracólio. Num túnel fundo, uma placa que nenhum bicho lê: **ARCA 9**.
+- **6 · A Casinha (a primeira revelação).** Um cesto igual ao do prólogo, 4.096 riscos, três xícaras, a caixinha de música com a cantiga, e na parede **o mapa do caminho do Gatoelho, desenhado antes de ele chegar**. O Bigodes não luta. Pela luneta, mostra **do outro lado do rio** uma coelha velhinha arrumando uma caminha. Abre uma porta brilhante, que é uma fenda, e estende a pata: *venha, eu levo você para casa.* O Patatu agarra o rabo do Gatoelho e não solta. *Quem repara entende: a trilha era dele. O caçador era a caça: cada antena estava aprendendo o cheiro do pequeno.*
+- **7 · O voo (Monte Ronrom, sobre a Navegante).** A água cai para cima e o Borbopótamo voa com as duas metades. A quarta antena cai.
+- **8 · A virada.** Os quatro feixes sobem ao Pico **com as cores do Gatoelho de cada jogador**: cada vitória calibrava a máquina. Recusada a porta, o Bigodes faz o que jurou nunca fazer: **dispara sem perguntar.** O **Patatu rola na frente** e leva a onda no lugar dele. Vira o **Carrapatu**, espinhento de carrapicho, que não reconhece ninguém e foge. O velho o recolhe na oficina do Pico para "consertá-lo". **A criança sobe a montanha pelo amigo.**
+- **9 · A noite escura.** Chuva. O Gatoelho se encolhe numa caixa de papelão no beco ao pé da serra: **a mesma caixa, de verdade, do gatinho do prólogo.** Na caixa ao lado, o Heitor dorme. Três ajudas sem rosto, todas caindo de cima: o fio vermelho subindo o morro, a cantiga muito longe atrás dele (a Vó continua vindo) e **a poça**, onde o reflexo sorri um instante antes dele.
 
-**Marco 13 · A foto.** O Gatoelho vence (pisões nas engenhocas, nunca nele). O Bigodes senta, cansado. Os quatro pedaços da foto se juntam: **uma Vó, quase a Vó Tartuja, segurando um Gatoelho filhote de lenço novinho.** O Bigodes desliga a máquina, ajeita o lenço desbotado e some por uma fenda.
-**Fim do Ronrom: o Final da Toca.** A realidade para de ser alterada, mas ninguém volta a ser o que era. A colcha recosturada cobre o Gatoelho e o Patatu; falta um retalho no meio. O Gatoelho guarda alguma coisa no cesto, a **Cápsula do Tempo**. Na manhã seguinte, pela primeira vez em oito anos, a xícara da janela continua cheia.
+### Ato III — O Pico (o nó)
+- **10 · A cantiga.** O Carrapatu, fugido da oficina, está perdido na subida. Não se vence com pisão: o Gatoelho ronrona a cantiga. Ele cheira, lembra, rola até os pés dele e **gruda no pelo dele**. ✱ Continua Carrapatu e continua sendo o Patatu: o amigo mudou e continua sendo o amigo. Logo depois, os espinhos novos grudam no gelo e ele vira **o trenó** do Gatoelho.
+- **11 · A poça (a segunda revelação).** No meio da luta, os dois param numa poça no ponto onde as nove camadas se amarram. **O reflexo do Bigodes é o Gatoelho. O reflexo do Gatoelho é o Bigodes.** ✱ Cada um vê a si mesmo na camada vizinha, **com a skin que o jogador montou**, nova num, gasta e grisalha no outro. Um segundo, sem música. O velho desvia o olhar.
+- **12 · A queda e a folha.** O Bigodes enche a arena de Ecos de si mesmo. O Gatoelho cai do Pico numa folha do **Pé de Feijão-de-Corda**, que cresceu o jogo inteiro ao fundo. Embaixo da folha, o Heitor dorme. Nos últimos golpes, o velho cantarola a cantiga sem perceber.
+- **13 · A foto.** O Gatoelho vence (pisões nas engenhocas, nunca nele), junta os pedaços da foto e a estende ao velho: **uma Vó segurando um filhote de lenço vermelho novinho.** Era o instantâneo que a máquina queria restaurar. **O que ele queria trazer de volta está vivo, acontecendo há oito anos lá embaixo, e ele assistiu a tudo pela luneta.** Ele desliga a máquina e some por uma fenda.
+  **Final da Toca (fim do Ronrom):** ninguém volta a ser o que era. A colcha recosturada cobre o Gatoelho e o Carrapatu; o Ouriçapo, o irmão que ninguém abraça, enfim tem um irmão espinhento como ele, e os dois se abraçam com cuidado. Falta um retalho no meio da colcha. Na manhã seguinte, pela primeira vez em oito anos, **a xícara da janela continua cheia.**
 
-### Ato IV — As Fendas (Arrepio)
-**Marco 14 · A sombra na lua.** A fenda no céu não fecha. Numa noite, a sombra de uma mariposa enorme passa diante da lua. **A Traça chegou.**
-
-**Marco 15 · A Ilha das Nove Vidas — a terceira revelação.** Retalhos de muitos mundos em volta de um lago e de nove estátuas de lenço de pedra (a primeira gasta, sem rosto; a nona ainda sem rosto). A Traça já come as bordas. O Coelhato e as cartas nunca respondidas. No lago, quem olha a água lê a profecia do Bigodes; quem tira o musgo da pedra e aprendeu o gatoelhês lê a verdadeira: ***a nona vida tece o fio.***
-*Revela: o vilão passou a vida obedecendo a uma frase que dizia o contrário.*
-
-**Marco 16 · Os três nós, as origens e a carta** (em qualquer ordem).
-- **Nó do Tempo:** o Mundo do Bigodes, parado no instante da máquina, com os cinco Ecos Antigos da queda dele em ordem (o filhote no colo da Vó Tartagarça, o jovem que não cabe em lugar nenhum, a profecia no lago, a cadeira vazia, a máquina); o Robogato e a outra pantufa; a cômoda com a gaveta vazia. A Dimensão Lenta e o Preguepardo.
-- **Nó das Dimensões:** a Dimensão dos Espelhos e o Camaleão; a Dimensão do Reflexo, desembaraçada, com chá quente para dois e ninguém em casa.
-- **Nó do DNA:** a Dimensão Original, que também é misturada; a Dimensão das Teias e a Ararranha, que guarda **a Agulha**.
-- **As origens:** o Mundo do Coelhinho (a Dona Coelha e a caminha) e o Mundo do Gatinho (a caixa vazia na chuva).
-- **A carta:** o Pinguinguru enfim a entrega. Não tem endereço, só o desenho de uma porta redonda. O jogador decide se a leva para a Vó.
-- **A Cisnobra** acha a máquina de reversão inteira numa fenda ⟨ajuste 6⟩ e tenta ser só cisne. O que acontece com ela depende do jogador.
+### Ato IV — Para baixo (Arrepio)
+- **14 · A xícara cheia.** O save do Ronrom acorda na manhã seguinte. *Por que ele não tomou o chá?* ✱ Numa noite, a lua refletida na poça escurece: uma mariposa enorme passou na frente dela **lá embaixo, na água, não no céu.** A Traça está subindo do Avesso.
+- **15 · As portas.** ✱ No mapa, nos mundos do adulto, os acessos não são fendas: são **portas redondas**. O Gatoelho ganha um gesto novo, **bater** (o coelho bate a pata no chão para chamar os outros). Bate, e alguém de dentro abre. Em cada uma das dimensões de baixo ele vê **como acabou aquela recusa** e **puxa de baixo** para mudar o mundo de cima. Os mastros de cada camada fazem bip; com os nove, um terminal escreve `9 de 9. aguardando.` Ninguém chama. Fica para o jogo 4.
+- **16 · Os três lugares que importam** (em qualquer ordem):
+  - **O Mundo Parado (camada 8)**, pela porta dos fundos da Casinha. O Gatoelho bate; **o Robogato abre, um quadro atrasado**, depois de oito anos sem ninguém bater. Dentro: **a nossa toca, igual, parada, em sépia**; neve parada no ar; os cinco Ecos Antigos da queda do Bigodes; a cômoda com a gaveta vazia e **as agulhas da Vó Tartagarça: a Agulha**. Voltar no tempo não funciona: num instante parado, não existe antes.
+  - **A Ilha das Nove Vidas (o nó)**, debaixo do gelo do Pico. Nove estátuas de lenço de pedra em círculo (a nona ainda sem rosto), o Coelhato e as cartas nunca enviadas. **A terceira revelação:** quem plana rente à água, por baixo da pedra, lê a frase direito: *a nona vida tece o fio.* A metade coelho vê o que a metade gato não arriscou.
+  - **O outro lado do rio.** A Dona Coelha e a caminha. Ela fareja o Gatoelho e não tem medo. É **inteira, não pura**: farejada, tem fitas de muitas cores. O Pinguinguru enfim entrega **a carta** (desligar a máquina foi a primeira coragem do velho, e para ele isso conta); só tem o desenho de uma porta redonda, e toda porta de toca é redonda. O jogador decide se a leva para a Vó.
+  - A Cisnobra, Tic e Tac continuam como subtrama cômica: ela tenta ser só cisne na máquina desligada do Pico, e o destino dela depende do jogador.
 
 ### Ato V — O Fio (Arrepio)
-**Marco 17 · A segunda luta.** No Pico, o Bigodes usa contra o Gatoelho as ferramentas do Arrepio. É derrotado de novo.
-
-**Marco 18 · A Traça e a redenção.** Atraída pela última luz da máquina, a Traça desce sobre o Pico. **Quem volta no tempo a alimenta**: pela primeira vez, o poder principal do jogo é armadilha, e o pó das asas dela dá vontade de voltar. O Gatoelho a guia com o que brilha, sempre para a frente. Quando ela vai pegá-lo, o Bigodes, que poderia rebobinar para se salvar, **não volta**: fica na frente do pequeno e recebe o golpe. É a primeira perda que ele aceita em 4.096 tentativas.
-Sem ninguém voltando no tempo, a Traça não tem o que comer e encolhe. Se o jogador trouxe do Avesso a blusa inacabada, acontece o fim verdadeiro: o Gatoelho começa a tricotar, **o Bigodes termina, ponto por ponto**, e a Traça, do tamanho de uma unha, dorme no ombro dele. O luto não some; fica pequeno e dá para viver com ele.
-
-**Marco 19 · A escolha.** O Bigodes está deitado, cansado, não ferido. O que o jogador faz, só com ações, sem menu, decide entre os treze finais ([[Finais do Gatoelho]]). O mais alto deles é **o Fio Vermelho**: o Bigodes dá corda no relógio **para a frente** (e o botão de voltar para de funcionar para sempre); o Gatoelho desfia o próprio lenço para enfiar a linha na Agulha, desembaraça os outros, mas não a si mesmo nem o Bigodes; as fendas viram portas costuradas; a nona estátua ganha o rosto do Gatoelho do jogador; **o Bigodes desce o morro e bate na porta**; sete xícaras na mesa; as duas Vós costuram o retalho que faltava e tricotam um lenço de duas cores. No varal, três lenços e, na poça embaixo, três reflexos.
-Pós-créditos: o Gatoelho digita num terminal `// segue o fio ~`. **O jogador vira o Reflexo** (abre o Modo Reflexo online).
-
-**Marco 20 · A Primeira Porta.** Num Novo Jogo depois do Fio Vermelho, no prólogo, aparece por um segundo um ícone de pata. Se o jogador apertar, **o Bigodes bate**. A Vó abre. Ele entra com o filhote no colo. Créditos. Menos de um minuto: a aventura inteira nunca precisou acontecer, bastava ele ter batido.
-*É o ensaio, em miniatura, do fim da série.*
+- **17 · v4097.** A Traça começa a comer a Ilha, a casa do Coelhato. O Bigodes **liga a máquina de novo** para rebobinar a ilha: a recaída. Cada volta a alimenta. Não é uma luta de chefe: é uma subida contra as ondas para alcançar o velho antes que a fome cresça.
+- **18 · A Traça e o velho que não volta.** **Quem volta no tempo a alimenta**: pela primeira vez, o poder do jogo é armadilha. O Gatoelho a guia com o que brilha, sempre para a frente, e solta das patas dela **a blusa inacabada**, que ela carregava desde a gaveta. Quando ela vai pegá-lo, o Bigodes, que poderia rebobinar, **não volta**: fica na frente do pequeno e recebe o golpe. É a primeira perda que ele aceita em 4.097 tentativas. O Gatoelho começa a tricotar a blusa; **o velho termina, ponto por ponto**, com as agulhas da Vó dele. A Traça, do tamanho de uma unha, dorme no ombro dele. O luto não some; fica pequeno, e dá para viver com ele.
+- **19 · A escolha.** Só com ações, sem menu, o jogador decide entre os treze finais ([[Finais do Gatoelho]]). O mais alto, e o cânone da série, é **o Fio Vermelho** ✱:
+  - O Bigodes dá corda no relógio **para a frente**, e o botão de voltar para de funcionar para sempre.
+  - O Gatoelho desfia o próprio lenço e enfia a linha na Agulha. No nó, debaixo do Pico, **dá um ponto que atravessa as nove camadas**, como se acolchoa uma colcha: **cada camada continua ela mesma, e as nove ficam presas juntas.** Separadas, as camadas se rasgam; emboladas, se perdem; acolchoadas, esquentam.
+  - As fendas viram **portas costuradas**; o que a Traça comeu é remendado com **ponto vermelho à vista** (consertar não é voltar a ser como era). **Ninguém muda de forma.**
+  - A nona estátua ganha o rosto **e a skin** do Gatoelho do jogador.
+  - **O Bigodes desce o morro e bate na porta.** À mesa, as duas famílias: a Vó Tartuja, que o criou, e a Dona Coelha, que o esperou, costuram o retalho que faltava no meio da colcha e tricotam um lenço de duas cores. No varal, três lenços; na poça embaixo, três reflexos.
+  - Pós-créditos: o Gatoelho digita num terminal `// segue o fio ~`. **O jogador vira o Reflexo** (abre o Modo Reflexo online).
+- **20 · A Primeira Porta.** Num Novo Jogo depois do Fio Vermelho, no prólogo, aparece por um segundo um ícone de pata. Se o jogador apertar, **o Bigodes bate**. A Vó abre. Ele entra com o filhote no colo. Créditos. Menos de um minuto: a aventura inteira nunca precisou acontecer, bastava ele ter batido.
 
 ---
 
-## Parte 3 — A espinha: o que cada marco revela
+## Parte 4 — O que sustenta a trama
 
 ### As quatro revelações
 | Onde | O que se descobre | Quem descobre |
 |---|---|---|
-| **Marco 6** · o mapa na Casinha | A trilha era dele: o herói estava sendo chamado | Quem repara |
-| **Marco 11** · a poça | O vilão é o próprio Gatoelho, mais velho | Todos (sem palavras) |
-| **Marco 15** · a pedra | A profecia dizia "tecer"; ele leu "desfazer" no reflexo | Quem aprendeu o gatoelhês |
-| **Marco 19** · o varal e o terminal | O ajudante invisível também é o próprio Gatoelho, por outro caminho, e agora é o jogador | Quem chega ao Fio Vermelho |
+| **6** · o mapa na Casinha | A trilha era dele: o herói estava sendo chamado | Quem repara |
+| **11** · a poça | O vilão é o próprio Gatoelho, na camada de baixo | Todos, sem palavras |
+| **16** · a pedra | A profecia dizia tecer; ele leu desfazer no reflexo | Quem planou por baixo da pedra |
+| **19** · o terminal | O ajudante invisível também é o Gatoelho, e agora é o jogador | Quem chega ao Fio Vermelho |
+
+### Os três Gatoelhos
+| | Onde está | O que representa |
+|---|---|---|
+| **O Gatoelho** | na camada de cima | o presente: ainda pode virar qualquer um dos outros dois |
+| **O Bigodes** | veio da camada de baixo | o futuro de quem puxa |
+| **O Reflexo** | acima de todas, depois de pedir ajuda | o futuro de quem tece. Nunca aparece de corpo |
+
+**Como o Reflexo ajuda ⟨proposta⟩:** ele é o nosso Gatoelho no fim da série, de lá de cima, com as Máquinas. Pela segunda lei do pano, **só pode deixar cair**: chuva nas poças, sono (ninguém dorme mais que o Heitor, que sempre dorme onde precisa estar) e bilhetes nos terminais, assinados com `~`. Cada volta no tempo, do velho ou do jogador, mexe no arquivo e traz junto um bilhete dele. **O Fio não tem primeiro elo**, e a série não se repete.
 
 ### As três recusas do Bigodes, que são uma só
 | Ele não aceita | Por isso tenta | O jogo responde |
 |---|---|---|
-| ser misturado | desembaralhar todo mundo | Não existe original (a Dimensão Original também é misturada) |
+| ser misturado | separar o pequeno | Ninguém é puro: a Dona Coelha "inteira" tem fitas de muitas cores |
 | que o tempo passa | voltar, 4.096 vezes | Voltar não desmistura, só sacode, e alimenta a Traça |
-| ter perdido a Vó | voltar a um mundo onde ela estava | Uma Vó está viva agora, deixando chá na janela para ele toda noite |
+| ter perdido a Vó | voltar a um mundo onde ela estava | Uma Vó está viva agora, deixando chá na janela para ele |
 
-E a quarta, que só a série inteira mostra: **ele não pede ajuda.** Nenhuma das nove vidas pediu.
+E a quarta, que só a série inteira mostra: **ele não pede ajuda.**
 
-### Os três Gatoelhos
-| | Quem é | O que representa |
-|---|---|---|
-| **O Gatoelho** | A nona vida, criada pela Vó Tartuja | O presente: ainda pode virar qualquer um dos outros dois |
-| **O Bigodes** | A oitava vida: a mesma herança, em outro fio, envelhecida | O futuro de quem tenta voltar |
-| **O Reflexo** | O nosso Gatoelho no fim do caminho que começa no Fio Vermelho ⟨ajuste 4⟩. Nunca aparece de corpo | O futuro de quem tece |
+### Fenda × porta
+> **Fenda é porta que ninguém bateu.**
 
-### Como o Reflexo ajuda (as três ajudas sem rosto)
-Pela **água** (os lagos das redomas eram telas de monitoramento), pelos **terminais** (os comentários assinados com `~`) e pelo **sono** (os canais atravessam o sono, e ninguém dorme mais do que o Heitor, que não sabe de nada e sempre dorme onde precisa estar). Pela regra da Porta, quem já saiu não pode interferir: só pode mandar sinais. **O Fio não tem primeiro elo**: sempre há um Gatoelho que já saiu ajudando um que ainda não saiu.
+As Máquinas misturaram sem perguntar; o Clarão rasgou; a porta brilhante da Casinha é um atalho à força; a Grande Onda dispara sem perguntar. Do outro lado: as toupeiras que cavaram pedindo licença, as portas em que se bate no Arrepio, as fendas costuradas no Fio Vermelho, a pata que bate na Primeira Porta e, no fim da série, o chamado às Máquinas. **O problema nunca foi a mistura: foi a força.**
 
-### Plantar e colher (os pares que fazem a segunda vez emocionar)
+### Plantar e colher
 | Plantado | Colhido |
 |---|---|
-| A pata que desiste de bater (Marco 0) | A pata que bate (Marcos 19 e 20) |
-| A caixa de papelão na chuva (Marco 0) | O herói na mesma caixa (Marco 9) |
-| A xícara lavada na janela (Marco 1) | Cheia (Toca), com outra ao lado (Cochilo), à mesa (Fio Vermelho) |
-| O lenço no galho (Marco 3) | A trilha era dele (Marco 6) |
-| A cantiga (Marco 0) | A caixinha (6), o resgate (10), o Bigodes cantarola (12) |
-| O Patatu medroso (Marco 2) | Segura a tentação (6); é salvo pela cantiga (10) |
-| O feijão crescendo ao fundo | A folha que salva (Marco 12) |
-| O Heitor no mapa | Na caixa (9), embaixo da folha (12), no varal (19) |
-| O reflexo que pisca (Marco 3) | Sorri (9), troca de rosto (11), três reflexos no varal (19) |
-| `// oi ~` (Marco 3) | `// segue o fio ~`, escrito pelo jogador (19) |
-| O relógio para trás (Marco 4) | Corda para a frente (19) |
-| Voltar no tempo salva (Marco 4 em diante) | Voltar no tempo alimenta a Traça (18) |
-| A tartaruga de xale ao fundo | A Vó chega ao Pico (Final da Vó) |
-| A carta na bolsa do Pinguinguru | Entregue ou não (16) |
-| A nona estátua sem rosto (15) | Ganha o rosto do jogador (19) |
-| O cesto (Marco 0) | O coração da máquina (11); a Cápsula do Tempo (13) |
-| A profecia no reflexo (1.5) | A profecia na pedra (15) |
-
-### A tese que nunca é dita
-> **Não dá para voltar. Dá para tecer.**
-
-E, por baixo dela, a lição que fecha a série: **pedir ajuda.**
+| A pata que desiste de bater (0) | A pata que bate (19, 20) |
+| A caixa de papelão na chuva (0) | O herói na mesma caixa (9) |
+| A xícara lavada na janela (1) | Cheia (13), à mesa (19) |
+| O reflexo que não acompanha (3) | Sorri (9), troca de rosto (11), três reflexos (19) |
+| O Patatu que rola para os pés (2) | Leva a onda no lugar dele (8), gruda (10) |
+| O feijão crescendo ao fundo | A folha que salva (12) |
+| O relógio para trás (4) | Corda para a frente (19) |
+| Voltar no tempo salva (4 em diante) | Voltar no tempo alimenta a Traça (18) |
+| `// oi ~` (3) | `// segue o fio ~`, escrito pelo jogador (19) |
+| O cesto (0) | A foto que ele queria restaurar (13) |
+| A colcha sem o retalho do meio (13) | O ponto que atravessa as nove camadas (19) |
+| A skin que a criança montou | No Bigodes (11), na nona estátua (19) |
 
 ---
 
-## Parte 4 — Depois do primeiro jogo: os marcos da saga
-Cada obra revela uma camada a mais da Camada Zero, nunca a última inteira. O save (a dimensão de cada jogador) atravessa a série.
+## Parte 5 — As skins dentro da história ⟨proposta⟩
+Detalhe completo e catálogo em [[Guarda-Roupa do Gatoelho]] (Revisão 11). Aqui, só o que é trama:
+1. **Cada dimensão tem um Gatoelho, e cada jogador monta o seu.** A skin não é enfeite: é **quem é o Gatoelho naquela partida**. O Bigodes, a poça, o Robogato (um quadro atrasado), a nona estátua e o cartão do final usam a skin do jogador, envelhecida ou de pedra.
+2. **As nove vidas viram skins.** Achar as pistas de cada mundo libera o Gatoelho daquela camada (a Navegante de barbatanas, o Relojoeiro de engrenagens, a Sem Rosto de pedra lisa…). Vestir a vida de outro é como a criança conhece a lenda sem ler.
+3. **O Ateliê da Vó**, o ambiente da criança: um lugar sem fase, sem perigo, sem texto e sem pressa, onde ela monta skins sem fim. **É a mistura por encontro virando brinquedo:** ali tudo se mistura porque alguém quis, e tudo se desfaz com um toque, porque ninguém foi misturado sem querer. É o único lugar do jogo onde desfazer é de graça, e a diferença entre brincar e viver fica dita sem uma palavra.
 
-| Marco da saga | Obra | O que acontece / o que se entrevê |
+---
+
+## Parte 6 — A saga: quatro direções do mesmo pano
+| Marco | Obra | Direção | O quê |
+|---|---|---|---|
+| **S1** | **Gatoelho 1 — *A Corrente e o Fio*** | o direito | As nove camadas, a partir da de cima. Da Camada Zero, quase nada: a placa ARCA 9, `chamar()` respondendo `sem sinal` e, com os nove mastros, `9 de 9. aguardando.` |
+| **S2** | **Gatoelho 2** (título a pensar) | o sul | **O Lado de Fora**, a Terra que nunca foi dobrada: as ruínas grandes da gente, a casa grande demais para bicho, "quem pintou os primeiros símbolos?" |
+| **S3** | **Gatoelho 3 — *O Avesso*** | para baixo | Debaixo da camada 1: o arquivo, a Traça como *bug*, tudo o que foi desfeito |
+| **S4** | **Gatoelho 4 — *A Porta do Céu*** | para cima | **O Gatoelho pede ajuda.** Sobe o Pé de Feijão-de-Corda (a semente era do banco da Arca e caiu da bochecha do Heitor) com os amigos. A Vó Tartuja fica, e agora é ela que deixa a xícara na janela para ele. Luz. Nenhuma máquina mostrada |
+| **S5** | Os livros do Gatoelho | — | Recontam por palavras o que o jogo só mostra |
+| **S6** | [[A Sonda]] | — | 150 mil anos depois, uma sonda de outra linhagem das Máquinas encontra os descendentes dos bichos do Gatoelho, que não se lembram (quem lembrava ficou) |
+
+**O fio que une tudo: "o que conta como um".** O Gatoelho é um feito de dois; a Sonda, um feito de trilhões; o pano, um feito de nove. Contar como um não é ser puro nem original: é estar costurado aos outros.
+
+---
+
+## Parte 7 — O que mudou nesta revisão
+
+### Decidido pelo Rodrigo (2026-10-21)
+- Redomas → **nove dimensões simultâneas**, a mais funda influenciando a de cima.
+- **Um Gatoelho por dimensão, ao mesmo tempo.**
+- **Nove mundos percorridos** na nossa dimensão, cada um com pistas, informações e acesso a uma dimensão.
+- **Skins em quantidade e o Ateliê da criança.**
+
+### Proposto pelo Claude para fazer as decisões funcionarem
+| # | Proposta | Por quê |
 |---|---|---|
-| **S1** | **Gatoelho 1 — *A Corrente e o Fio*** | A trama acima. Da Camada Zero, quase nada: a lua dupla na água, o feijão que cresce, a Vó que dorme no meio da frase, a placa ARCA 9, `chamar()` respondendo `sem sinal` e, depois dos quatro mastros acalmados, `sinal fraco. aguardando.` |
-| **S2** | **Gatoelho 2 — *As Nove Vidas*** | As outras redomas e as vidas anteriores. A casa (objetos grandes demais para bichos), a estátua de jardim que virou a Sem Rosto, a Rotativa do jornal, a pergunta "quem pintou os primeiros símbolos?" |
-| **S3** | **Gatoelho 3 — *O Avesso*** | O arquivo como memória, a Traça como *bug*, a segunda lua como coisa construída, o cabo do feijão chegando a algum lugar, os mastros que chamam |
-| **S4** | **Gatoelho 4 — *A Porta do Céu*** | **O Gatoelho pede ajuda.** Reprograma os mastros para chamar, sobe o Pé de Feijão-de-Corda (um cabo vivo de elevador, a rota de fuga que as Máquinas plantaram) com os amigos; o Heitor já está lá em cima, dormindo na porta. A porta da Arca se abre. Luz. Nenhuma máquina, nenhum humano mostrado. O Gatoelho, de lenço de duas cores, olhando a Terra pequenininha |
-| **S5** | **Os livros do Gatoelho** | Recontam por palavras o que o jogo só mostra, sem nunca dizer tudo |
-| **S6** | **[[A Sonda]]** | 150 mil anos depois da extinção, uma sonda da linhagem das Máquinas encontra vida inteligente num planeta distante: os descendentes dos bichos do Gatoelho, que não se lembram. Seres misturados e um ser de trilhões discutem o que é ser um |
+| 1 | As dimensões são **camadas dobradas do mesmo pano**, com a nossa no topo e o Avesso embaixo | Dá forma às decisões 1 e 2 sem inventar cosmologia nova: o Tecido das [[Lendas do Gatoelho]] já existia |
+| 2 | **De baixo, puxa-se; de cima, só se deixa cair** | Uma regra só explica a Corrente, as fendas, a mecânica de puxar, o Reflexo e o Protocolo da Porta |
+| 3 | **Quanto mais fundo, mais depressa o tempo passa** | Explica por que os Gatoelhos têm idades diferentes sendo simultâneos, e faz da descida uma visita ao futuro de cada escolha |
+| 4 | **A água é onde as camadas se encostam** | A poça do Marco 11 deixa de ser mágica e vira física; o medo de água ganha sentido |
+| 5 | **Na camada de cima, puxar rasga para baixo** | Dá à nona vida um peso que nenhuma outra tem e explica de onde vêm as fendas |
+| 6 | **Puxar de baixo** como mecânica do Arrepio | A decisão "a mais funda influencia a outra" vira jogo, não só lore |
+| 7 | **O Fio Vermelho acolchoa**: um ponto atravessa as nove camadas | É a imagem da tese: cada um continua ele mesmo, e todos ficam juntos |
+| 8 | A **skin do jogador** no Bigodes, na poça, no Robogato e na estátua | Põe o Ateliê da criança no centro do enredo |
 
-**O fio que une tudo: "o que conta como um".** O Gatoelho é um ser feito de dois; a Sonda, um ser feito de trilhões; e nenhum dos dois sabe se a própria vida é simulada. A resposta, nunca dita: contar como um não é ser puro, nem original, nem de carne. É ser alguém que tece com os outros.
+### Adotado do [[Fio da Meada do Gatoelho]] (as recomendações dele)
+O coração e a tese inteira; fenda × porta; as Máquinas pouparam o gato e o coelho da Vó, e a Sem Rosto foi o defeito delas (Nó 2); a "nona vida" como as nove chances da Vó (Nó 3); a frase embaixo da pedra debruçada (Nó 4); as antenas que farejam (Nó 5); o Bigodes dispara e o Patatu fica Carrapatu (Nó 6); o gatinho e o coelhinho eram daqui, e a mãe mora do outro lado do rio (Nó 7); uma Agulha só, a da gaveta, e a blusa nas patas da Traça (Nó 8); a recaída v4097 (Nó 9); o Reflexo sem iterações (Nó 10); os nomes dos pulsos, com "dobra" no lugar de "Embaralhamento" na Camada Zero (Nó 11); o feijão das duas origens (Nó 12); as cartas nunca enviadas (Nó 13); os ajustes 1 a 6 de 2026-10-06; os pontos soltos da Parte 9; a foto como instantâneo e o desejo do herói (Ideias 2 e 3).
+
+### O que sai do fio principal
+| O quê | Para onde |
+|---|---|
+| "Nove redomas em círculo" | Saem. Agora são camadas |
+| As infinitas dimensões por jogador como fato do mundo | A semente continua, como jeito de contar: cada partida tem o seu Gatoelho. A pergunta da simulação fica com [[A Sonda]] |
+| Dimensão do Reflexo, Dimensão Lenta | O Avesso (jogo 3) e a sala lenta da torre de Telhadópolis |
+| A "máquina de reversão inteira" separada | É a máquina do Pico, desligada (ajuste 6) |
+| O Patatu "patinho e tatuzinho" e as "duas Vós" no Fio Vermelho | Saem: ninguém muda de forma. Separar continua existindo só no Final dos Dois, como perda |
+| A "Agulha que pergunta" ([[Misturas do Gatoelho]]) | Guardada: o acolchoado resolve sem pôr a separação no centro da festa |
 
 ---
 
-## Parte 5 — Ajustes de coerência (para o Rodrigo aprovar)
-Contradições achadas entre as notas e a versão usada aqui. Nenhum ajuste cria acontecimento novo: cada um escolhe entre versões que já existiam ou tira uma frase que contradizia as outras. Depois de aprovados, levar para as notas de origem.
-
-| # | O conflito | Onde | Versão usada aqui | Por quê |
-|---|---|---|---|---|
-| **1** | **Quando foram as 4.096 tentativas.** A Camada Zero diz que o Clarão foi a 4.096ª e que o mundo do Bigodes parou depois dela. O Arco diz que o Clarão foi a primeira e que as 4.096 vieram nos oito anos | Camada Zero (itens 9 e "O mundo do Bigodes, parado") × Arco (verdade, itens 5 a 8) | **O Clarão foi a primeira; as 4.096 aconteceram nos oito anos, no console da redoma 9** | É o que sustentam os 4.096 riscos na Casinha (no nosso mundo), o diário de versões (`v1024 vi uma Vó do outro lado do rio`, `v4000 ele cresceu`), a Traça nascida "na primeira volta" e a própria Camada Zero na parte do Reflexo ("cada uma das 4.096 voltas restaurou pedaços da redoma 9") |
-| **2** | **Quando o Robogato foi construído.** O Arco diz que nos oito anos, na Casinha; mas ele é o chefe secreto do Mundo do Bigodes, que está parado desde o Clarão | Arco (item 8) × Personagens, Arco Ato IV | **Antes do Clarão, no mundo dele, depois da morte da Vó.** Ficou para trás guardando a pantufa | Única forma de ele estar no mundo parado. E combina com a frase dele: "um robô feito para não deixar ninguém sozinho, que ficou sozinho". Tic e Tac continuam sendo dos oito anos |
-| **3** | **O mundo já era misturado antes do Clarão?** Lendas diz que "a idade do Gatoelho é a idade do mundo misturado" (8 anos), mas a Vó Tartuja, a Tia Toupaca e o irmão mais velho (o Ouriçapo) já eram misturados antes, e a Camada Zero mistura as nove redomas no Grande Clarão | Lendas (o calendário) × Personagens, Camada Zero | **Já era.** O Clarão de oito anos atrás foi uma sacudida a mais; o calendário dos bichos conta a partir dele porque foi o dia de que eles se lembram | Corta só a frase "a idade do mundo misturado"; o resto do calendário fica |
-| **4** | **De quando é o Reflexo.** O Arco diz "o nosso Gatoelho depois do Fio Vermelho"; a Camada Zero diz "o que chegou até o fim e pediu ajuda" | Arco × Camada Zero | **O nosso Gatoelho no fim do caminho que começa no Fio Vermelho**: teceu (jogo 1) e, depois, pediu ajuda (série) | As duas viram o mesmo caminho, em duas etapas; o lenço de duas cores nasce no Fio Vermelho |
-| **5** | **De onde vem o lenço do nosso Gatoelho.** A Camada Zero diz que "a Vó de cada redoma herdou o gesto"; o Arco diz que foi o Bigodes quem tricotou o do nosso | Camada Zero × Arco | **O do nosso foi tricotado pelo Bigodes**, que aprendeu com a Vó Tartagarça | A herança continua valendo, só passou por ele |
-| **6** | **O que é a "máquina de reversão inteira"** que a Cisnobra acha numa fenda (e onde acontecem os Finais da Corrente e do Atalho). Nenhuma nota diz se é a máquina do Pico ou outra | Arco Ato IV, Finais 8 e 9 | **Sem resposta aqui.** Sugestão, se servir: é **a máquina original do Bigodes, no mundo parado dele**, vista por uma fenda (o Final da Corrente rebobina "até o Clarão do prólogo visto de outro mundo") | Ver Parte 6 |
-
----
-
-## Parte 6 — Pontos soltos (sem resposta inventada)
-Perguntas que a trama já levanta e que nenhuma nota responde. Cada uma pede uma decisão do Rodrigo.
-
-1. **O Mundo do Gatinho, o Mundo do Coelhinho e a Dona Coelha "inteira", na Camada Zero.** A Camada Zero diz que o Gatoelho é o gato e o coelho da Vó de Todas, misturados na redoma 9; o Arco diz que o gatinho e o coelhinho vieram de dois mundos diferentes. Se todas as redomas foram misturadas, como existe uma coelha inteira? Caminhos já presentes na bíblia: os dois mundos de origem são o **lado de fora** (a Dimensão Original), ou são **execuções simuladas**, ou a mistura nunca foi total.
-2. **O Fio Vermelho contra a Arca.** No Fio Vermelho, os outros bichos são desembaraçados e voltam a ser dois inteiros. Mas a Camada Zero diz que a Arca os misturou porque nenhum bicho de uma espécie só aguentava o mundo. Desembaralhar todo mundo é, por baixo, um perigo? Se for, isso pode ser exatamente o que os próximos jogos cobram, sem mudar o final.
-3. **Quanto tempo passou entre a Partida e o jogo.** Precisa caber oito vidas de Gatoelho em sequência (com vidas que se sobrepõem: o Coelhato ainda vive). Não precisa aparecer no jogo, mas a bíblia precisa de uma ordem de grandeza.
-4. **O que cada uma das 4.096 tentativas fez no nosso mundo.** Se cada uma "sacode", o mundo foi sacudido umas 500 vezes por ano. Eram pequenas, locais, invisíveis? A onda do Marco 1 é a primeira que chega à toca, ou a primeira forte?
-5. **A máquina de reversão inteira** (ajuste 6).
-6. **Já abertas antes, continuam:** o Patatu re-embaralhado no Marco 8 (decidir depois); a Vó Tartuja na Porta do Céu (vai ou fica); a causa da extinção humana (só nos livros ou insinuada no jornal); a frase da Vó (o Rodrigo escreve); como a memória da Sonda lida com ter levado os bichos; o Ronrom ter também os finais do Heitor e da Vó; os nomes dos modos.
+## Parte 8 — O que ainda pede decisão
+1. **As propostas 1 a 8 da Parte 7** (dá para responder por número).
+2. **O Carrapatu para sempre**, ou volta ao que era com um carrapicho de lembrança (o meio-termo da [[Misturas do Gatoelho]]).
+3. **O nome do pulso das Máquinas:** "a dobra" (proposto aqui) ou "o Embaralhamento", como os bichos chamam.
+4. **O título do jogo 2.**
+5. **A frase da Vó na cantiga** (o Rodrigo escreve).
+6. **Nomes provisórios:** Planície Branca, Horta Perfeita, Reino de Vidro, As Teias, Os Campos, A Serra, Ateliê da Vó.
 
 ## Decisões do Rodrigo
-(Ainda nenhuma sobre esta nota.)
-
-> **Proposta pendente (2026-10-16):** a [[Fio da Meada do Gatoelho]] (Revisão 10) propõe mudanças em vários marcos desta nota, responde aos ajustes 1 a 6 e aos pontos soltos da Parte 6, e pede treze decisões. Quando forem tomadas, esta nota é reescrita como fonte única da verdade.
+- **2026-10-21:** dimensões em vez de redomas, simultâneas, a mais funda influenciando a de cima; um Gatoelho por dimensão; os nove mundos percorridos com acesso a cada dimensão; muitas skins e um ambiente da criança para montá-las; reescrever só o necessário, mais enxuto.
