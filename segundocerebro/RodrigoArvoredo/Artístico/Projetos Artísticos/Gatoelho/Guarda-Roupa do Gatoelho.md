@@ -228,3 +228,13 @@ Datas reais (gorrinho em dezembro, fantasias em outubro, bolo no aniversário do
 - **As partes são caras:** cada uma precisa acompanhar todas as animações. Começar com **12 pelagens, 20 partes e 3 vidas**; as fantasias completas continuam poucas.
 - **A Caixa de Bichos é a mais cara** (bicho novo andando nas fases). Fica para depois do Ronrom.
 - Ordem sugerida: o Tear primeiro (barato e é o que mais encanta a criança), depois o Espelho, a Janela, a Mesa de Retalhos e, por último, a Caixa de Bichos.
+
+---
+
+## No jogo (2026-10-28)
+O Ateliê já existe no código (`scenes/AtelierScene.ts`, peças em `skin/items.ts`, pelagem em `skin/skin.ts`). Pedido do Rodrigo: "as opções de skins sejam enormes".
+- **Abertas:** o Tear, a Mesa de Retalhos, o Espelho (que reflete e às vezes erra) e uma aba de Fantasias. **Esperando:** a Janela das Nove Vidas, o Varal e a Caixa de Bichos.
+- **Acervo:** 21 padrões de pelo, 30 cores de pelo, 16 segundas cores, 24 pelagens prontas; 49 partes de bicho (cabeça, orelhas, rosto, costas, patas, rabo) e 70 roupas (chapéu, orelhas, rosto, pescoço, costas, patas, rabo); tinta em 12 cores para cada peça; 24 fantasias. Cerca de 10^35 combinações.
+- **Botões:** embaralhar, desfazer (sem limite), tirar as peças, o meu Gatoelho; nove gavetas (vazia guarda, cheia veste, segurar guarda por cima).
+- **Ajustes ao catálogo desta nota:** o casco ficou só como parte de bicho; as roupas ganharam boné, gorro, chapéu de bruxa, capacete de astronauta, óculos escuros e de coração, tapa-olho, mochila de ursinho e balão; as asinhas de roupa viraram "de fada" (as de borboleta são parte do Borbopótamo). Vermelho de fruta e flor virou coral, pela regra da Paleta.
+- **Em aberto:** de onde vem cada peça no jogo (hoje tudo vem liberado), as nove vidas na Janela, as fotos no Varal, a Caixa de Bichos, as reações dos moradores.
