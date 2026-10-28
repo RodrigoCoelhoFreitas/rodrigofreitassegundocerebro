@@ -9,6 +9,7 @@ Ramificação de [[Projetos Artísticos]]. **Gatoelho — Aventura em Patas e Or
 Nasceu da vontade de fazer um jogo para a **enteada do Rodrigo** — mas sem ser "jogo infantil básico": acessível para criança, com qualidade de gameplay, animação e mundo que também agrade jogadores mais velhos. O personagem é o **Gatoelho**, mistura de gato com coelho, e a pergunta que guia tudo é: *"o que seria divertido fazer num videogame se o personagem fosse realmente meio gato, meio coelho?"*
 
 ## Notas do projeto
+- [[Metroidvania do Gatoelho]] — **a virada para o Mapa Único (2026-10-28)**. Decidido: metroidvania contínuo como Super Metroid e Hollow Knight, sem fases, sem globo; superfície e subterrâneo em terra e gelo; mira o público do gênero; um mundo só que não dá a volta, mas existe nove vezes sobreposto (quem joga reto conhece só a nossa camada; quem procura acha passagens para as outras, com segredos e detalhes diferentes); pontos de save e save automático; chefes em lugares e condições específicos. Esboço interativo do mapa: https://claude.ai/artifact/PJM5h6HF6pQUfjZYkmbR8J
 - [[Game Design do Gatoelho]] — conceito, princípios, mecânicas (feitas e em estudo), estrutura de mundo/fases, vida e vidas, decisões e perguntas em aberto.
 - [[Arquitetura do Gatoelho]] — tecnologia escolhida e por quê, organização do código, sistemas, comandos, testes e armadilhas do ambiente.
 - [[Direção de Arte e Som do Gatoelho]] — identidade visual, o boneco provisório, animação reaproveitável, áudio sintetizado provisório, pipeline de assets ainda por definir.
