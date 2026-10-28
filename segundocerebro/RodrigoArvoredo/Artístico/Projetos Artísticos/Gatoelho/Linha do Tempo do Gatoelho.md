@@ -139,3 +139,11 @@ Primeira rodada de programação sobre a Revisão 11 (detalhe técnico na [[Arqu
 1. **O mapa-planeta**: o globo de tricô da Vó Tartuja, de nove gomos, visto de cima do Pico. Fica entre a escolha do jogo e o mapa de fases. O Gatoelho fica em pé e o planeta gira debaixo das patas dele. Lado de lá à noite, com portas redondas; fendas brilhando a leste de casa; antenas; serra nevada; rio, toca da Dona Coelha e Feijão na Borda. Abertos por enquanto: a toca (Ateliê) e o Bosque.
 2. **O Ateliê da Vó** no sótão da toca, com quatro mesas abertas em abas (Tear, Retalhos, Espelho, Fantasias): 21 padrões de pelo, 30 cores, 119 peças em 13 lugares do corpo, tinta em 12 cores, 24 fantasias, nove gavetas para guardar skins, o espelho que às vezes erra. A Vó tricota, o Heitor dorme numa gaveta, o Patatu rola e o novelo foge quando ninguém olha. A skin aparece nas fases.
 3. Decisões do Claude, vetáveis: tudo liberado desde o começo (desbloqueio fica para quando houver novelos, presentes e chefes); o Ateliê abre pela toca, dentro do save; o "meu Gatoelho" é o laranja original.
+
+## 2026-10-28 — estudo de habilidades e builds (proposta)
+Pedido do Rodrigo: estudar as habilidades de Super Metroid e Hollow Knight para planejar só as mecânicas e as builds do Gatoelho. Resultado em [[Habilidades e Builds do Gatoelho]], nada decidido e nenhum arquivo do jogo alterado.
+1. **Cinco fontes de poder**: o corpo (Douradas, chaves permanentes), os truques (técnicas que os bichos mostram sem texto, como os macaquinhos do Super Metroid), o emprestado (pólens, agora com misturas de dois), a história (volta no tempo, Faro, cantiga) e os broches (a build).
+2. **Três Douradas novas** além de escalar e andar em fios: Bigode-de-gato (Gato Líquido), Pé-de-gato (Patas de Almofada) e Rabo-de-lebre (Disparada com bote guardado). Nadar e voar nunca ficam permanentes.
+3. **O Quentinho**: recurso único mostrado no corpo, gasto em lamber a pata (curar) ou na cantiga (acalmar). A volta no tempo segue com a corda própria.
+4. **O lenço**: de 3 a 9 pontos, troca só no mapa e no Ateliê, 13 broches novos de personagens que já existem, oito builds-arquétipo (entre elas a de Colo, que o adulto monta para a criança) e sete sinergias secretas. Sobrecarga e broches de vidro só no Arrepio.
+5. 14 decisões pedidas por número.

@@ -55,6 +55,8 @@ Gato + coelho deve virar **gameplay**, não só estética. Coelho: saltos altos,
 - **Mapa do Mundo 1** com 5 pontos; só a Fase 1 começa liberada; concluir uma fase revela o caminho seguinte.
 
 ## Ideias em estudo (não decididas)
+> **Proposta (2026-10-28):** todas as habilidades, broches e builds planejados num lugar só, a partir de Super Metroid e Hollow Knight: [[Habilidades e Builds do Gatoelho]]. Nada decidido.
+
 - **Instinto Felino** — perceber pegadas, passagens, objetos enterrados, plataformas ocultas, inimigos camuflados. Proposta do Claude: em vez de botão (que vira obrigação de ficar ligando), **o Gatoelho percebe sozinho** — orelhas giram para o segredo, rabo arrepia, ele encara uma parede suspeita quando parado. Une personalidade e sistema.
 - **Caixas** ("gato adora caixa") — a ideia de maior identidade depois do movimento: esconderijo, passagem, objeto empurrável, entrada secreta, transporte, piada recorrente.
 - **Ataque**: proposta de o ataque principal ser **pisão com as patas traseiras** (coelho; acessível como o do Mario) e garras como secundário/ferramenta.
