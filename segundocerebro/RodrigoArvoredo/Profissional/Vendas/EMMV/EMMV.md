@@ -28,6 +28,7 @@ Ramificação de [[Vendas]]. Cliente da frente de [[Produto Sites]]: **EMMV — 
 ## Notas
 - [[Ficha Técnica EMMV]] — dados consolidados da escola.
 - [[Roteiro de Reunião EMMV]] — as 40 perguntas e o roteiro usados no briefing (serve de modelo pra outros clientes de sites).
+- [[EMMV no NapShift]] — a escola também é workspace do NapShift (marca nova preto e branco, Mentes MusiCaos). Relação independente da de sites.
 
 ## Arquivos de trabalho (fora do git)
 `C:\Users\Gamer\Documents\projetos\emmv\` — `levantamento.md` (coleta inicial, de 13/10), `ficha-tecnica.md` e `imagens/` (card do logo, card de modalidades e foto da sala).

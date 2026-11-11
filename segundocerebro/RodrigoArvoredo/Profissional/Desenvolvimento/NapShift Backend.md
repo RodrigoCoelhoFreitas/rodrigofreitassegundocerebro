@@ -136,8 +136,20 @@ Conferido rodando a suíte nesta máquina: **1365 testes passando** e `typecheck
 - `node_modules` instalado em 2026-10-15; sem `.env` (a suíte usa o `.env.test` versionado, de propósito falso).
 - O `.claude/settings.json` do repo libera `git commit`, `git merge`, `curl` e `gh` sem perguntar: numa sessão aqui o Claude commita sem confirmação; o que barra push em `main` é só o hook `.githooks/pre-push`.
 
+## Estado em 2026-11-11 (acessos do Rodrigo e repositório de clientes)
+
+Pull da `homolog` com dois commits de documentação do Eduardo (2026-11-10); o web não tinha novidade.
+- **`docs/ACESSOS.md`** é agora o canônico de quem tem o quê. Decisões de 2026-11-10: o Rodrigo **roda a release** e **aplica migration** (escrita no banco pelo DBeaver), vê toda a VPS e o Easypanel (inclusive o Postgres `1060-sites` e a Evolution); o Asaas de produção fica só com o Eduardo (o Rodrigo usa o sandbox). Sem cofre comum: cada sócio no próprio KeePassXC; segredo passa em pessoa ou por Signal com mensagens temporárias, nunca WhatsApp, e-mail ou chat de IA.
+- **Vercel segue Hobby**: deploy de commit do Rodrigo (inclusive o `chore(release)`) fica bloqueado até o Eduardo dar Redeploy. Quem rodar a release avisa.
+- **`.env.example`** novo: o `.env` local aponta sempre para homolog; produção só pelo Easypanel.
+- **Skills portáteis:** `/wrapnap` e `/onboardnap` moram em `.claude/skills/` do repo e se ligam por junction em `~/.claude/skills/` (ainda não feito nesta máquina).
+- **pgproxy:** os dois proxies do Postgres tinham sumido da VPS (assinatura de `docker system prune -a`) e foram recriados em 2026-11-11. Não rodar `prune` na VPS sem recriá-los.
+- **Pendentes do Rodrigo** pela tabela do `ACESSOS.md`: chave SSH (mandar só a `.pub`), Easypanel, Cloudflare, Meta, Google Cloud, chaves próprias de Anthropic e OpenAI, sandbox do Asaas, KeePassXC e DBeaver.
+- **Onboarding dos clientes** saiu do `1060 Clientes` para o repositório `napshift-clientes`, clonado ao lado: estudado em [[Clientes NapShift]].
+
 ## Relacionamentos
 - Consumido por [[NapShift Web]] (frontend) via REST puro, contrato em snake_case.
+- Opera as marcas de [[Clientes NapShift]].
 - Vendido como produto via [[1060crm]].
 
 *Estudo de base: 2026-07-07. Aprofundado (pipeline, prompts, feedback, renderer, storage): 2026-07-07. Atualizado com leitura completa (docs, memória, backlog, histórico e núcleo do código): 2026-09-29.*

@@ -6,6 +6,11 @@ tags: [anotações, meta]
 
 Ramificação de [[Anotações]]. Log — **para mim mesmo (Claude) atualizar de tempos em tempos** — das atividades relevantes feitas nos repositórios do workspace (1060crm, napshift, napshift-web, rodrigofreitassegundocerebro, rodrigo-arvoredo-site). Ordem cronológica reversa (mais recente primeiro). Registrar principalmente: commits/push, mudanças estruturais grandes, e decisões técnicas com efeito duradouro — não é necessário logar toda edição pequena.
 
+## 2026-11-11 — NapShift atualizado e estudo dos clientes
+- **napshift:** pull da `homolog` (2 commits de docs do Eduardo: `docs/ACESSOS.md`, `.env.example`, `/wrapnap` no repo); **napshift-web** já estava em dia. Resumo em [[NapShift Backend]] ("Estado em 2026-11-11").
+- **napshift-clientes** (clonado pelo Rodrigo): hooks e identidade git local ligados; estudo completo do método `/onboardnap`, das configs de todos os workspaces, inventários, logs de publicação e referências; templates da D'Kids e do Ten Sushi renderizados localmente com Chrome headless (o Puppeteer do `gen:preview` dá timeout nesta máquina). Nenhum arquivo do repositório alterado.
+- **rodrigofreitassegundocerebro:** pasta nova [[Clientes NapShift]] com uma nota por workspace; links em [[Desenvolvimento]], [[NapShift Backend]] e [[EMMV]]; log em [[Guia de Uso do Segundo Cérebro]]; commit + push.
+
 ## 2026-11-10 — leitura dos repos da 1060
 - **Clones novos** feitos pelo Rodrigo: `1060crm`, `site-estatico-template`, `site-dinamico-template`, `kssino`, `mundodalua`, `troinaengenharia`. Lidos (READMEs, `DESIGN.md`, `docs/`, skill `/mundodalua`, núcleo do código, histórico de commits); nenhum código alterado, nada instalado.
 - **rodrigofreitassegundocerebro** (sem commit — aguardando comando do Rodrigo): pasta nova [[Sites 1060]] com [[Padrão de Sites 1060]], [[Templates de Site 1060]], [[Kssino]], [[Mundo da Lua]] e [[Troina Engenharia]]; seções datadas em [[1060crm]], [[Infraestrutura de Sites 1060]], [[Geração de Sites via IA]], [[Ferramentas 1060]]; portfólio em [[Produto Sites]]; link no tronco [[Desenvolvimento]]; caminhos e log em [[Guia de Uso do Segundo Cérebro]].
