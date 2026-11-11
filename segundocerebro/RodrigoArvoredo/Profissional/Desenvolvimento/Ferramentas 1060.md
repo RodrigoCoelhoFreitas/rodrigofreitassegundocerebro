@@ -45,7 +45,16 @@ A máquina do Eduardo resolve `python`/`python3` pro stub da Windows Store (abre
 
 Empacotado numa skill `/fileops` (`1060/.claude/skills/fileops/`), com tabela de decisão e os comandos exatos por tipo de operação (conversão, PDF token-safe, imagem, planilha).
 
+## Citadas nos repositórios dos sites (2026-11-10)
+Ferramentas do repo `1060` que aparecem nos sites clonados (ver [[Sites 1060]]), além das acima:
+- `npm run og:marca` — gera a imagem de compartilhamento do site.
+- `npm run upscale:img` (AuraSR) e falgen agora em `1060/scripts/imagens/falgen/` (jobs por cliente, ex. `mundodalua-astronautas*.ts`); `bgremove.mjs` recorta fundo com BiRefNet.
+- `scripts/sites/dns/vercel-cutover.mjs` (aponta a zona para a Vercel, com `--dry-run` e backup da zona) e `restaurar-zona.mjs` (rollback).
+- `scripts/sites/vercel-env.mjs --site <slug>` (confere as envs do projeto na Vercel) e `scripts/sites/r2/*` (ex.: anexar domínio de CDN ao bucket).
+- Skills do Eduardo citadas: `/conceito` (etapa 3 do processo), `/wrap` (fecha sessão), `impeccable detect` (detector de problemas de design) e `/mundodalua` (esta vive no repo do site).
+
 ## Relacionamentos
+- [[Sites 1060]] — os sites e templates onde essas ferramentas aparecem.
 - [[Infraestrutura de Sites 1060]] — onde essas ferramentas se encaixam no pipeline de site.
 - [[Geração de Sites via IA]] — processo que consome bootstrap-site e DSX na prática.
 

@@ -10,6 +10,7 @@ Ramificação de [[Rodrigo Coelho Freitas]]. Conhecimento técnico dos projetos 
 - [[1060crm]] — CRM interno da 1060 Brand (leads/vendas).
 - [[NapShift Backend]] — motor do produto NapShift (Fastify + agentes de IA).
 - [[NapShift Web]] — frontend do NapShift (Next.js).
+- **[[Sites 1060]]** — os sites de cliente lidos pelo código (2026-11-10): [[Padrão de Sites 1060]] (o roteiro para construir site novo no mesmo padrão), [[Templates de Site 1060]], [[Kssino]], [[Mundo da Lua]] e [[Troina Engenharia]].
 - [[Geração de Sites via IA]] — processo confirmado em produção (jul/2026) pra produzir os sites vendidos em [[Produto Sites]]; passo a passo técnico já mapeado em [[Infraestrutura de Sites 1060]] e [[Ferramentas 1060]], acesso real do Rodrigo ainda pendente.
 - [[Gatoelho]] — projeto pessoal: jogo 2D (TypeScript + PixiJS + Electron) para PC e navegador, com mapa do mundo estilo Super Mario World. Mora em [[Projetos Artísticos]] (é da Ludovic Studio); técnica em [[Arquitetura do Gatoelho]].
 - [[Produto Imobiliário (sem nome)]] — novo SaaS pra imobiliárias (landing+classificados+matching), arquitetura herdada do NapShift; só planejamento até 2026-07-16, sem repositório ainda. Conceito de negócio vem do [[TCC SISNI (FURG, 2018)]] do próprio Rodrigo.

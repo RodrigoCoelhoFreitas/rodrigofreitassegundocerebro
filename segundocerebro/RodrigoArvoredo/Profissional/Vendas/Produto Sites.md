@@ -84,6 +84,11 @@ Mais 2 exemplos confirmados (2026-07-08), todos produzidos pelo mesmo processo �
 - **1060brand.com** — home 3D interativa (site da própria 1060).
 - **cafeemcodigo.com.br** — home interativa, conteúdo dinâmico (eventos).
 
+Mais 3 no ar, com o código nesta máquina desde 2026-11-10 (ver [[Sites 1060]]):
+- **kssino.com** — [[Kssino]], boletim de surf do Cassino: painel, app com push, anúncios de parceiros, migrado do WordPress.
+- **mundodaluapod.com** — [[Mundo da Lua]], podcast: experiência cinemática (eclipse, cockpit de nave, easter egg jogável).
+- **troinaengenharia.com** — [[Troina Engenharia]], engenharia e perícia em Valença/BA: treliça calculada de verdade, calculadora de dose de ruído.
+
 ## Migração de clientes legados — HostGator → infra própria
 Playbook em andamento (recebido via snapshot 2026-07-09) pra tirar os clientes antigos do plano Turbo da HostGator + Elementor Pro (~R$1.800/ano combinados) e migrar pra [[Infraestrutura de Sites 1060|infra própria]] (WordPress+Elementor → Next.js+Tailwind). Deadline duro: cancelar Turbo em 08/09 e Elementor Pro em 09/09 (só dá pra cancelar quando TODOS os sites daquele plano compartilhado saírem).
 

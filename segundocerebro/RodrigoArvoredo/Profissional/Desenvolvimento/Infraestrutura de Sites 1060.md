@@ -62,7 +62,17 @@ Runbook manual completo + o orquestrador `bootstrap-site` (1 comando só, ver [[
 
 Regra: nunca misturar — repos do NapShift sempre em `@napshift`; todo o resto em `@1060brand`. Motivo: contas misturadas já causaram desconexão de deploy e confusão de bandwidth no Vercel Hobby (limite é por conta).
 
+## Confirmado pelo código (2026-11-10)
+Com os templates e três sites clonados (ver [[Sites 1060]]), o que mudou ou ficou mais preciso em relação ao snapshot de julho:
+- Os dois boilerplates existem e batem com a descrição acima; detalhe em [[Templates de Site 1060]]. Framer Motion não aparece em nenhum site lido (o Mundo da Lua usa GSAP; os outros, CSS e código próprio).
+- **Vercel**: o `docs/economia-vercel.md` do [[Kssino]] (2026-10-19) fala em "ciclo Pro" e em limite de ISR Writes "do time", com 19 projetos; ou seja, a conta da 1060 já está num time pago, e a seção "Hospedagem — risco a conhecer" acima ficou desatualizada. O custo do time era US$ ~5 por semana, 83% dele do Kssino.
+- Backup diário do banco no Easypanel → bucket R2 `1060-backups`, restauração testada (2026-09-28).
+- Funções na região `gru1` quando há banco (`vercel.json`).
+- Site estático com poucas imagens pode servir de `public/` em vez do R2 (Troina).
+- Regras de cache e economia na Vercel e da imagem OG: em [[Padrão de Sites 1060]].
+
 ## Relacionamentos
+- [[Sites 1060]] — os templates e os sites reais que implementam esta infra.
 - [[Geração de Sites via IA]] — o processo de produção que usa esta infra.
 - [[Ferramentas 1060]] — orquestrador `bootstrap-site`, DSX, tinify, falgen.
 - [[Produto Sites]] (em [[Vendas]]) — o que é vendido comercialmente em cima desta infra.

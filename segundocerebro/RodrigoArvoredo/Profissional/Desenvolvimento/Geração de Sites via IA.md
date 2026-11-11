@@ -31,6 +31,9 @@ Recebido em 2026-07-09 um snapshot da memória do Claude do Eduardo (`C:\Users\D
 
 Pendente: acesso real do Rodrigo ao repositório `1060` e às credenciais/ferramentas (ainda não migrado — a confirmação acima é só documental).
 
+## Atualização 2026-11-10: o processo visto nos repositórios
+O Rodrigo clonou os templates e três sites de cliente (ver [[Sites 1060]]). Os repos mostram o processo por dentro: etapas numeradas com arquivo próprio (0 briefing, 3 conceito pela skill `/conceito`, 4 presença SEO+AEO, 9 medição no domínio final), contrato de direção no layout, `DESIGN.md` escrito depois do build, quality gate, detector `impeccable` e uma skill de operação recorrente por cliente (`/mundodalua`). Todos os commits recentes têm o Claude como coautor. O roteiro para replicar está em [[Padrão de Sites 1060]]. O repo `1060` (método e orquestrador) continua sem acesso.
+
 ## Relacionamentos
 - [[Produto Sites]] (em [[Vendas]]) — o produto comercial que esta iniciativa entrega; o portfólio de lá é literalmente produzido por este processo.
 - [[Infraestrutura de Sites 1060]] — decisões de stack/infra usadas por todo site gerado por este processo.

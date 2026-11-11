@@ -6,6 +6,10 @@ tags: [anotações, meta]
 
 Ramificação de [[Anotações]]. Log — **para mim mesmo (Claude) atualizar de tempos em tempos** — das atividades relevantes feitas nos repositórios do workspace (1060crm, napshift, napshift-web, rodrigofreitassegundocerebro, rodrigo-arvoredo-site). Ordem cronológica reversa (mais recente primeiro). Registrar principalmente: commits/push, mudanças estruturais grandes, e decisões técnicas com efeito duradouro — não é necessário logar toda edição pequena.
 
+## 2026-11-10 — leitura dos repos da 1060
+- **Clones novos** feitos pelo Rodrigo: `1060crm`, `site-estatico-template`, `site-dinamico-template`, `kssino`, `mundodalua`, `troinaengenharia`. Lidos (READMEs, `DESIGN.md`, `docs/`, skill `/mundodalua`, núcleo do código, histórico de commits); nenhum código alterado, nada instalado.
+- **rodrigofreitassegundocerebro** (sem commit — aguardando comando do Rodrigo): pasta nova [[Sites 1060]] com [[Padrão de Sites 1060]], [[Templates de Site 1060]], [[Kssino]], [[Mundo da Lua]] e [[Troina Engenharia]]; seções datadas em [[1060crm]], [[Infraestrutura de Sites 1060]], [[Geração de Sites via IA]], [[Ferramentas 1060]]; portfólio em [[Produto Sites]]; link no tronco [[Desenvolvimento]]; caminhos e log em [[Guia de Uso do Segundo Cérebro]].
+
 ## 2026-10-16 — Gatoelho: as misturas
 - **rodrigofreitassegundocerebro**: [[Misturas do Gatoelho]] (proposta: plantas embaralhadas, Douradas, moradores novos, Ao-Pé-da-Letra, família, Carrapatu, alertas de coerência), com link em [[Personagens do Gatoelho]] (commit `f00b5b8`, que subiu no push do fio da meada). Depois, a Revisão 1.1, conciliada com [[Fio da Meada do Gatoelho]] e [[Paleta do Gatoelho]], com link no tronco [[Gatoelho]] e entrada na [[Linha do Tempo do Gatoelho]]; commit + push.
 
