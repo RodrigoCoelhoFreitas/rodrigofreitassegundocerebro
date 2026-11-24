@@ -147,6 +147,74 @@ Pull da `homolog` com dois commits de documentação do Eduardo (2026-11-10); o 
 - **Pendentes do Rodrigo** pela tabela do `ACESSOS.md`: chave SSH (mandar só a `.pub`), Easypanel, Cloudflare, Meta, Google Cloud, chaves próprias de Anthropic e OpenAI, sandbox do Asaas, KeePassXC e DBeaver.
 - **Onboarding dos clientes** saiu do `1060 Clientes` para o repositório `napshift-clientes`, clonado ao lado: estudado em [[Clientes NapShift]].
 
+## Colaboração por PRs (2026-11-12 a 2026-11-24)
+
+O Rodrigo passou a contribuir com código por pull request, sempre a partir dos itens do BACKLOG e sem migration. O Eduardo (`edpoter`) revisa e integra.
+
+### Como funciona
+- **Fluxo:** branch de trabalho a partir da `homolog` atualizada → PR para a `homolog` (squash) → `main` só pelo `npm run release`. Mesmo nome de branch nos dois repos quando o app também muda.
+- **Regras da seção "PRs" do `VERSIONAMENTO.md` (2026-11-19):**
+  - a checagem roda no GitHub Actions (`checagem.yml`) só em PR para a `homolog`;
+  - toda correção leva teste que **falha no código antigo**;
+  - conflito se resolve por merge na branch que entrar por último;
+  - PR não fica parado mais de 2 dias.
+- **Trabalho que depende de outro PR ainda aberto sai empilhado:** a branch nasce da anterior e o PR aponta para ela. Quando a anterior entra, refaz-se com `rebase --onto origin/homolog` e troca da base. A checagem não dispara nesses PRs; roda-se à mão com `gh workflow run checagem.yml --ref <branch>`.
+- **Desde 2026-11-21 (regra do Eduardo), o PR do Rodrigo leva só código e testes.** A documentação (GUIA-FRONTEND, HISTORICO, BACKLOG, HTML do app, Postman) é escrita pela sessão do Eduardo antes do merge, para poupar o plano do Rodrigo. O PR lista no fim o que precisa ser documentado.
+- **As revisões do Eduardo deixam pendências "para depois" nos comentários.** São tarefas legítimas para os PRs seguintes.
+
+### Mergeados (v1.6.0, em produção desde 2026-11-20)
+- **#1:** álbum de outro workspace no PATCH de referência (2.10).
+- **#3:** robustez do SDR (3.3, 7.15, 7.32, 7.40).
+- **#4:** nichos só com notícias ligadas e alerta "corrigido" (12.24, 8.20).
+- **#5:** timeout na tokenização do Asaas, proxy da Evolution e código morto (6.34, 2.22, 3.5).
+- **#6:** falha do WhatsApp e do storage deixando de virar sucesso (2.16, 5.9).
+- **#7, do Eduardo:** prazos da aprovação.
+
+### Fila aberta em 2026-11-24 (16 PRs, 85 testes de regressão)
+| PR | Itens do BACKLOG | Em uma linha |
+|---|---|---|
+| api#8 | revisões dos #3–#6 | conversor do WhatsApp preserva URL e código; Asaas "ok" sem token vira 502; pagador não duplica (só reaproveita com CPF **e** e-mail iguais); descarte de lote foto a foto |
+| api#9 | 12.19 (parcial) | relatórios com o dia inteiro e agrupamento no fuso de Brasília; filtro por workspace; 400 em data inválida |
+| api#10 | 12.22 | PATCH de workspace valida canal, horários e telefone; encerrado não reativa; onboarding conferido antes de gravar |
+| api#11 + app#8 | 12.7 (parcial) | "marcar todas como lidas" numa chamada |
+| app#9 | revisão do #4 | tela de Notícias e FAQ coerentes com a regra de nichos |
+| api#12 | 2.2 (parcial) | limites do plano que liberam sem conferir alertam os ADMs |
+| api#13 | 12.25 a/d | tarefas do cliente por data de publicação; texto "Redes sociais" |
+| api#14 | 8.51 | cancelamento feito durante a execução do agente não é desfeito (gravação de status condicional) |
+| api#15 | 7.41, 7.21, 7.42, 7.37 | agente SDR validado no salvar (humano sem contato, número da casa, horário); prompt sem telefone |
+| api#16 *(empilhado no #15)* | 7.38, 7.37, 7.39 | mídia sem texto, fuso e meia-noite no horário, fora do horário gravado, perfil do lead que atualiza |
+| api#17 + app#10 | 4.10, 4.11 | reautorizar a Meta sem esbarrar no limite; canal derrubado pela Meta avisa dono e equipe |
+| api#18 *(empilhado no #17)* | 8.52, 8.53 b/c | rede desconectada não derruba as outras; post não duplica; legenda por rede preservando hashtags |
+| api#19 | 8.55 a/b/d, 8.56 a | notícias não se perdem; carrossel de notícia; só redes conectadas; rodízio de fotos do Estrategista |
+| api#20 | 2.17 | upload: tipo pelos bytes, metadados (GPS) sempre removidos, extensão certa; vazamento reproduzido com WebP compacto |
+
+- **Ordem obrigatória:** #15 antes do #16, #17 antes do #18, api#11 antes ou junto do app#8.
+- **Conflitos previstos, só de texto:** entre #9, #10, #11 e #20.
+
+### Decisões que ficaram para o Eduardo
+- Falhar fechado nos limites do plano (2.2).
+- Plano entrar na regra de nichos (D20).
+- Texto de crise com CVV/SAMU para agente SDR sem humano (#15).
+- Recusar upload de imagem que não se processa (#20).
+- Base de conhecimento do Estrategista: diz "nunca 2 posts de fundo seguidos", mas o Rodrigo decidiu manter o prompt em "não mais de 2" (8.56 b).
+
+### Ficou de fora, de propósito
+- **Área da aprovação, em que o Eduardo está mexendo:** carrossel com reenvio sem fim, alerta de instância caída e nome do WhatsApp do lead (7.39).
+- **Restos de itens:**
+  - 12.19: CSV e rótulo de semana;
+  - 12.25: (b) e (c);
+  - 12.7: histórico de comunicados;
+  - 8.53: (a) e (d);
+  - 7.29;
+  - timeout do `evolutionFetch`;
+  - 8.55 (c).
+
+### Aprendizados técnicos
+- **Mocks e `shapeOf`:** o mock compartilhado do banco (`tests/helpers/mock-db.ts`) devolve `{}` para função nova cujo nome não começa com `get`, e `undefined` para export novo mockado com `shapeOf`. Mock com lista fixa de exports quebra o carregamento do arquivo de teste inteiro, então prefira `shapeOf`.
+- **SQL nos testes:** para provar o WHERE ou o ORDER BY de uma consulta sem banco, usa-se `PgDialect().sqlToQuery` sobre os argumentos capturados pelo mock do client.
+- **Fim de linha:** os arquivos têm fins de linha misturados (CRLF/LF) e o `autocrlf` normaliza no commit. Editar com script que normaliza antes de substituir.
+- **Regra de negócio já existente:** antes de corrigir, conferir se o front já contorna o bug, como o "até" dos relatórios e o "marcar todas", e se a regra já existe em outro agente, como o rodízio de fotos do Diretor de Arte.
+
 ## Relacionamentos
 - Consumido por [[NapShift Web]] (frontend) via REST puro, contrato em snake_case.
 - Opera as marcas de [[Clientes NapShift]].

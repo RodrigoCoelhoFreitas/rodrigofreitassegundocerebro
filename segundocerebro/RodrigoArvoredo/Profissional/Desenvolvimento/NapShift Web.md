@@ -86,6 +86,16 @@ Mudanças desde o estudo de julho — algumas corrigem o que está escrito acima
 ### Nesta máquina
 Pasta `napshift-web`, remoto `napshift/napshift-web.git` (funciona pelo redirecionamento). `node_modules` instalado em 2026-10-15.
 
+## PRs do Rodrigo no app (2026-11-19 a 2026-11-24)
+
+O fluxo e as regras estão em [[NapShift Backend]] ("Colaboração por PRs"). O app **não tem suíte de testes**: o `release:check` é `tsc` mais lint. O check "Vercel" falha em todo commit do Rodrigo, porque o plano é Hobby. É esperado e não trava o merge; o Eduardo dá Redeploy.
+
+- **Mergeados na v1.6.0:** app#1 a #6. A maior parte era documentação HTML, antes da regra de 2026-11-21; o app#4 mexeu no checklist de ativação.
+- **Abertos:**
+  - **app#8:** "marcar todas como lidas" numa chamada, nos dois portais. Depende do api#11.
+  - **app#9:** tela de Notícias do cliente coerente com a regra "assunto só com notícias ligadas", com atualização do checklist sem recarregar a página e o FAQ corrigido.
+  - **app#10:** o cartão de cada rede em Redes sociais mostra por que o canal parou e desde quando (Meta recusou o acesso, pausada por você, pausada pela equipe). Par do api#17.
+
 ## Relacionamentos
 - Consome [[NapShift Backend]] via REST puro (contrato snake_case).
 - Parte do mesmo produto vendido via [[1060crm]].
