@@ -170,7 +170,7 @@ O Rodrigo passou a contribuir com código por pull request, sempre a partir dos 
 - **#6:** falha do WhatsApp e do storage deixando de virar sucesso (2.16, 5.9).
 - **#7, do Eduardo:** prazos da aprovação.
 
-### Fila aberta em 2026-11-24 (16 PRs, 85 testes de regressão)
+### Rodada de 2026-11-23/24 (16 PRs, 85 testes de regressão): toda mergeada em 2026-11-24
 | PR | Itens do BACKLOG | Em uma linha |
 |---|---|---|
 | api#8 | revisões dos #3–#6 | conversor do WhatsApp preserva URL e código; Asaas "ok" sem token vira 502; pagador não duplica (só reaproveita com CPF **e** e-mail iguais); descarte de lote foto a foto |
@@ -191,12 +191,63 @@ O Rodrigo passou a contribuir com código por pull request, sempre a partir dos 
 - **Ordem obrigatória:** #15 antes do #16, #17 antes do #18, api#11 antes ou junto do app#8.
 - **Conflitos previstos, só de texto:** entre #9, #10, #11 e #20.
 
-### Decisões que ficaram para o Eduardo
+### Depois da integração (conferido em 2026-11-25)
+- **Tudo mergeado em 2026-11-24** pelo Eduardo, com a documentação escrita por ele dentro de cada branch e correções de revisão. Nenhuma PR aberta nos dois repos.
+- **Ele mesmo abriu e mesclou:**
+  - api#21 (pendências da rodada no BACKLOG);
+  - api#22 (regra de funil);
+  - api#23 (orientação de crise por agente);
+  - api#24 (cobrança, 2.32);
+  - api#25 (conferências de produção);
+  - api#26 (Vercel);
+  - app#11 a #20, os pares do app.
+- **Release v1.7.0 ainda não saiu.** Produção segue na v1.6.0; a `homolog` está 25 commits à frente da `main` no backend e 15 no app. Checagem verde nos dois.
+- **Vercel Hobby também bloqueia PR mesclada com squash pelo GitHub,** não só commit do Rodrigo: só passa commit que saiu do clone do Eduardo. Os 13 deploys de 24/11 ficaram parados até um commit local dele destravar.
+- **Pendências novas no BACKLOG, fila para as próximas PRs:**
+  - 3.12: sobras de código;
+  - 4.15: resíduos da Meta e do onboarding;
+  - 7.44: resíduos do SDR;
+  - 10.14: `evolutionFetch` sem timeout;
+  - 12.28: arestas das rotas de config;
+  - 6.36 (g): assinatura com duas cobranças em aberto, e a sincronização nunca cancela a cobrança que o Asaas deixou de listar.
+- **Clones desta máquina na `homolog` atualizada.** As 16 branches locais das PRs foram conferidas (tudo contido nas PRs mescladas), mas seguem por apagar: o auto mode bloqueou o `git branch -D`.
+
+### Decisões que ficaram para o Eduardo, e como ele decidiu
 - Falhar fechado nos limites do plano (2.2).
 - Plano entrar na regra de nichos (D20).
-- Texto de crise com CVV/SAMU para agente SDR sem humano (#15).
+- **Texto de crise (#15):** ele tirou o CVV/SAMU fixo das regras. Agora cada agente tem `orientacao_crise` opcional (api#23), porque o texto certo muda de negócio para negócio.
 - Recusar upload de imagem que não se processa (#20).
-- Base de conhecimento do Estrategista: diz "nunca 2 posts de fundo seguidos", mas o Rodrigo decidiu manter o prompt em "não mais de 2" (8.56 b).
+- **Funil (8.56 b):** ele revisou a decisão travada para "nunca mais de 2 posts de fundo seguidos", a mesma regra que o Rodrigo tinha mantido no prompt. A base de conhecimento dos dois bancos já diz isso (api#22 e #25).
+- **2.32:** o `PUT /adm/clientes/:id` sincronizava o Asaas sem gravar. Corrigido pelo Eduardo na api#24, junto com a primeira cobrança pelo painel vencendo em no máximo 3 dias.
+
+## Catálogo de produtos (proposta, 2026-11-24)
+
+Feature nova discutida e decidida por Rodrigo e Eduardo; a fase 1 espera o sinal do Rodrigo para começar. Proposta completa num doc do Claude: https://claude.ai/artifact/2Uefs3UKuosNYqvLN6qWhF.
+
+- **Origem:**
+  - seção 11 do doc de arquitetura do redesenho (`napshift-app/docs/redesenho/02-arquitetura.md`, Eduardo, 2026-10-19): "fontes de dados da marca" para depois do redesenho;
+  - plano de teste da D'Kids (2026-11-08): catálogo que nasce de lote de fotos.
+- **Ideia:** cadastro de produtos e serviços que o Estrategista usa como fonte, igual a eventos e álbuns. Ele decide qual item postar, quando e se, pela estratégia da marca. O cliente também pode pedir "Criar post deste item".
+- **Molde técnico:** o `album_id` da tarefa. O Estrategista devolve `produto_ids`, o sistema confere contra o workspace, o Copywriter recebe a ficha e o Diretor de Arte as fotos do item. O item aponta para fotos do acervo, sem acervo novo.
+- **No prompt:** rodízio por menos postado (ordem, nunca filtro), teto de 30 itens; destaque e lançamento sempre entram.
+- **Casos difíceis:** esgotou, preço mudou depois da copy, promoção venceu. A regra é alerta, nunca cancelar sozinho; item apagado vira arquivado.
+- **Fases:**
+  1. cadastro + Estrategista + "Criar post deste item";
+  2. destaque, promoção, campanha com itens, SDR lendo do catálogo, Avaliador conferindo preço, CSV;
+  3. catálogo por lote de fotos, conexões externas (Beefood, Nuvemshop, Shopify), desempenho por item no Estrategista.
+- **Decisões (17, tomadas em 2026-11-24):**
+  - 16 recomendações aceitas, entre elas:
+    - produtos e serviços num cadastro só;
+    - item + categoria;
+    - post com vários itens;
+    - preço como número opcional + texto;
+    - citar preço é regra da marca (sempre, nunca ou só em promoção);
+    - sem variantes na fase 1;
+    - destaque garante 1 post no período;
+    - post pedido consome cota;
+    - quando houver fonte externa, cada campo tem um dono;
+    - o Rodrigo puxa a fase 1 e o Eduardo revisa migration e prompt.
+  - **A que mudou:** sem limite próprio de itens; o catálogo entra na mesma cota de 1000 arquivos por workspace. Falta confirmar se contam só as fotos dos itens ou cada item como 1.
 
 ### Ficou de fora, de propósito
 - **Área da aprovação, em que o Eduardo está mexendo:** carrossel com reenvio sem fim, alerta de instância caída e nome do WhatsApp do lead (7.39).
@@ -220,4 +271,4 @@ O Rodrigo passou a contribuir com código por pull request, sempre a partir dos 
 - Opera as marcas de [[Clientes NapShift]].
 - Vendido como produto via [[1060crm]].
 
-*Estudo de base: 2026-07-07. Aprofundado (pipeline, prompts, feedback, renderer, storage): 2026-07-07. Atualizado com leitura completa (docs, memória, backlog, histórico e núcleo do código): 2026-09-29.*
+*Estudo de base: 2026-07-07. Aprofundado (pipeline, prompts, feedback, renderer, storage): 2026-07-07. Atualizado com leitura completa (docs, memória, backlog, histórico e núcleo do código): 2026-09-29. Rodada de PRs integrada e proposta do Catálogo: 2026-11-25.*
